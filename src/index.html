@@ -6,13 +6,14 @@
     <title ng-bind="&apos;Tapestry - &apos; + section">Tapestry</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- Your CSS File-->
-    <link rel="stylesheet" href="external/css/main.css">
-    <!-- / Your CSS File-->
     <link rel="stylesheet" href="assets/css/app/tapestry.css">
     <link rel="stylesheet" href="bower_components/prism/themes/prism.css">
     <!--link(rel='stylesheet', href='bower_components/dropzone/downloads/css/basic.css')-->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">
+    <!-- Your CSS File-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="external/css/main.css">
+    <!-- / Your CSS File-->
     <script src="bower_components/modernizr/modernizr.js"></script>
   <script id="jsonPath">var jsonPath = [{name: "elements", path: "json/1.elements.json"},{name: "components", path: "json/2.components.json"},{name: "templates", path: "json/3.templates.json"}]</script></head>
   <body>
@@ -34,8 +35,7 @@
       <h3 ng-bind="section" class="tapestry__heading"></h3>
       <button ng-click="toggleMenu($event)" class="btn btn--unstyled btn--toggle"><em class="fa fa-bars"></em></button>
       <div action="" class="form-control icon-left">
-        <!-- input.text-input.input-inverted.js-pattern-search(type='text', placeholder="Search patterns", name="section")-->
-        <input type="text" ng-model="selected" typeahead="pattern.value as pattern.value for pattern.url in globalPatterns | filter:$viewValue | limitTo:8" class="input-inverted form-control"><em class="fa fa-search fa-lg"></em>
+        <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" class="input input-inverted"><em class="fa fa-search fa-lg"></em>
       </div>
     </header>
     <!-- Content-->
