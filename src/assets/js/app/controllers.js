@@ -66,16 +66,21 @@ angular.module('tapestry.controllers', []).controller('headerController', [
 
         var section = $location.$$path.split('/')[1],
             element = $routeParams.slug;
+        $log.info("section element : " + section + " - " + element);
 
         $rootScope.$watch('styles', function (newValue) {
             if (newValue) {
                 angular.forEach($rootScope.styles, function (value, key) {
-                    if (value.slug == section) {
+                    if (value.slug === section) {
                         angular.forEach(value.data, function (v, k) {
+                            $log.info('current subsection name: ' + (v.name.replace(/\s+/g, '-').toLowerCase()));
                             if (v.name.replace(/\s+/g, '-').toLowerCase() == element) {
+                                $log.info('MATCH: ' + v.name.replace(/\s+/g, '-').toLowerCase());
                                 $scope.patterns = value.data[k];
+                                $log.info($scope.patterns);
+                                $log.info(value.name + ' and ' + v.name);
                                 /* Change to new section */
-                                $rootScope.$broadcast('sectionChange', v.name, value.name)
+                                $rootScope.$broadcast('sectionChange', v.name, value.name.replace(/\s+/g, '-').toLowerCase())
                             }
                         })
                     }
@@ -87,7 +92,7 @@ angular.module('tapestry.controllers', []).controller('headerController', [
          * Anchor
          */
         $scope.anchor = function (name) {
-            $log.info('ANCHOR: ' + $filter('anchor')(name));
+            // $log.info('ANCHOR: ' + $filter('anchor')(name));
             return $filter('anchor')(name);
         };
 
@@ -141,7 +146,7 @@ angular.module('tapestry.controllers', []).controller('headerController', [
                     if (v.name.replace(/\s+/g, '-').toLowerCase() == element) {
                         $scope.templates = value.data[k];
                         /* Change to new section */
-                        $rootScope.$broadcast('sectionChange', v.name, value.name);
+                        $rootScope.$broadcast('sectionChange', v.name, value.name.replace(/\s+/g, '-').toLowerCase());
                     }
                 });
             }

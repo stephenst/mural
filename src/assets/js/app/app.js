@@ -11,7 +11,7 @@ var version = '1.0.0',
     lastUpdated = '26 Feb 2014';
 
 
-/* jsonPath of the files will be inserted by gulp-script-inject after reading /src/json folder */
+/* jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder */
 
 /**
  * Tapestry Module
@@ -47,7 +47,7 @@ angular.module('tapestry', [
             /* Add new routes based on the Configuration */
             angular.forEach(jsonPath, function (value, key) {
                 value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
-                if (value.slug == "templates") {
+                if (value.slug === "templates") {
                     $routeProvider.when('/' + value.slug + '/:slug', {
                         templateUrl: 'assets/js/templates/listing-template.html',
                         controller: 'templateController'

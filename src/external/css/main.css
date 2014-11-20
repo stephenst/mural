@@ -4,17 +4,17 @@
 /**
  * CSS Guidelines: https://github.com/csswizardry/CSS-Guidelines
  * Naming Convention: https://github.com/csswizardry/CSS-Guidelines#naming-conventions
- * 
- * BEM Methodology: 
+ *
+ * BEM Methodology:
  * ----------------
  * http://bem.info/
  * http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/
  * http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
- * 
- * .block{} 
+ *
+ * .block{}
  * .block__element{}
  * .block--modifier{}
- * 
+ *
  * .block represents the higher level of an abstraction or component.
  * .block__element represents a descendent of .block that helps form .block as a whole.
  * .block--modifier represents a different state or version of .block.
@@ -60,7 +60,7 @@
     $TYPOGRAPHY
 \*------------------------------------*/
 /**
-     * Mobile Sizes     
+     * Mobile Sizes
      */
 /**
      * Desktop font size
@@ -118,7 +118,7 @@
  * theme stylesheet.
  *
  * inuit.css aims to do the heavy lifting; sorting objects and abstractions,
- * design patterns and fiddly bits of CSS, whilst leaving as much design as
+ * design mural_patterns and fiddly bits of CSS, whilst leaving as much design as
  * possible to you. inuit.css is the scaffolding to your decorator.
  *
  * This stylesheet is heavily documented and contains lots of comments, please
@@ -1543,26 +1543,26 @@ label, .label {
  * beautons is a beautifully simple button toolkit.
  *
  * LICENSE
- * 
+ *
  * Copyright 2013 Harry Roberts
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  * http://apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- * 
+ *
  */
 /*!*
- * 
+ *
  * @csswizardry -- csswizardry.com/beautons
- * 
+ *
  */
 /*------------------------------------*\
     $BASE
@@ -1705,7 +1705,7 @@ label, .label {
 
 /**
  * Inactive, disabled buttons.
- * 
+ *
  * 1. Make the button look like normal text when hovered.
  */
 .btn--inactive, .btn--inactive:hover, .btn--inactive:active, .btn--inactive:focus {
@@ -3222,7 +3222,7 @@ blockquote {
     top: 12px; }
 
 /*------------------------------------*\
-    FORM ELEMENT STYLES    
+    FORM ELEMENT STYLES
 \*------------------------------------*/
 /**
  * Forms
@@ -3448,7 +3448,7 @@ fieldset {
       position: relative; }
 
 /*------------------------------------*\
-    LINKS.CSS    
+    LINKS.CSS
 \*------------------------------------*/
 a {
   color: #1ABC9C;
@@ -3461,7 +3461,7 @@ a {
     text-decoration: underline; }
 
 /*------------------------------------*\
-    LIST.CSS    
+    LIST.CSS
 \*------------------------------------*/
 /**
  * List
@@ -4880,7 +4880,7 @@ figure {
 /*------------------------------------*\
     CAROUSEL.CSS
 \*------------------------------------*/
-/* 
+/*
  *  Core Owl Carousel CSS File
  *  v1.3.2
  */
@@ -4946,7 +4946,7 @@ figure {
  * Pagination
  */
 /*
-*   Owl Carousel Owl Demo Theme 
+*   Owl Carousel Owl Demo Theme
 *   v1.3.2
 */
 .owl-theme .owl-controls {
@@ -5626,7 +5626,7 @@ figure {
   padding: 0 15px; }
 
 /*------------------------------------*\
-	FONTS.CSS    
+	FONTS.CSS
 \*------------------------------------*/
 /*!
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
@@ -6935,7 +6935,7 @@ figure {
   margin-right: 0; }
 
 /*------------------------------------*\
-	VENDOR.CSS    
+	VENDOR.CSS
 \*------------------------------------*/
 /**
  * Select replacement
@@ -6982,7 +6982,7 @@ figure {
  * Add Grids for tablets and desktops
  */
   /*------------------------------------*\
-	GRIDS    
+	GRIDS
 \*------------------------------------*/
   /**
  * Nested Row
@@ -7160,7 +7160,7 @@ figure {
     width: 25%; } }
 
 /**
- * Target Specific Devices Only 
+ * Target Specific Devices Only
  */
 @media only screen and (max-width: 600px) {
   /*------------------------------------*\

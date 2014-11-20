@@ -1,9 +1,14 @@
+/*jslint node: true; */
+/*globals gulp */
+
+'use strict';
+
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     jade = require('gulp-jade'),
     sass = require('gulp-sass'),
     cssmin = require('gulp-cssmin'),
-    clean = require('gulp-clean'),  
+    clean = require('gulp-clean'),
     path = require('path'),
     tinylr = require('tiny-lr'),
     http = require('http'),
@@ -13,83 +18,79 @@ var gulp = require('gulp'),
     rename = require("gulp-rename"),
     tree = require('gulp-tree'),
     scriptInject = require('gulp-script-inject'),
-    prunehtml = require('gulp-prune-html')    
+    prunehtml = require('gulp-prune-html');
 
-console.log()
+var tlr = tinylr(),
+    livereload = function (evt, filepath) {
 
-var tlr = tinylr()
-var livereload = function (evt, filepath) {
-    
     tlr.changed({
         body: {
             files: path.relative('./src', filepath)
         }
     });
-}
+};
 
 /**
  * Sass Task
  */
-gulp.task('sass', function(){
-
+gulp.task('sass', function () {
     gulp.src(['./src/assets/sass/**/*.scss', '!./src/**/_*'])
         .pipe(sass({
             sourcemap: true
-        }))     
-        .pipe(gulp.dest('./src/assets/css'))        
-
-})
-
-
-gulp.task('tree', function(){
-
-    gulp.src('./src/patterns')
-        .pipe(tree({            
-            path: './src/json/'
         }))
-        .pipe(gulp.dest('./src/json'))
-})
+        .pipe(gulp.dest('./src/assets/css'))
+
+});
 
 
-gulp.task('injecter', ['jade', 'tree'], function(){
+gulp.task('tree', function () {
+
+    gulp.src('./src/components/mural_patterns')
+        .pipe(tree({
+            path: './src/components/mural_data/'
+        }))
+        .pipe(gulp.dest('./src/components/mural_data'))
+});
+
+
+gulp.task('injector', ['jade', 'tree'], function () {
 
     gulp.src('./src/index.html')
         .pipe(prunehtml(['#jsonPath']))
         .pipe(scriptInject({
-            json: './src/json',
+            json: './src/components/mural_data',
             varname: 'jsonPath'
         }))
         .pipe(gulp.dest('./src'))
-})
+});
 
 
 /**
  * Jade
  */
 
-gulp.task('jade', function(){
+gulp.task('jade', function () {
 
-    return gulp.src(['./src/jade/**/*.jade', '!**/_*', '!src/jade/patterns/', '!src/jade/patterns/**'])
+    return gulp.src(['./src/components/mural_templates/**/*.jade', '!**/_*', '!src/jade/patterns/', '!src/jade/patterns/**'])
         .pipe(jade({
             pretty : true
-        }))     
+        }))
         .pipe(embedlr())
-        .pipe(gulp.dest('./src/'))
-    ;
-    
-})
+        .pipe(gulp.dest('./src/'));
 
-gulp.task('patternsJade', function(){
+});
 
-    return gulp.src('./src/jade/patterns/**/*.jade')
+gulp.task('patternsJade', function () {
+
+    return gulp.src('./src/components/mural_templates/**/*.jade')
         .pipe(jade({
             pretty: true
         }))
-        .pipe(rename(function(path){
+        .pipe(rename(function (path) {
             path.extname = ".md"
         }))
-        .pipe(gulp.dest('./src/patterns'))
-})
+        .pipe(gulp.dest('./src/components/mural_patterns'));
+});
 
 
 
@@ -102,11 +103,9 @@ gulp.task('ngtemplatesJade', function(){
     gulp.src(['./src/assets/js/templates/jade/*.jade'])
         .pipe(jade({
             pretty: true
-        }))     
-        .pipe(gulp.dest('./src/assets/js/templates'))
-
-
-})
+        }))
+        .pipe(gulp.dest('./src/assets/js/templates'));
+});
 
 /**
  * Clean scripts
@@ -117,55 +116,52 @@ gulp.task('cleaner', function(){
 
     return gulp.src('./build', {read:false})
         .pipe(clean({force: true}))
-})
+});
 
-gulp.task('cleanJSON', function(){
+gulp.task('cleanJSON', function () {
 
-    return gulp.src('./src/json/*.json', {read: false})
+    return gulp.src('./src/components/mural_data/*.json', {read: false})
         .pipe(clean())
-})
+});
 
 /**
  * Watch
  */
 
-gulp.task('watch', function(){
+gulp.task('watch', function () {
 
-    gulp.watch(['src/jade/**/*.jade'], ['jade', 'injecter']); 
+    gulp.watch(['src/components/mural_templates/**/*.jade'], ['jade', 'injector']);
     gulp.watch('src/assets/sass/**/*.scss', ['sass']);
 
     /* Jade patterns */
 
     gulp.watch('src/assets/js/templates/**/*.jade', ['ngtemplatesJade']);
 
-    gulp.watch('src/jade/patterns/**', ['patternsJade'])
+    gulp.watch('src/components/mural_templates/**', ['patternsJade'])
 
-    gulp.watch('src/patterns/**/*', ['injecter'])
+    gulp.watch('src/components/mural_patterns/**/*', ['injector'])
 
 
-})
+});
 
 
 /**
  * Copy
  */
+gulp.task('copy', ['cleaner'], function () {
 
-gulp.task('copy', ['cleaner'], function(){
-
-    gulp.src(['./src/**', '!./src/jade'])
+    gulp.src(['./src/**', '!./src/components/mural_templates/jade'])
         //.pipe(cssmin())
         .pipe(gulp.dest('./build'))
-    
-})
+
+});
 
 
 
 /**
  * Create servers
  */
-
-
-gulp.task('server', function(){
+gulp.task('server', function () {
     var port = process.env.PORT || 8000;
     var enable_livereload = process.env.ENABLE_LIVERELOAD || 'yes';
 
@@ -182,12 +178,12 @@ gulp.task('server', function(){
 
         gulp.watch(['./src/assets/css/*', './src/*.html'])._watcher.on('all', livereload)
     }
-})
+});
 
 
 /**
  * Main tasks : Default and Build
  */
 
-gulp.task('build', ['sass', 'jade', 'copy'])
-gulp.task('patterns', ['cleanJSON', 'injecter', 'sass', 'watch', 'server']);
+gulp.task('build', ['sass', 'jade', 'copy']);
+gulp.task('patterns', ['cleanJSON', 'injector', 'sass', 'watch', 'server']);

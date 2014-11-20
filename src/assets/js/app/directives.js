@@ -30,7 +30,7 @@ angular.module('tapestry.directives', []).directive('compile', [
                             <div class="patterns-description"></div> \
                         </div> \
                         <div once-wait-for="patterns" once-hide="patterns.meta.hidecode" class="example-code"> \
-                            <a class="toggle-code" ng-hide="patterns.meta.hidecode" ng-class="{active:patterns.togglecode}" ng-click="patterns.togglecode = !patterns.togglecode"><em class="fa fa-code fa-lg" /></a> \
+                            <a class="toggle-code" ng-hide="patterns.meta.hidecode" ng-class="{ active:patterns.togglecode }" ng-click="patterns.togglecode = !patterns.togglecode"><em class="fa fa-code fa-lg" /></a> \
                             <pre ng-show="patterns.togglecode"><code class="language-markup"></code></pre> \
                         </div> \
                         <div class="block--meta" ng-show="patterns.meta.length"> \

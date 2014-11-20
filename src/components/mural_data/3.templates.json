@@ -4,7 +4,7 @@
         "slug": "Landing Pages",
         "children": [
             {
-                "path": "patterns/3.templates/Landing Pages/landing.md",
+                "path": "components/mural_patterns/3.templates/Landing Pages/landing.md",
                 "name": "Article landing",
                 "slug": "landing.md",
                 "meta": {
@@ -19,7 +19,7 @@
         "slug": "Listing Pages",
         "children": [
             {
-                "path": "patterns/3.templates/Listing Pages/listing.md",
+                "path": "components/mural_patterns/3.templates/Listing Pages/listing.md",
                 "name": "Article listing",
                 "slug": "listing.md",
                 "meta": {
