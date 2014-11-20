@@ -1,5 +1,6 @@
 node_modules
 src/bower_components
+build
 .tmp
 .sass-cache
 npm-debug.log
@@ -8,3 +9,5 @@ browserstack.json
 BrowserStackTunnel.jar
 concat.rb
 .rvmrc
+
+build/

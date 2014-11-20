@@ -6,12 +6,12 @@
     <title ng-bind="&apos;Tapestry - &apos; + section">Tapestry</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- Your CSS File	-->
+    <!-- Your CSS File-->
     <link rel="stylesheet" href="external/css/main.css">
     <!-- / Your CSS File-->
     <link rel="stylesheet" href="assets/css/app/tapestry.css">
     <link rel="stylesheet" href="bower_components/prism/themes/prism.css">
-    <!--link(rel='stylesheet', href='bower_components/dropzone/downloads/css/basic.css')       -->
+    <!--link(rel='stylesheet', href='bower_components/dropzone/downloads/css/basic.css')-->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">
     <script src="bower_components/modernizr/modernizr.js"></script>
   <script id="jsonPath">var jsonPath = [{name: "elements", path: "json/1.elements.json"},{name: "components", path: "json/2.components.json"},{name: "templates", path: "json/3.templates.json"}]</script></head>
@@ -30,11 +30,12 @@
       </div>
     </nav>
     <!-- / Menu-->
-    <header ng-controller="headerController" class="tapestry-header">               
+    <header ng-controller="headerController" class="tapestry-header">
       <h3 ng-bind="section" class="tapestry__heading"></h3>
       <button ng-click="toggleMenu($event)" class="btn btn--unstyled btn--toggle"><em class="fa fa-bars"></em></button>
       <div action="" class="form-control icon-left">
-        <input type="text" placeholder="Search patterns" name="section" class="text-input input-inverted js-pattern-search"><em class="fa fa-search fa-lg"></em>
+        <!-- input.text-input.input-inverted.js-pattern-search(type='text', placeholder="Search patterns", name="section")-->
+        <input type="text" ng-model="selected" typeahead="pattern.value as pattern.value for pattern.url in globalPatterns | filter:$viewValue | limitTo:8" class="input-inverted form-control"><em class="fa fa-search fa-lg"></em>
       </div>
     </header>
     <!-- Content-->
@@ -46,18 +47,16 @@
             <footer class="tapestry__footer">
               <p>Designed and built by the folks at</p>
               <p><a href="http://pebbleroad.com"><img src="assets/images/logo.png" alt="" width="187"></a></p>
-              <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version <span tapestry-version=""></span>. Last Updated on <span last-updated=""></span>. <a href="#!/changelog">Changelog</a></p>
+              <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version=""></span>. Last Updated on<span last-updated=""></span>.<a href="#!/changelog">Changelog</a></p>
             </footer>
           </div>
         </div>
       </div>
     </div>
     <!-- jQuery-->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js")-->
+    <script src="bower_components/jquery/jquery.js"></script>
     <!-- jQuery-->
-    <!-- Autocomplete-->
-    <script src="bower_components/jQuery-Autocomplete/src/jquery.autocomplete.js"></script>
-    <!-- Autocomplete-->
     <!-- Parsers-->
     <script src="bower_components/js-yaml/js-yaml.js"></script>
     <script src="bower_components/marked/lib/marked.js"></script>
@@ -74,6 +73,9 @@
     <script src="assets/js/app/scrollspy.js"></script>
     <script src="assets/js/app/app.js"></script>
     <!-- / Patterns-->
+    <!-- Autocomplete-->
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- Autocomplete-->
     <!-- Your JS Files-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.11/fastclick.min.js"></script>
     <script src="external/js/components/tapestry.ui.tabs.js"></script>
@@ -81,7 +83,6 @@
     <script src="external/js/components/tapestry.ui.accordion.js"></script>
     <script src="bower_components/Selecter/jquery.fs.selecter.js"></script>
     <script src="bower_components/dropzone/downloads/dropzone.js"></script>
-    <script src="bower_components/jQuery-Autocomplete/src/jquery.autocomplete.js"></script>
     <script src="bower_components/tipsy/src/javascripts/jquery.tipsy.js"></script>
     <script src="bower_components/seiyria-bootstrap-slider/js/bootstrap-slider.js"></script>
     <script src="bower_components/owlcarousel/owl-carousel/owl.carousel.js"></script>

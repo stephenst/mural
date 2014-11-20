@@ -1,3 +1,6 @@
+/*jslint node: true, nomen: true */
+/*globals angular, module, window, browser */
+
 'use strict';
 
 /**
@@ -5,8 +8,7 @@
  */
 
 var version = '1.0.0',
-    lastUpdated = '26 Feb 2014',
-    disqus_shortname = 'tapestryapp';
+    lastUpdated = '26 Feb 2014';
 
 
 /* jsonPath of the files will be inserted by gulp-script-inject after reading /src/json folder */
@@ -16,276 +18,180 @@ var version = '1.0.0',
  */
 
 angular.module('tapestry', [
-    'tapestry.services', 
-    'tapestry.controllers', 
-    'tapestry.directives', 
-    'tapestry.filters', 
+    'tapestry.services',
+    'tapestry.controllers',
+    'tapestry.directives',
+    'tapestry.filters',
+    'ui.bootstrap',
     'ngRoute',
     'once'
-    ])
-
-    .value('version', version)
-    
+]).value('version', version)
     .value('lastUpdated', lastUpdated)
-    
-    .value('isMobile', /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test( (navigator.userAgent||navigator.vendor||window.opera))) 
-    
-    .value('disqus_shortname', disqus_shortname)
-    /**
-     * Router provider
-     * @param  {[type]} $routeProvider [description]     
-     */
-    .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-        
-        $locationProvider.hashPrefix('!');
+    .value('isMobile', /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test((navigator.userAgent || navigator.vendor || window.opera)))
+    .config([
+        '$routeProvider',
+        '$locationProvider',
+        function ($routeProvider, $locationProvider) {
 
-        /* Homepage */
+            $locationProvider.hashPrefix('!');
+            $routeProvider.when('/', {
+                title: 'Overview',
+                templateUrl: 'assets/js/templates/home.html',
+                controller: 'headerController'
+            }).when('/changelog', {
+                title: 'Changelog',
+                templateUrl: 'assets/js/templates/changelog.html',
+                controller: 'headerController'
+            }).otherwise({redirectTo: '/'});
 
-        $routeProvider.when('/', {
-            title: 'Overview',
-            templateUrl: 'assets/js/templates/home.html',
-            controller: 'headerController'
+            /* Add new routes based on the Configuration */
+            angular.forEach(jsonPath, function (value, key) {
+                value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
+                if (value.slug == "templates") {
+                    $routeProvider.when('/' + value.slug + '/:slug', {
+                        templateUrl: 'assets/js/templates/listing-template.html',
+                        controller: 'templateController'
+                    });
+                } else {
+                    $routeProvider.when('/' + value.slug + '/:slug', {
+                        templateUrl: 'assets/js/templates/listing.html',
+                        controller: 'listingController'
+                    }).when('/' + value.slug + '/:slug/:section', {
+                        templateUrl: 'assets/js/templates/listing.html',
+                        controller: 'listingController'
+                    });
+                }
+            });
+        }
+    ]).run([
+        '$rootScope',
+        '$http',
+        '$q',
+        '$filter',
+        '$cacheFactory',
+        '$log',
+        function ($rootScope, $http, $q, $filter, $cacheFactory, $log) {
+            $rootScope.styles = [];
 
-        })
+            /**
+             * Cachefactory
+             */
+            var cache = $cacheFactory.get('cache')
 
-        /* Homepage */
+            /**
+             * Change Title on routeChange
+             */
+            $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+                if (current.$$route && current.$$route.title) {
+                    $rootScope.$broadcast('sectionChange', current.$$route.title);
+                }
+            });
 
-        $routeProvider.when('/changelog', {
-            title: 'Changelog',
-            templateUrl: 'assets/js/templates/changelog.html',
-            controller: 'headerController'            
+            /**
+             * Assign values to rootScope
+             */
+            var requests = [],
+                names = [],
+                slug = [];
 
-        })
+            angular.forEach(jsonPath, function (value, key) {
+                /* Add Pattern name in array */
+                names.push(value.name);
+                slug.push(value.slug);
 
-        /* All other routes */
+                /* Add requests in to array for $q */
+                requests.push($http.get(value.path, {cache: cache}));
+            });
 
-        $routeProvider.otherwise({redirectTo: '/'})
+            /**
+             * When all requests are completed
+             */
+            $q.all(requests).then(function (response) {
+                angular.forEach(response, function (r, i) {
+                    var parseObject = r.data;
+                    /**
+                     * Create a Slug from the title
+                     * Reduces $watch on filter {{element.name | anchor}}
+                     */
+                    angular.forEach(parseObject, function (value, key) {
+                        value.slug = $filter('anchor')(value.name);
+                        $log.info('Anchor is: ' + value.slug);
+                    });
 
-        
-        /* Add new routes based on the Configuration */
-
-        angular.forEach(jsonPath, function(value, key){
-
-            value.slug = value.name.replace(/\s+/g, '-').toLowerCase()
-
-            if(value.slug == "templates"){
-
-                $routeProvider.when('/' + value.slug + '/:slug', {
-                    templateUrl: 'assets/js/templates/listing-template.html',
-                    controller: 'templateController'
-                })
-
-            }else{
-
-                $routeProvider.when('/' + value.slug + '/:slug', {
-                    templateUrl: 'assets/js/templates/listing.html',
-                    controller: 'listingController'
-                })
-
-                $routeProvider.when('/' + value.slug + '/:slug/:section', {
-                    templateUrl: 'assets/js/templates/listing.html',
-                    controller: 'listingController'
-                })
-            }
-
-        })
-        
-
-    }])
-
-    /**
-     * Runs once the app is initialized
-     * @param  {[type]} $rootScope   [description]
-     * @param  {[type]} $http        [description]     
-     * @return {[type]}              [description]
-     */
-    .run(['$rootScope', '$http', '$q', '$filter', 
-        '$cacheFactory', function($rootScope, $http, $q, $filter, $cacheFactory){
-
-        $rootScope.styles = [];
-
-        /**
-         * Cachefactory
-         */
-        
-        var cache = $cacheFactory.get('cache')
-
-        /**
-         * Change Title on routeChange         
-         */
-        
-        $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {            
-            
-            if(current.$$route && current.$$route.title){
-
-                $rootScope.$broadcast('sectionChange', current.$$route.title)
-
-            }
-
-        });
-
-        /**
-         * Assign values to rootScope
-         */
-        
-        var requests = [],
-            names = [],
-            slug = []
-
-        angular.forEach(jsonPath, function(value , key){
-            
-            /* Add Pattern name in array */
-
-            names.push(value.name)
-
-            slug.push(value.slug)
-
-            /* Add requests in to array for $q */
-
-            requests.push($http.get(value.path, {cache: cache}))
-            
-        })
-
-        /**
-         * When all requests are completed
-         */
-
-        
-         
-        $q.all(requests).then(function(response){
-            
-            angular.forEach(response, function(r, i){
-
-                var parseObject = r.data;
-
-                /**
-                 * Create a Slug from the title
-                 * Reduces $watch on filter {{element.name | anchor}}
-                 */
-                angular.forEach(parseObject, function(value, key){
-                     value.slug = $filter('anchor')(value.name)
-                })
-
-                /**
-                 * Push to rootScope
-                 */
-
-                $rootScope.styles.push({
-                    name: names[i],
-                    slug: slug[i],
-                    data: parseObject
-                })
-
-            })
-        })
+                    /**
+                     * Push to rootScope
+                     */
+                    $rootScope.styles.push({
+                        name: names[i],
+                        slug: slug[i],
+                        data: parseObject
+                    });
+                });
+            });
 
 
-        /**
-         * Watch changes and add to Autocomplete
-         */
-        
-        
+            /**
+             * Watch changes and add to Autocomplete
+             */
+            $rootScope.$watch('styles', function (newValue) {
+                if (newValue.length) {
+                    /**
+                     * Creates a flattened version of the array
+                     */
+                    var autoCompleteArray = [];
+                    angular.forEach(newValue, function (value, index) {
+                        autoCompleteArray.push(flattener(value.data, value.name, value.slug));
+                    });
 
-        $rootScope.$watch('styles', function(newValue){
-            
-            if(newValue.length){
+                    /**
+                     * Combines Arrays
+                     */
+                    var data = autoCompleteArray.reduce(function (a, b, index, array) {
+                        return a.concat(b);
+                    });
 
-                /**
-                 * Creates a flattened version of the array
-                 */
-
-                var autoCompleteArray = []
-
-                angular.forEach(newValue, function(value, index){
-                    
-                    autoCompleteArray.push(flattener(value.data, value.name, value.slug))
-
-                })
-
-                /**
-                 * Combines Arrays
-                 */
-                
-                var data = autoCompleteArray.reduce(function(a, b, index, array){
-                    return a.concat(b);
-                })
-                                
-                /**
-                 * Invokes autocomplete
-                 */
-
-                window.$autocomplete = $('.js-pattern-search').autocomplete({
-                    
-                    lookup: data,
-
-                    onSelect: function(value){
-                        
-                        var location = window.location.href,
-                            hashPrefix = '#!',
-                            path = location.split(hashPrefix)[0]
-                        
-                        window.location.href = path + hashPrefix + value.url;
-
-                    },
-
-                    formatResult: function (suggestion, currentValue) {
-                        var reEscape = new RegExp('(\\' + ['/', '.', '*', '+', '?', '|', '(', ')', '[', ']', '{', '}', '\\'].join('|\\') + ')', 'g'),
-                            pattern = '(' + currentValue.replace(reEscape, '\\$1') + ')';
-
-                        return suggestion.value.replace(new RegExp(pattern, 'gi'), '<strong>$1<\/strong>') + 
-                        '<span class="ac__desc">'+ suggestion.category + ' &rarr; ' + suggestion.root+'</span>';
-                    }
-                })
+                    /**
+                     * Invokes autocomplete
+                     */
+                    $rootScope.$emit('globalPatternsUpdate', data);
 
 
-                /**
-                 * hide Menu
-                 */
-                
-                setTimeout(function(){
-                    angular.element('html').removeClass('menu__opened');
-                }, 2000)
-
-            }
-
-        }, true)
+                    /**
+                     * hide Menu
+                     */
+                    setTimeout(function () {
+                        angular.element('html').removeClass('menu__opened');
+                    }, 2000)
+                }
+            }, true);
 
 
-        
-        /**
-         * Fix position of autocomplete on scroll
-         */
-        angular.element(window).bind('scroll resize', function(){
-
-            $autocomplete && $autocomplete.autocomplete('fixPosition')
-
-        });
-
-
-        
-        
-
-    }])
-
-;
+            /**
+             * Fix position of autocomplete on scroll
+             */
+            angular.element(window).bind('scroll resize', function () {
+                $autocomplete && $autocomplete.autocomplete('fixPosition')
+            });
+        }
+    ]);
 
 
 /**
  * Flattening Array
- * @param  {Object} 
+ * @param  {Object}
  * @return {Object} Flattened array
  */
-function flattener(arrr, template, category){
+function flattener (arrr, template, category) {
 
     var a = []
 
-    var flattenArray = function(arr, parent){
+    var flattenArray = function (arr, parent) {
 
-        for(var i = 0; i< arr.length; i++){
+        for (var i = 0; i < arr.length; i++) {
 
             //console.log(parent)
-            
-            var parent = parent? parent: '',
+
+            var parent = parent ? parent : '',
                 root = parent.replace(/\s+/g, '-').toLowerCase(),
                 slug = arr[i].name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase()
 
@@ -293,23 +199,23 @@ function flattener(arrr, template, category){
                 value: arr[i].name,
                 slug: slug,
                 root: root,
-                template: arr[i].template? arr[i].template: null,
-                url: '/' + category + '/' + (root? root : slug) + (slug != root && root? '/' + slug : '') ,
+                template: arr[i].template ? arr[i].template : null,
+                url: '/' + category + '/' + (root ? root : slug) + (slug != root && root ? '/' + slug : ''),
                 category: category
             })
 
-            
-            if(arr[i].children && typeof arr[i].children == 'object'){                
 
-                var p = parent? parent : arr[i].name
-                
+            if (arr[i].children && typeof arr[i].children == 'object') {
+
+                var p = parent ? parent : arr[i].name
+
                 flattenArray(arr[i].children, p)
-                
+
             }
         }
 
         return a
-    
+
     }
 
     return flattenArray(arrr)
