@@ -57,13 +57,12 @@ angular.module('tapestry.controllers', []).controller('headerController', [
     '$routeParams',
     '$location',
     '$rootScope',
-    '$anchorScroll',
     '$timeout',
     '$interval',
     '$filter',
     '$route',
     '$log',
-    function ($scope, $http, $routeParams, $location, $rootScope, $anchorScroll, $timeout, $interval, $filter, $route, $log) {
+    function ($scope, $http, $routeParams, $location, $rootScope, $timeout, $interval, $filter, $route, $log) {
 
         var section = $location.$$path.split('/')[1],
             element = $routeParams.slug;
@@ -114,49 +113,11 @@ angular.module('tapestry.controllers', []).controller('headerController', [
             $menu.find('a').removeClass('active');
             $(this).addClass('active');
             //window.location.hash = href
-            $scope.scrollTo(top);
             e.preventDefault();
         });
 
-        /**
-         * Scroll to Wrapper
-         */
-        $scope.scrollTo = function (to) {
-            $('html, body').animate({
-                scrollTop: to
-            }, 200);
-        };
 
 
-        /**
-         * Scroll to the section
-         */
-        angular.element('body').unbind('tapestry.completed.scrollspy');
-        if ($routeParams.section) {
-            $rootScope.subSection = $routeParams.section;
-            var checkIdExists = $interval(function () {
-                var anchor = $('#'+$routeParams.section);
-
-                if (anchor.length) {
-                    $interval.cancel(checkIdExists);
-
-                    var top = anchor.length? anchor.position().top : 0,
-                        headerHeight = $('.tapestry-header').outerHeight();
-
-                    /**
-                     * Scroll to the section
-                     */
-                    angular.element('body').bind('tapestry.completed.scrollspy', function () {
-                        var top = anchor.length? anchor.position().top : 0,
-                        headerHeight = $('.tapestry-header').outerHeight();
-
-                        $scope.scrollTo(top - headerHeight + 80)
-                    });
-                }
-            }, 150);
-        } else {
-            $scope.scrollTo(0);
-        }
 
         /**
          * Destroy interval when scope is destroyed

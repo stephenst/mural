@@ -1,11 +1,11 @@
 {
   "name": "Tapestry",
-  "version": "1.0.0",
-  "description": "An app for creating and managing your front-end pattern library",
-  "homepage": "https://github.com/pebbleRoad/tapestry",
+  "version": "1.1.0",
+  "description": "An fork of an app for creating and managing your front-end pattern library",
+  "homepage": "https://github.com/stephenst/tapestry",
   "author": {
-    "name": "Vinay M",
-    "url": "https://github.com/pebbleRoad/tapestry"
+    "name": "Tony Stephens (orig: Vinay M: http://github.com/PebbleRoad/tapestry)",
+    "url": "https://github.com/stephenst/tapestry"
   },
   "licenses": [
     {
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:PebbleRoad/tapestry.git"
+    "url": "git@github.com:stephenst/tapestry.git"
   },
   "bugs": {
-    "url": "https://github.com/PebbleRoad/tapestry"
+    "url": "https://github.com/stephenst/tapestry"
   },
   "engines": {
     "node": ">=0.8.0"
