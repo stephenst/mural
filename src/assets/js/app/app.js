@@ -164,14 +164,6 @@ angular.module('tapestry', [
                     }, 2000)
                 }
             }, true);
-
-
-            /**
-             * Fix position of autocomplete on scroll
-             */
-            angular.element(window).bind('scroll resize', function () {
-                $autocomplete && $autocomplete.autocomplete('fixPosition')
-            });
         }
     ]);
 
