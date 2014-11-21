@@ -63,11 +63,11 @@
     <script src="_assets/bower_components/angular/angular.min.js"></script>
     <script src="_assets/bower_components/angular-route/angular-route.min.js"></script>
     <script src="_assets/bower_components/angular-once/once.js"></script>
-    <script src="_assets/js/app/controllers.js"></script>
-    <script src="_assets/js/app/directives.js"></script>
-    <script src="_assets/js/app/filters.js"></script>
-    <script src="_assets/js/app/services.js"></script>
-    <script src="_assets/js/app/app.js"></script>
+    <script src="components/mural_app/controllers.js"></script>
+    <script src="components/mural_app/directives.js"></script>
+    <script src="components/mural_app/filters.js"></script>
+    <script src="components/mural_app/services.js"></script>
+    <script src="components/mural_app/app.js"></script>
     <!-- / Patterns-->
     <!-- Autocomplete-->
     <script src="_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>

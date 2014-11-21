@@ -36,11 +36,11 @@ angular.module('tapestry', [
             $locationProvider.hashPrefix('!');
             $routeProvider.when('/', {
                 title: 'Overview',
-                templateUrl: '_assets/js/templates/home.html',
+                templateUrl: 'components/mural_app/home.html',
                 controller: 'headerController'
             }).when('/changelog', {
                 title: 'Changelog',
-                templateUrl: '_assets/js/templates/changelog.html',
+                templateUrl: 'components/mural_app/changelog.html',
                 controller: 'headerController'
             }).otherwise({redirectTo: '/'});
 
@@ -49,15 +49,15 @@ angular.module('tapestry', [
                 value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
                 if (value.slug === "templates") {
                     $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: '_assets/js/templates/listing-template.html',
+                        templateUrl: 'components/mural_app/listing-template.html',
                         controller: 'templateController'
                     });
                 } else {
                     $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: '_assets/js/templates/listing.html',
+                        templateUrl: 'components/mural_app/listing.html',
                         controller: 'listingController'
                     }).when('/' + value.slug + '/:slug/:section', {
-                        templateUrl: '_assets/js/templates/listing.html',
+                        templateUrl: 'components/mural_app/listing.html',
                         controller: 'listingController'
                     });
                 }
@@ -76,7 +76,7 @@ angular.module('tapestry', [
             /**
              * Cachefactory
              */
-            var cache = $cacheFactory.get('cache')
+            var cache = $cacheFactory.get('cache');
 
             /**
              * Change Title on routeChange
