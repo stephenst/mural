@@ -6,46 +6,53 @@
     <title ng-bind="'Tapestry - ' + section">Tapestry</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="_assets/bower_components/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="_assets/css/app/tapestry.css">
+    <!--link(rel='stylesheet', href='_assets/css/app/tapestry.css')-->
     <link rel="stylesheet" href="_assets/bower_components/prism/themes/prism.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">
     <!-- Your CSS File-->
-    <link rel="stylesheet" href="external/css/main.css">
+    <link rel="stylesheet" href="_assets/css/main.css">
     <!-- / Your CSS File-->
-    <script src="_assets/bower_components/modernizr/modernizr.js"></script>
+    <!-- script(src='_assets/bower_components/modernizr/modernizr.js')-->
   </head>
   <body>
-    <!-- Menu-->
-    <nav class="tapestry-menu">
-      <h3 class="menu__header">Introduction</h3>
-      <ul>
-        <li ng-class="{active: section=='Overview'}"><a href="#!/">Overview</a></li>
-      </ul>
-      <div ng-repeat="style in styles">
-        <h3 once-text="style.name" class="menu__header"></h3>
-        <ul>
-          <li ng-repeat="element in style.data" ng-class="{'active': element.slug == sectionSlug}" once-show="element.children.length"><a once-href="'#!/'+style.slug+'/'+element.slug" once-text="element.name"></a></li>
+    <div id="wrapper">
+      <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <h3>Introduction</h3>
+          </li>
+          <li ng-class="{active: section=='Overview'}"><a href="#!/">Overview</a>
+            <div ng-repeat="style in styles">
+              <ul>
+                <li>
+                  <h3 once-text="style.name"></h3>
+                </li>
+                <li ng-repeat="element in style.data" ng-class="{'active': element.slug == sectionSlug}" once-show="element.children.length"><a once-href="'#!/'+style.slug+'/'+element.slug" once-text="element.name"></a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
-      </div>
-    </nav>
-    <!-- / Menu-->
-    <header ng-controller="headerController" class="tapestry-header">
-      <h3 ng-bind="section" class="tapestry__heading"></h3>
-      <button ng-click="toggleMenu($event)" class="btn btn--unstyled btn--toggle"><em class="fa fa-bars"></em></button>
-      <div action="" class="form-control icon-left">
-        <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" class="input input-inverted"><em class="fa fa-search fa-lg"></em>
-      </div>
-    </header>
-    <!-- Content-->
-    <div class="tapestry-content">
-      <div ng-view></div>
-      <div class="container">
-        <div class="row">
-          <div class="columns ten twelve--tablet column--center">
-            <footer class="tapestry__footer">
-              <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version></span>. Last Updated on<span last-updated></span>.<a href="#!/changelog">Changelog</a></p>
-            </footer>
+      </nav>
+      <!-- / Menu-->
+      <header ng-controller="headerController" class="nav nav-bar">
+        <h3 ng-bind="section" class="tapestry__heading"></h3>
+        <button ng-click="toggleMenu($event)" class="btn btn--unstyled btn--toggle"><em class="fa fa-bars"></em></button>
+        <div action="" class="form-control icon-left">
+          <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" class="input input-inverted"><em class="fa fa-search fa-lg"></em>
+        </div>
+      </header>
+      <!-- Content-->
+      <div class="page-content-wrapper">
+        <div ng-view></div>
+        <div class="container">
+          <div class="row">
+            <div class="columns ten twelve--tablet column--center">
+              <footer class="tapestry__footer">
+                <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version></span>. Last Updated on<span last-updated></span>.<a href="#!/changelog">Changelog</a></p>
+              </footer>
+            </div>
           </div>
         </div>
       </div>

@@ -8,70 +8,72 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
         meta(name='description', content='')
         meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
 
+        link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+
         link(rel='stylesheet', href='_assets/bower_components/font-awesome/css/font-awesome.css')
-        link(rel='stylesheet', href='_assets/css/app/tapestry.css')
+        //link(rel='stylesheet', href='_assets/css/app/tapestry.css')
         link(rel='stylesheet', href='_assets/bower_components/prism/themes/prism.css')
         link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', rel='stylesheet')
 
         // Your CSS File
-        link(rel='stylesheet', href='external/css/main.css')
+        link(rel='stylesheet', href='_assets/css/main.css')
         // / Your CSS File
 
 
         block meta
-        script(src='_assets/bower_components/modernizr/modernizr.js')
+        // script(src='_assets/bower_components/modernizr/modernizr.js')
 
     body
-
-        // Menu
-
-        nav.tapestry-menu
-            h3.menu__header Introduction
-            ul
-                li(ng-class="{active: section=='Overview'}"): a(href="#!/") Overview
-
-            div(ng-repeat="style in styles")
-                h3.menu__header(once-text="style.name")
-                ul
-                    li(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
-                        a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
-
-
-        // / Menu
-
-        header.tapestry-header(ng-controller="headerController")
-            h3.tapestry__heading(ng-bind="section")
-
-            button.btn.btn--unstyled.btn--toggle(ng-click="toggleMenu($event)")
-                em.fa.fa-bars
-
-            div.form-control.icon-left(action="")
-                input.input.input-inverted(type="text",
-                    ng-model="selected",
-                    typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8",
-                    name="section")
-                em.fa.fa-search.fa-lg
+        div#wrapper
+            nav#sidebar-wrapper
+                ul.sidebar-nav
+                    li.sidebar-brand
+                        h3 Introduction
+                    li(ng-class="{active: section=='Overview'}")
+                        a(href="#!/")
+                            | Overview
+                        div(ng-repeat="style in styles")
+                            ul
+                                li
+                                    h3(once-text="style.name")
+                                li(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
+                                    a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
 
 
-        // Content
-        div.tapestry-content
+            // / Menu
+            header.nav.nav-bar(ng-controller="headerController")
+                h3.tapestry__heading(ng-bind="section")
 
-            block content
+                button.btn.btn--unstyled.btn--toggle(ng-click="toggleMenu($event)")
+                    em.fa.fa-bars
 
-            div.container
-                div.row
-                    div.columns.ten.twelve--tablet.column--center
+                div.form-control.icon-left(action="")
+                    input.input.input-inverted(type="text",
+                        ng-model="selected",
+                        typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8",
+                        name="section")
+                    em.fa.fa-search.fa-lg
 
-                        footer.tapestry__footer
-                            p
-                                | Code licensed under MIT, documentation under CC BY 3.0. <br>Version
-                                span(tapestry-version)
-                                | . Last Updated on
-                                span(last-updated)
-                                | .
-                                a(href="#!/changelog") Changelog
 
-        block footer
+            // Content
+            div.page-content-wrapper
+
+                block content
+
+                div.container
+                    div.row
+                        div.columns.ten.twelve--tablet.column--center
+
+                            footer.tapestry__footer
+                                p
+                                    | Code licensed under MIT, documentation under CC BY 3.0. <br>Version
+                                    span(tapestry-version)
+                                    | . Last Updated on
+                                    span(last-updated)
+                                    | .
+                                    a(href="#!/changelog") Changelog
+
+            block footer
         // jQuery
         // script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js")
         script(src="_assets/bower_components/jquery/jquery.js")

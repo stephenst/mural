@@ -131,9 +131,9 @@ gulp.task('watch', function () {
 });
 
 
-/**
+/** -----------------------------------------------
  * Copy
- */
+ * --------------------------------------------- */
 gulp.task('copy', ['cleaner'], function () {
 
     gulp.src(['./src/**', '!./src/components/mural_templates/jade'])
@@ -143,10 +143,9 @@ gulp.task('copy', ['cleaner'], function () {
 });
 
 
-
-/**
- * Create servers
- */
+/** -----------------------------------------------
+ * Servers
+ * --------------------------------------------- */
 gulp.task('server', function () {
     var port = process.env.PORT || 8000;
     var enable_livereload = process.env.ENABLE_LIVERELOAD || 'yes';
@@ -167,9 +166,8 @@ gulp.task('server', function () {
 });
 
 
-/**
- * Main tasks : Default and Build
- */
-
+/** -----------------------------------------------
+ * Main and Build
+ * --------------------------------------------- */
 gulp.task('build', ['sass', 'jade', 'copy']);
 gulp.task('patterns', ['cleanJSON', 'injector', 'sass', 'watch', 'server']);

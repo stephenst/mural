@@ -160,7 +160,7 @@ angular.module('tapestry', [
                      * hide Menu
                      */
                     setTimeout(function () {
-                        angular.element('html').removeClass('menu__opened');
+                        angular.element('#wrapper').removeClass('toggled');
                     }, 2000)
                 }
             }, true);
