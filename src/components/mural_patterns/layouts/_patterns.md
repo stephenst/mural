@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title ng-bind="&apos;Tapestry - &apos; + section">Tapestry</title>
+    <title ng-bind="'Tapestry - ' + section">Tapestry</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="_assets/bower_components/font-awesome/css/font-awesome.css">
@@ -14,18 +14,18 @@
     <link rel="stylesheet" href="external/css/main.css">
     <!-- / Your CSS File-->
     <script src="_assets/bower_components/modernizr/modernizr.js"></script>
-  <script id="jsonPath">var jsonPath = [{name: "elements", path: "components/mural_data/1.elements.json"},{name: "components", path: "components/mural_data/2.components.json"},{name: "templates", path: "components/mural_data/3.templates.json"},{name: "layouts", path: "components/mural_data/layouts.json"}]</script></head>
+  </head>
   <body>
     <!-- Menu-->
     <nav class="tapestry-menu">
       <h3 class="menu__header">Introduction</h3>
       <ul>
-        <li ng-class="{active: section==&apos;Overview&apos;}"><a href="#!/">Overview</a></li>
+        <li ng-class="{active: section=='Overview'}"><a href="#!/">Overview</a></li>
       </ul>
       <div ng-repeat="style in styles">
         <h3 once-text="style.name" class="menu__header"></h3>
         <ul>
-          <li ng-repeat="element in style.data" ng-class="{&apos;active&apos;: element.slug == sectionSlug}" once-show="element.children.length"><a once-href="&apos;#!/&apos;+style.slug+&apos;/&apos;+element.slug" once-text="element.name"></a></li>
+          <li ng-repeat="element in style.data" ng-class="{'active': element.slug == sectionSlug}" once-show="element.children.length"><a once-href="'#!/'+style.slug+'/'+element.slug" once-text="element.name"></a></li>
         </ul>
       </div>
     </nav>
@@ -39,12 +39,11 @@
     </header>
     <!-- Content-->
     <div class="tapestry-content">
-      <div ng-view=""></div>
       <div class="container">
         <div class="row">
           <div class="columns ten twelve--tablet column--center">
             <footer class="tapestry__footer">
-              <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version=""></span>. Last Updated on<span last-updated=""></span>.<a href="#!/changelog">Changelog</a></p>
+              <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version></span>. Last Updated on<span last-updated></span>.<a href="#!/changelog">Changelog</a></p>
             </footer>
           </div>
         </div>
@@ -72,6 +71,5 @@
     <!-- Autocomplete-->
     <script src="_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- Autocomplete-->
-<script type="text/javascript">document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')</script>
-</body>
+  </body>
 </html>

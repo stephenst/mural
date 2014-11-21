@@ -5592,7 +5592,7 @@ figure {
   padding: 0 15px; }
 
 /*------------------------------------*\
-	FONTS.CSS    
+	FONTS.CSS
 \*------------------------------------*/
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -5602,8 +5602,8 @@ figure {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0');
-  src: url('../../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  src: url('../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal; }
 

@@ -1,5 +1,5 @@
 node_modules
-src/bower_components
+src/_assets/bower_components
 build
 .tmp
 .sass-cache

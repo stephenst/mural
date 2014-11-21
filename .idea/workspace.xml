@@ -2,131 +2,197 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438d23b1-65bc-4f03-ac7b-da8c70adbcd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/stephenst.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/images/mascot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/images/media_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/images/media_item.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/images/module_hero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/js/components/tapestry.ui.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/js/components/tapestry.ui.dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/external/js/components/tapestry.ui.tabs.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jade/index.jade" afterPath="$PROJECT_DIR$/src/components/mural_templates/index.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/jade/layouts/_patterns.jade" afterPath="$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/json/1.elements.json" afterPath="$PROJECT_DIR$/src/components/mural_data/1.elements.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/json/2.components.json" afterPath="$PROJECT_DIR$/src/components/mural_data/2.components.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/json/3.templates.json" afterPath="$PROJECT_DIR$/src/components/mural_data/3.templates.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/1.Colors/palette.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/1.Colors/palette.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Emphasis/bold-text.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/bold-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Emphasis/italics-text.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/italics-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Emphasis/small-text.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/small-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Emphasis/text-sizes.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/text-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Lists/list-block.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-block.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Lists/list-definition.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-definition.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Lists/list-inline.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Lists/list-ordered.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-ordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Lists/list-unordered.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-unordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/Lists/list-unstyled.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-unstyled.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/blockquote.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/blockquote.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/body-copy.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/body-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/headings.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/headings.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/lead-copy.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/lead-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/links.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/links.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/rules.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/rules.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/summary-copy.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/summary-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/2.Typography/text-alignment.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/text-alignment.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/3.Grids/grid-desktop.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-desktop.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/3.Grids/grid-mobile.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-mobile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/3.Grids/grid-tablet.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-tablet.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-dark.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-dark.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-groups.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-groups.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-icons.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-icons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-light.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-light.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-primary.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-primary.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-secondary.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-secondary.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-sizes.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-variations.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-variations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-warning.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-warning.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Forms/1.fields.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/1.fields.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Forms/field-sizes.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/field-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Forms/form-error.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-error.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Forms/form-horizontal.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-horizontal.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Forms/form-login.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-login.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Forms/form-subscribe.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-subscribe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Icons/icons.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Icons/icons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Media/images-thumbnail.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/images-thumbnail.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Media/images.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/images.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Media/media-grid.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/media-grid.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Media/media-listing.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/media-listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Media/video.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/video.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Table/table-bordered.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-bordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Table/table-condensed.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-condensed.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Table/table-default.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-default.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Table/table-responsive.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-responsive.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Table/table-zebra.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-zebra.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/1.elements/Table/table.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Accordion/1.accordion.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Accordion/1.accordion.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Accordion/2.accordion-alternate.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Alerts/1.alert-success.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Alerts/1.alert-success.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Alerts/2.alert-error.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Alerts/2.alert-error.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Alerts/3.alert-info.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Alerts/3.alert-info.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Autocomplete/1.autocomplete.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Autocomplete/1.autocomplete.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Autocomplete/autocomplete-categories.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Autocomplete/autocomplete-categories.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Autocomplete/autocomplete-noresults.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Autocomplete/autocomplete-noresults.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Date/date-display.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/date-display.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Date/datepicker-inline.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/datepicker-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Date/datepicker-start-end.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/datepicker-start-end.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Date/datepicker.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/datepicker.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Dropdown/dropdown-buttons.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-buttons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Dropdown/dropdown-click.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-click.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Dropdown/dropdown-hover.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-hover.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Dropdown/dropdown-split.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-split.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Hero Content/carousel.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Hero Content/carousel.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Hero Content/hero.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Hero Content/hero.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Modal/modal-ajax.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Modal/modal-ajax.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Modal/modal-image.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Modal/modal-image.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Modal/modal-inline.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Modal/modal-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Navigation/Pagination/pagination-variations.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/Pagination/pagination-variations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Navigation/Pagination/pagination.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/Pagination/pagination.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Navigation/breadcrumbs.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/breadcrumbs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Navigation/navbar-dark.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/navbar-dark.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Navigation/navbar-light.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/navbar-light.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Page/page.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Page/page.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Panels/panel.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Panels/panel.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Progress bar/progress-bar.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Progress bar/progress-bar.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Search/search-facets.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Search/search-facets.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Search/search-listing.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Search/search-listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Search/search.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Search/search.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Slider/slider-range.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Slider/slider-range.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Slider/slider.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Slider/slider.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Tabs/tabs-simple.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tabs/tabs-simple.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Tabs/tabs.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tabs/tabs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Tags/tags-pointer.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tags/tags-pointer.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Tags/tags-soft.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tags/tags-soft.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Tags/tags.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tags/tags.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Tooltip/tooltip.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tooltip/tooltip.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Wizard/wizard-line-inverted.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard-line-inverted.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Wizard/wizard-line.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard-line.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Wizard/wizard-vertical.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard-vertical.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/Wizard/wizard.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/2.components/footer.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/2.components/footer.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/3.templates/Landing Pages/landing.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Landing Pages/landing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/3.templates/Landing Pages/landing.png" afterPath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Landing Pages/landing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/3.templates/Listing Pages/listing.md" afterPath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Listing Pages/listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/3.templates/Listing Pages/listing.png" afterPath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Listing Pages/listing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/_inuit.scss" afterPath="$PROJECT_DIR$/src/assets/sass/inuit/_inuit.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/js/app/app.js" afterPath="$PROJECT_DIR$/src/assets/js/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/js/app/scrollspy.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/css/app/tapestry.css" afterPath="$PROJECT_DIR$/src/_assets/css/app/tapestry.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/css/main.css" afterPath="$PROJECT_DIR$/src/_assets/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/logo.png" afterPath="$PROJECT_DIR$/src/_assets/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/mascot.png" afterPath="$PROJECT_DIR$/src/_assets/images/mascot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/media_image.png" afterPath="$PROJECT_DIR$/src/_assets/images/media_image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/media_item.png" afterPath="$PROJECT_DIR$/src/_assets/images/media_item.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/images/module_hero.png" afterPath="$PROJECT_DIR$/src/_assets/images/module_hero.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/app/app.js" afterPath="$PROJECT_DIR$/src/_assets/js/app/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/app/controllers.js" afterPath="$PROJECT_DIR$/src/_assets/js/app/controllers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/app/directives.js" afterPath="$PROJECT_DIR$/src/_assets/js/app/directives.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/app/filters.js" afterPath="$PROJECT_DIR$/src/_assets/js/app/filters.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/app/services.js" afterPath="$PROJECT_DIR$/src/_assets/js/app/services.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/changelog.html" afterPath="$PROJECT_DIR$/src/_assets/js/templates/changelog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/home.html" afterPath="$PROJECT_DIR$/src/_assets/js/templates/home.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/jade/changelog.jade" afterPath="$PROJECT_DIR$/src/_assets/js/templates/jade/changelog.jade" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/jade/home.jade" afterPath="$PROJECT_DIR$/src/_assets/js/templates/jade/home.jade" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/jade/listing-template.jade" afterPath="$PROJECT_DIR$/src/_assets/js/templates/jade/listing-template.jade" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/jade/listing.jade" afterPath="$PROJECT_DIR$/src/_assets/js/templates/jade/listing.jade" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/listing-template.html" afterPath="$PROJECT_DIR$/src/_assets/js/templates/listing-template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/js/templates/listing.html" afterPath="$PROJECT_DIR$/src/_assets/js/templates/listing.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/app/modules/_mixins.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/app/modules/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/app/modules/_variables.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/app/modules/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/app/tapestry.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/app/tapestry.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/_bourbon-deprecated-upcoming.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/_bourbon.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/_bourbon.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_button.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_button.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_clearfix.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_clearfix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_font-family.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_font-family.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_hide-text.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_hide-text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_html5-input-types.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_html5-input-types.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_position.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_position.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_prefixer.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_prefixer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_retina-image.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_retina-image.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_size.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_size.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_timing-functions.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_timing-functions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/addons/_triangle.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_triangle.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_animation.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_animation.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_appearance.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_appearance.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_backface-visibility.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_backface-visibility.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_background-image.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_background-image.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_background.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_background.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_border-image.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_border-image.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_border-radius.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_border-radius.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_box-sizing.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_box-sizing.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_columns.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_columns.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_flex-box.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_flex-box.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_font-face.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_font-face.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_hidpi-media-query.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_hidpi-media-query.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_image-rendering.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_image-rendering.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_inline-block.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_inline-block.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_keyframes.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_keyframes.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_linear-gradient.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_linear-gradient.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_perspective.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_perspective.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_placeholder.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_placeholder.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_radial-gradient.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_radial-gradient.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_transform.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_transform.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_transition.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_transition.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/css3/_user-select.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_user-select.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_compact.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_compact.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_flex-grid.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_flex-grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_grid-width.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_grid-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_linear-gradient.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_linear-gradient.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_modular-scale.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_modular-scale.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_px-to-em.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_px-to-em.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_radial-gradient.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_radial-gradient.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_tint-shade.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_tint-shade.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/functions/_transition-property-name.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_transition-property-name.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_deprecated-webkit-gradient.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_deprecated-webkit-gradient.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_gradient-positions-parser.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_gradient-positions-parser.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_linear-positions-parser.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_linear-positions-parser.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_radial-arg-parser.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_radial-arg-parser.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_radial-positions-parser.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_radial-positions-parser.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_render-gradients.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_render-gradients.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/bourbon/helpers/_shape-size-stripper.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_shape-size-stripper.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/CHANGELOG.md" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/LICENSE" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/README.md" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/_defaults.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/_defaults.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/_inuit.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/_inuit.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_code.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_code.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_forms.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_headings.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_headings.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_images.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_images.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_lists.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_lists.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_main.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_paragraphs.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_paragraphs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_quotes.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_quotes.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_smallprint.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_smallprint.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/base/_tables.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/base/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/bower.json" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_brand.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_brand.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_clearfix.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_clearfix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_debug.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_debug.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_helper.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_helper.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_mixins.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_normalize.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_normalize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_pull.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_pull.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_push.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_push.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_reset.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_reset.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_shared.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_shared.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/generic/_widths.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/generic/_widths.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_arrows.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_arrows.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_beautons.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_beautons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_block-list.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_block-list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_breadcrumb.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_breadcrumb.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_columns.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_columns.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_flexbox.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_flexbox.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_flyout.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_flyout.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_greybox.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_greybox.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_grids.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_grids.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_icon-text.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_icon-text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_island.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_island.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_link-complex.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_link-complex.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_lozenges.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_lozenges.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_marginalia.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_marginalia.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_matrix.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_matrix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_media.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_media.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_nav.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_nav.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_options.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_options.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_pagination.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_rules.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_rules.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_split.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_split.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_sprite.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_sprite.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_stats.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_stats.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/inuit/objects/_this-or-this.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/inuit/objects/_this-or-this.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/main.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/_tapestry.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/_tapestry.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/base/_base.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/base/_base.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/base/_shared.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/base/_shared.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_accordion.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_accordion.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_alerts.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_alerts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_autocomplete.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_autocomplete.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_breadcrumbs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_carousel.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_carousel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_components.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_components.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_date.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_date.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_datepicker.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_datepicker.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_dropdown.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_dropdown.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_dropzone.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_dropzone.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_media.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_media.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_modal.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_modal.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_modules.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_modules.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_navbar.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_navigation.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_navigation.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_pagination.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_pagination.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_panel.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_panel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_progress.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_progress.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_search.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_search.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_select.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_select.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_slider.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_slider.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_tabs.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_tabs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_tags.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_tags.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_tooltip.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_tooltip.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/components/_wizard.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/components/_wizard.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_buttons.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_elements.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_elements.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_forms.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_icons.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_links.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_links.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_lists.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_lists.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_rules.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_rules.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_table.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_table.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/elements/_typography.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_typography.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/grids/_grid-phone.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/grids/_grid-phone.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/grids/_grid-tablet.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/grids/_grid-tablet.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/grids/_grid.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/grids/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/modules/_mixins.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/modules/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/modules/_variables.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/modules/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/presentation/_fonts.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_fonts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/presentation/_presentation.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_presentation.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/presentation/_site.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_site.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/presentation/_vendor.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_vendor.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_desktop.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_desktop.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_phone-landscape.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_phone-landscape.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_phone.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_phone.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_responsive.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_responsive.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_tablet-landscape.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_tablet-landscape.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_tablet.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_tablet.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/assets/sass/tapestry/responsive/_tablets-desktops.scss" afterPath="$PROJECT_DIR$/src/_assets/sass/tapestry/responsive/_tablets-desktops.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade" afterPath="$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/js/app/controllers.js" afterPath="$PROJECT_DIR$/src/assets/js/app/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/js/app/directives.js" afterPath="$PROJECT_DIR$/src/assets/js/app/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/js/templates/listing.html" afterPath="$PROJECT_DIR$/src/assets/js/templates/listing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/css/main.css" afterPath="$PROJECT_DIR$/src/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/external/css/main.css" afterPath="$PROJECT_DIR$/src/external/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tapestry.iml" afterPath="$PROJECT_DIR$/.idea/tapestry.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tapestry.iws" />
@@ -151,89 +217,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="_patterns.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.153846" vertical-offset="1254" max-vertical-offset="3705">
-              <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/templates/listing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="532">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="4180">
-              <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/app/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.769231" vertical-offset="2402" max-vertical-offset="3078">
-              <caret line="148" column="116" selection-start-line="148" selection-start-column="116" selection-end-line="148" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/app/directives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="3458">
-              <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-              <folding>
-                <marker date="1416516839000" expanded="true" signature="799:1879" placeholder="..." />
-                <marker date="1416516839000" expanded="true" signature="1008:1112" placeholder="..." />
-                <marker date="1416516839000" expanded="true" signature="1225:1585" placeholder="..." />
-                <marker date="1416516839000" expanded="true" signature="1668:1851" placeholder="..." />
-                <marker date="1416516839000" expanded="true" signature="1738:1818" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listing-template.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/templates/jade/listing-template.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listing.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/templates/jade/listing.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25821066" vertical-offset="0" max-vertical-offset="883">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.elements.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/mural_data/1.elements.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="5985">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.17527676" vertical-offset="0" max-vertical-offset="2033">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -253,21 +241,25 @@
         <option value="$PROJECT_DIR$/src/patterns/1.elements/Buttons/buttons-dark.md" />
         <option value="$PROJECT_DIR$/src/assets/js/app/filters.js" />
         <option value="$PROJECT_DIR$/src/assets/js/templates/jade/home.jade" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/assets/js/templates/jade/changelog.jade" />
         <option value="$PROJECT_DIR$/src/external/js/app.js" />
         <option value="$PROJECT_DIR$/src/jade/layouts/_patterns.jade" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade" />
         <option value="$PROJECT_DIR$/node_modules/gulp-tree/index.js" />
         <option value="$PROJECT_DIR$/node_modules/gulp-script-inject/index.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/assets/js/app/app.js" />
         <option value="$PROJECT_DIR$/src/assets/js/app/directives.js" />
         <option value="$PROJECT_DIR$/src/assets/js/app/controllers.js" />
         <option value="$PROJECT_DIR$/src/assets/js/templates/jade/listing-template.jade" />
         <option value="$PROJECT_DIR$/src/assets/js/templates/jade/listing.jade" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/_assets/js/app/app.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_fonts.scss" />
+        <option value="$PROJECT_DIR$/src/_assets/sass/app/tapestry.scss" />
+        <option value="$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade" />
       </list>
     </option>
   </component>
@@ -342,8 +334,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="22" />
-    <option name="width" value="1916" />
-    <option name="height" value="1178" />
+    <option name="width" value="2556" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -368,7 +360,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -384,7 +376,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -449,194 +440,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.Colors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="_assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -645,18 +455,19 @@
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/mural_templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Gulp.js.patterns">
+  <component name="RunManager" selected="Gulp.js.sass">
     <configuration default="false" name="build" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
@@ -693,11 +504,11 @@
       <ConfigurationWrapper RunnerId="Js.BuildTools.Gulp" />
       <method />
     </configuration>
-    <configuration default="false" name="watch" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+    <configuration default="false" name="injector" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
-        <task>watch</task>
+        <task>injector</task>
       </tasks>
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
@@ -705,11 +516,11 @@
       <ConfigurationWrapper RunnerId="Js.BuildTools.Gulp" />
       <method />
     </configuration>
-    <configuration default="false" name="injector" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+    <configuration default="false" name="sass" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
       <tasks>
-        <task>injector</task>
+        <task>sass</task>
       </tasks>
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
@@ -752,16 +563,16 @@
       <item index="0" class="java.lang.String" itemvalue="Gulp.js.build" />
       <item index="1" class="java.lang.String" itemvalue="Gulp.js.patterns" />
       <item index="2" class="java.lang.String" itemvalue="Gulp.js.injecter" />
-      <item index="3" class="java.lang.String" itemvalue="Gulp.js.watch" />
-      <item index="4" class="java.lang.String" itemvalue="Gulp.js.injector" />
+      <item index="3" class="java.lang.String" itemvalue="Gulp.js.injector" />
+      <item index="4" class="java.lang.String" itemvalue="Gulp.js.sass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gulp.js.patterns" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js.build" />
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.sass" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.patterns" />
         <item index="2" class="java.lang.String" itemvalue="Gulp.js.injector" />
-        <item index="3" class="java.lang.String" itemvalue="Gulp.js.injecter" />
-        <item index="4" class="java.lang.String" itemvalue="Gulp.js.watch" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.build" />
+        <item index="4" class="java.lang.String" itemvalue="Gulp.js.injecter" />
       </list>
     </recent_temporary>
   </component>
@@ -778,25 +589,45 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1916" height="1178" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="22" width="2556" height="1418" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1829044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290441" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20971185" sideWeight="0.34467617" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21280827" sideWeight="0.34532374" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20971185" sideWeight="0.6553238" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16268383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21280827" sideWeight="0.65467626" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1626506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -829,29 +660,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3819">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="2147">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="1007">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3781">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="152">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,11 +692,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="1007">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/app.js">
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4131">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -903,7 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06559263" vertical-offset="0" max-vertical-offset="869">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
@@ -920,73 +726,31 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/tapestry/presentation/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/tapestry/grids/_grid.scss">
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/grids/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3675937" vertical-offset="0" max-vertical-offset="1672">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16705883" vertical-offset="142" max-vertical-offset="1045">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/tapestry/components/_components.scss">
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/components/_components.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/templates/jade/changelog.jade">
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/jade/changelog.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14728682" vertical-offset="0" max-vertical-offset="903">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/templates/jade/home.jade">
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/jade/home.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1683278" vertical-offset="0" max-vertical-offset="903">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/app/tapestry.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3529412" vertical-offset="1239" max-vertical-offset="16245">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/scrollspy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2595506" vertical-offset="1349" max-vertical-offset="9975">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1683278" vertical-offset="0" max-vertical-offset="903">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -994,18 +758,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5864834" vertical-offset="457" max-vertical-offset="1330">
           <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27353266" vertical-offset="0" max-vertical-offset="903">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
@@ -1022,19 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72989196" vertical-offset="0" max-vertical-offset="1007">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,48 +789,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1107" max-vertical-offset="2869">
           <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-script-inject/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.18053928" vertical-offset="154" max-vertical-offset="1007">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-script-inject/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1528589" vertical-offset="0" max-vertical-offset="1596">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-prune-html/node_modules/map-stream/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6184365" vertical-offset="0" max-vertical-offset="2717">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-tree/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.614949" vertical-offset="2803" max-vertical-offset="3686">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/mural_patterns/1.elements/1.Colors/palette.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="853">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/mural_data/1.elements.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="5985">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/jade/listing.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3227633" vertical-offset="0" max-vertical-offset="883">
+          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/listing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49643704" vertical-offset="0" max-vertical-offset="842">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="437">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16430818" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48330683" vertical-offset="0" max-vertical-offset="1596">
+        <state vertical-scroll-proportion="0.24146147" vertical-offset="0" max-vertical-offset="1596">
           <caret line="16" column="70" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1183908" vertical-offset="0" max-vertical-offset="2147">
-          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.02199074" vertical-offset="0" max-vertical-offset="864">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/assets/js/app/app.js">
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/jade/listing-template.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4180">
+        <state vertical-scroll-proportion="0.14615385" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/templates/listing-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1287">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/app/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/app/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11692308" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.333069" vertical-offset="74" max-vertical-offset="3458">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="80" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <marker date="1416516839000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1416516839000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1416516839000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1416516839000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1416516839000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/app/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15795724" vertical-offset="133" max-vertical-offset="1615">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33281004" vertical-offset="260" max-vertical-offset="3078">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8853846" vertical-offset="201" max-vertical-offset="4104">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1096,128 +948,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-script-inject/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18053928" vertical-offset="154" max-vertical-offset="1007">
+        <state vertical-scroll-proportion="0.0149371065" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/app/modules/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4788">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-script-inject/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1528589" vertical-offset="0" max-vertical-offset="1596">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-prune-html/node_modules/map-stream/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6184365" vertical-offset="0" max-vertical-offset="2717">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-tree/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.614949" vertical-offset="2803" max-vertical-offset="3686">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mural_patterns/1.elements/1.Colors/palette.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="853">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mural_data/1.elements.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="5985">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/templates/listing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="532">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.153846" vertical-offset="1254" max-vertical-offset="3705">
-          <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/assets/js/app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2065" max-vertical-offset="2983">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.3146154" vertical-offset="85" max-vertical-offset="3705">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/app.js">
+    <entry file="file://$PROJECT_DIR$/src/_assets/bower_components/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="4180">
-          <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31882">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/controllers.js">
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/elements/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.769231" vertical-offset="2402" max-vertical-offset="3078">
-          <caret line="148" column="116" selection-start-line="148" selection-start-column="116" selection-end-line="148" selection-end-column="116" />
+        <state vertical-scroll-proportion="-0.956761" vertical-offset="1217" max-vertical-offset="2489">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/app/directives.js">
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="3458">
-          <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
-          <folding>
-            <marker date="1416516839000" expanded="true" signature="799:1879" placeholder="..." />
-            <marker date="1416516839000" expanded="true" signature="1008:1112" placeholder="..." />
-            <marker date="1416516839000" expanded="true" signature="1225:1585" placeholder="..." />
-            <marker date="1416516839000" expanded="true" signature="1668:1851" placeholder="..." />
-            <marker date="1416516839000" expanded="true" signature="1738:1818" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/templates/jade/listing-template.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/templates/jade/listing.jade">
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/base/_shared.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25821066" vertical-offset="0" max-vertical-offset="883">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6602871" vertical-offset="105767" max-vertical-offset="144495">
+          <caret line="5603" column="29" selection-start-line="5603" selection-start-column="29" selection-end-line="5603" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/app/tapestry.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23390152" vertical-offset="0" max-vertical-offset="16264">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/_tapestry.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1084">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23390152" vertical-offset="0" max-vertical-offset="1056">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_presentation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1084">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_assets/sass/tapestry/presentation/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3778409" vertical-offset="0" max-vertical-offset="1056">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17527676" vertical-offset="0" max-vertical-offset="2033">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

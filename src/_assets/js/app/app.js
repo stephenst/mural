@@ -36,11 +36,11 @@ angular.module('tapestry', [
             $locationProvider.hashPrefix('!');
             $routeProvider.when('/', {
                 title: 'Overview',
-                templateUrl: 'assets/js/templates/home.html',
+                templateUrl: '_assets/js/templates/home.html',
                 controller: 'headerController'
             }).when('/changelog', {
                 title: 'Changelog',
-                templateUrl: 'assets/js/templates/changelog.html',
+                templateUrl: '_assets/js/templates/changelog.html',
                 controller: 'headerController'
             }).otherwise({redirectTo: '/'});
 
@@ -49,15 +49,15 @@ angular.module('tapestry', [
                 value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
                 if (value.slug === "templates") {
                     $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: 'assets/js/templates/listing-template.html',
+                        templateUrl: '_assets/js/templates/listing-template.html',
                         controller: 'templateController'
                     });
                 } else {
                     $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: 'assets/js/templates/listing.html',
+                        templateUrl: '_assets/js/templates/listing.html',
                         controller: 'listingController'
                     }).when('/' + value.slug + '/:slug/:section', {
-                        templateUrl: 'assets/js/templates/listing.html',
+                        templateUrl: '_assets/js/templates/listing.html',
                         controller: 'listingController'
                     });
                 }
@@ -175,7 +175,7 @@ angular.module('tapestry', [
  */
 function flattener (arrr, template, category) {
 
-    var a = []
+    var a = [];
 
     var flattenArray = function (arr, parent) {
 
@@ -185,7 +185,7 @@ function flattener (arrr, template, category) {
 
             var parent = parent ? parent : '',
                 root = parent.replace(/\s+/g, '-').toLowerCase(),
-                slug = arr[i].name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase()
+                slug = arr[i].name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase();
 
             a.push({
                 value: arr[i].name,
@@ -194,21 +194,17 @@ function flattener (arrr, template, category) {
                 template: arr[i].template ? arr[i].template : null,
                 url: '/' + category + '/' + (root ? root : slug) + (slug != root && root ? '/' + slug : ''),
                 category: category
-            })
+            });
 
 
             if (arr[i].children && typeof arr[i].children == 'object') {
 
-                var p = parent ? parent : arr[i].name
+                var p = parent ? parent : arr[i].name;
 
-                flattenArray(arr[i].children, p)
-
+                flattenArray(arr[i].children, p);
             }
         }
-
-        return a
-
-    }
-
+        return a;
+    };
     return flattenArray(arrr)
-};
+}

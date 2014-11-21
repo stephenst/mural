@@ -8,9 +8,9 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
         meta(name='description', content='')
         meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
 
-        link(rel='stylesheet', href='assets/css/app/tapestry.css')
-        link(rel='stylesheet', href='bower_components/prism/themes/prism.css')
-        //link(rel='stylesheet', href='bower_components/dropzone/downloads/css/basic.css')
+        link(rel='stylesheet', href='_assets/bower_components/font-awesome/css/font-awesome.css')
+        link(rel='stylesheet', href='_assets/css/app/tapestry.css')
+        link(rel='stylesheet', href='_assets/bower_components/prism/themes/prism.css')
         link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', rel='stylesheet')
 
         // Your CSS File
@@ -19,7 +19,7 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 
         block meta
-        script(src='bower_components/modernizr/modernizr.js')
+        script(src='_assets/bower_components/modernizr/modernizr.js')
 
     body
 
@@ -54,21 +54,15 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 
         // Content
-        .tapestry-content
+        div.tapestry-content
 
             block content
 
-
-            .container
-                .row
-                    .columns.ten.twelve--tablet.column--center
+            div.container
+                div.row
+                    div.columns.ten.twelve--tablet.column--center
 
                         footer.tapestry__footer
-                            p Designed and built by the folks at
-                            p
-                                a(href="http://pebbleroad.com")
-                                    img(src="assets/images/logo.png", alt="", width="187")
-
                             p
                                 | Code licensed under MIT, documentation under CC BY 3.0. <br>Version
                                 span(tapestry-version)
@@ -80,28 +74,28 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
         block footer
         // jQuery
         // script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js")
-        script(src="bower_components/jquery/jquery.js")
+        script(src="_assets/bower_components/jquery/jquery.js")
         // jQuery
 
         // Parsers
-        script(src="bower_components/js-yaml/js-yaml.js")
-        script(src="bower_components/marked/lib/marked.js")
+        script(src="_assets/bower_components/js-yaml/js-yaml.js")
+        script(src="_assets/bower_components/marked/lib/marked.js")
 
         // PrismJS code highlighter
-        script(src="bower_components/prism/prism.js")
+        script(src="_assets/bower_components/prism/prism.js")
 
         // Patterns
-        script(src="bower_components/angular/angular.min.js")
-        script(src="bower_components/angular-route/angular-route.min.js")
-        script(src="bower_components/angular-once/once.js")
-        script(src="assets/js/app/controllers.js")
-        script(src="assets/js/app/directives.js")
-        script(src="assets/js/app/filters.js")
-        script(src="assets/js/app/services.js")
-        script(src="assets/js/app/app.js")
+        script(src="_assets/bower_components/angular/angular.min.js")
+        script(src="_assets/bower_components/angular-route/angular-route.min.js")
+        script(src="_assets/bower_components/angular-once/once.js")
+        script(src="_assets/js/app/controllers.js")
+        script(src="_assets/js/app/directives.js")
+        script(src="_assets/js/app/filters.js")
+        script(src="_assets/js/app/services.js")
+        script(src="_assets/js/app/app.js")
         // / Patterns
 
         // Autocomplete
-        script(src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js")
+        script(src="_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js")
         // Autocomplete
 
