@@ -33,7 +33,7 @@ var gulp = require('gulp'),
  * SASS
  * --------------------------------------------- */
 gulp.task('sass', function () {
-    gulp.src(['./src/_assets/sass/**/*.scss', '!./src/**/_*'])
+    gulp.src(['./src/_assets/sass/*.scss', '!./src/**/_*'])
         .pipe(sass({
             sourcemap: true
         }))

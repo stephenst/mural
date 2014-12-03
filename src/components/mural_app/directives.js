@@ -1,8 +1,8 @@
 /**
- * Tapestry Directives
+ * Mural Directives
  */
 
-angular.module('tapestry.directives', []).directive('compile', [
+angular.module('mural.directives', []).directive('compile', [
     '$compile',
     function ($compile) {
         return function (scope, element, attrs) {

@@ -1,8 +1,8 @@
 /**
- * Tapestry Filters
+ * Mural Filters
  */
 
-angular.module('tapestry.filters', []).filter('anchor', [function () {
+angular.module('mural.filters', []).filter('anchor', [function () {
     return function (text) {
         return text.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase();
     }

@@ -1,5 +1,5 @@
 /**
- * Tapestry Services
+ * Mural Services
  */
 
-angular.module('tapestry.services', []);
+angular.module('mural.services', []);

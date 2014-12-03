@@ -1,12 +1,226 @@
+/*------------------------------------*\
+	MIXINS
+\*------------------------------------*/
+/**
+ * Create a fully formed type style (sizing and vertical rhythm) by passing in a
+ * single value, e.g.:
+ *
+   `@include font-size(10px);`
+ *
+ * Thanks to @redclov3r for the `line-height` Sass:
+ * twitter.com/redclov3r/status/250301539321798657
+ */
+/**
+ * Font size mixin
+ */
+/**
+ * Media Query Mixin
+ */
+/**
+ * Box Shadow Base
+ */
+/**
+ * Light Links
+ */
+/**
+ * Link Colors: Part of Compass
+ */
+/**
+ * Focus Styles
+ */
+/**
+ * Rem Units
+ * Converts properties to both REM and Pixel Values. Based on line-height
+ * @include rem(margin-bottom, 0.5)
+ * @include rem(padding, 1, 20px);
+ */
+/**
+ * Helper function for REM
+ * @include rem-full(padding, 10px 20px 10px 30px);
+ */
+/**
+ * Grids
+ */
+/**
+ * Calculates Percentage for each column
+ */
+/**
+ * Convert numbers to words
+ * 1 => 'one'
+ */
+/* ------------------------------------
+    Layout Items
+------------------------------------ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    $UI ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TEXT DIRECTION
+\*------------------------------------*/
+/*------------------------------------*\
+    $COLOR SWATCHES
+\*------------------------------------*/
+/*------------------------------------*\
+    $GRID SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+     * Mobile Sizes
+     */
+/**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+/**
+ * Optional font sizes
+ */
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+     * Button default
+     */
+/**
+     * Button Primary
+     */
+/**
+     * Button Secondary
+     */
+/**
+     * Button Light
+     */
+/**
+     * Button Dark
+     */
+/**
+     * Button Warning
+     */
+/**
+     * Button facebook
+     */
+/**
+     * Button google
+     */
+/* ------------------------------------
+    Layout Items
+------------------------------------ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    $UI ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TEXT DIRECTION
+\*------------------------------------*/
+/*------------------------------------*\
+    $COLOR SWATCHES
+\*------------------------------------*/
+/*------------------------------------*\
+    $GRID SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+     * Mobile Sizes
+     */
+/**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+/**
+ * Optional font sizes
+ */
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+     * Button default
+     */
+/**
+     * Button Primary
+     */
+/**
+     * Button Secondary
+     */
+/**
+     * Button Light
+     */
+/**
+     * Button Dark
+     */
+/**
+     * Button Warning
+     */
+/**
+     * Button facebook
+     */
+/**
+     * Button google
+     */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
-
-#wrapper.toggled {
-  padding-left: 275px; }
+  #wrapper.toggled {
+    padding-left: 275px; }
+    #wrapper.toggled #sidebar-wrapper {
+      width: 275px; }
+    #wrapper.toggled #page-content-wrapper {
+      position: absolute;
+      margin-right: -275px; }
 
 #sidebar-wrapper {
   z-index: 1000;
@@ -22,16 +236,9 @@
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-#wrapper.toggled #sidebar-wrapper {
-  width: 275px; }
-
 #page-content-wrapper {
   width: 100%;
   padding: 15px; }
-
-#wrapper.toggled #page-content-wrapper {
-  position: absolute;
-  margin-right: -275px; }
 
 /* Top Header */
 .navbar-header button.navbar-nav {
@@ -50,7 +257,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: visible; }
   .sidebar-nav h3 {
     padding-left: 10px; }
   .sidebar-nav li {
@@ -75,6 +283,319 @@
         color: #fff;
         background: none; }
 
+/* ------------------------------------
+    Layout Items
+------------------------------------ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    $UI ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TEXT DIRECTION
+\*------------------------------------*/
+/*------------------------------------*\
+    $COLOR SWATCHES
+\*------------------------------------*/
+/*------------------------------------*\
+    $GRID SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+     * Mobile Sizes
+     */
+/**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+/**
+ * Optional font sizes
+ */
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+     * Button default
+     */
+/**
+     * Button Primary
+     */
+/**
+     * Button Secondary
+     */
+/**
+     * Button Light
+     */
+/**
+     * Button Dark
+     */
+/**
+     * Button Warning
+     */
+/**
+     * Button facebook
+     */
+/**
+     * Button google
+     */
+/**
+ * Palette
+ */
+.palette {
+  list-style: none;
+  margin-left: 0;
+  font-size: 0; }
+
+.palette > li {
+  margin-right: 1%;
+  font-size: 13px;
+  font-size: 0.92857rem;
+  color: #fff;
+  text-align: center; }
+
+@media only screen and (min-width: 600px) {
+  .palette > li {
+    display: inline-block;
+    width: 19%; } }
+
+.palette span {
+  display: block; }
+
+.palette .color {
+  border-radius: 5px 5px 0 0;
+  height: 80px;
+  padding-top: 1.5em; }
+
+@media only screen and (min-width: 600px) {
+  .palette .color {
+    height: 120px; } }
+
+.palette .color:last-child {
+  border-radius: 0 0 5px 5px; }
+
+.palette h3 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600; }
+
+/* ------------------------------------
+    Layout Items
+------------------------------------ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    $UI ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TEXT DIRECTION
+\*------------------------------------*/
+/*------------------------------------*\
+    $COLOR SWATCHES
+\*------------------------------------*/
+/*------------------------------------*\
+    $GRID SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+     * Mobile Sizes
+     */
+/**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+/**
+ * Optional font sizes
+ */
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+     * Button default
+     */
+/**
+     * Button Primary
+     */
+/**
+     * Button Secondary
+     */
+/**
+     * Button Light
+     */
+/**
+     * Button Dark
+     */
+/**
+     * Button Warning
+     */
+/**
+     * Button facebook
+     */
+/**
+     * Button google
+     */
+.pattern-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0; }
+
+.pattern-list > li {
+  margin-bottom: 24px;
+  margin-bottom: 1.71429rem;
+  background: #fff;
+  border-radius: 5px; }
+
+.pattern-list > li > h3 {
+  padding: 0.5em 15px;
+  margin: 0;
+  font-family: 'Open Sans', Helvetica, Arial;
+  border-bottom: 1px #d9d9d9 solid; }
+
+.pattern-list > li > div > h4 {
+  padding: 0.5em 15px;
+  margin: 0;
+  font-weight: 600;
+  background: #fff;
+  font-family: 'Open Sans', Helvetica, Arial;
+  border-bottom: 1px #d9d9d9 solid; }
+
+.pattern-list .block--description {
+  background: #f9fbfc;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px #d9d9d9 solid; }
+
+.pattern-variation {
+  margin-bottom: 15px; }
+
+/* ------------------------------------
+    Layout Items
+------------------------------------ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    $UI ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TEXT DIRECTION
+\*------------------------------------*/
+/*------------------------------------*\
+    $COLOR SWATCHES
+\*------------------------------------*/
+/*------------------------------------*\
+    $GRID SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+     * Mobile Sizes
+     */
+/**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+/**
+ * Optional font sizes
+ */
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+     * Button default
+     */
+/**
+     * Button Primary
+     */
+/**
+     * Button Secondary
+     */
+/**
+     * Button Light
+     */
+/**
+     * Button Dark
+     */
+/**
+     * Button Warning
+     */
+/**
+     * Button facebook
+     */
+/**
+     * Button google
+     */
 @media (min-width: 768px) {
   #wrapper {
     padding-left: 275px; }

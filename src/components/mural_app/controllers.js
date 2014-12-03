@@ -2,7 +2,7 @@
  * Tapestry Controllers
  */
 
-angular.module('tapestry.controllers', []).controller('headerController', [
+angular.module('mural.controllers', []).controller('headerController', [
     '$scope',
     'isMobile',
     '$rootScope',

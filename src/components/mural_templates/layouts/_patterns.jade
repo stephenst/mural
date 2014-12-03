@@ -1,17 +1,16 @@
 doctype
-html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
+html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
     head
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
         block variables
-        title(ng-bind="'Tapestry - ' + section") Tapestry
+        title(ng-bind="'Mural - ' + section") Mural
         meta(name='description', content='')
         meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
 
         link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
 
         link(rel='stylesheet', href='_assets/bower_components/font-awesome/css/font-awesome.css')
-        //link(rel='stylesheet', href='_assets/css/app/tapestry.css')
         link(rel='stylesheet', href='_assets/bower_components/prism/themes/prism.css')
         link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', rel='stylesheet')
 
@@ -21,7 +20,6 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 
         block meta
-        // script(src='_assets/bower_components/modernizr/modernizr.js')
 
     body
 
@@ -70,7 +68,6 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
                         | .
                         a(href="#!/changelog") Changelog
 
-            block footer
         // jQuery
         // script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js")
         script(src="_assets/bower_components/jquery/jquery.js")

@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="tapestry" class="no-js tapestry menu__opened">
+<html lang="en" ng-app="mural" class="no-js mural menu__opened">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title ng-bind="'Tapestry - ' + section">Tapestry</title>
+    <title ng-bind="'Mural - ' + section">Mural</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="_assets/bower_components/font-awesome/css/font-awesome.css">
-    <!--link(rel='stylesheet', href='_assets/css/app/tapestry.css')-->
     <link rel="stylesheet" href="_assets/bower_components/prism/themes/prism.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">
     <!-- Your CSS File-->
     <link rel="stylesheet" href="_assets/css/main.css">
     <!-- / Your CSS File-->
-    <!-- script(src='_assets/bower_components/modernizr/modernizr.js')-->
   </head>
   <body>
     <div id="wrapper">

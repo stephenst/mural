@@ -17,11 +17,11 @@ var version = '1.0.0',
  * Tapestry Module
  */
 
-angular.module('tapestry', [
-    'tapestry.services',
-    'tapestry.controllers',
-    'tapestry.directives',
-    'tapestry.filters',
+angular.module('mural', [
+    'mural.services',
+    'mural.controllers',
+    'mural.directives',
+    'mural.filters',
     'ui.bootstrap',
     'ngRoute',
     'once'
