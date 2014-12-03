@@ -1,18 +1,19 @@
 div.tapestry-wrapper
-    div.container
-        div.tapestry-menu-side
-            ul(ng-show="patterns.children.length > 1")
-                li(ng-repeat="pattern in patterns.children")
+    div.row-fluid
+        div.col-md-2
+            ul.nav(ng-show="patterns.children.length > 1")
+                li.nav(ng-repeat="pattern in patterns.children")
                     a(data-target="#{{pattern.name | anchor }}",
-                    ng-href="#!/{{ rootSection }}/{{ sectionSlug }}/{{ pattern.name | anchor }}",
-                    once-text="pattern.name",
-                    ng-class="{active: anchor(pattern.name) == subSection}")
-        div.main-content
+                        ng-href="#!/{{ rootSection }}/{{ sectionSlug }}/{{ pattern.name | anchor }}",
+                        once-text="pattern.name",
+                        ng-class="{active: anchor(pattern.name) == subSection}")
+        div.main-content.col-md-10
             div(preview-and-markup patterns="patterns")
             ul.pattern-list
                 li(ng-repeat="pattern in patterns.children")
-                    h3(id="{{pattern.name | anchor}}", once-text="pattern.name")
+                    h3(id="{{ pattern.name | anchor }}", once-text="pattern.name")
+                    a(id="{{ pattern.name | anchor }}")
                     div(preview-and-markup patterns="pattern")
                     div.pattern-variation(ng-repeat="variation in pattern.children")
-                        h4(id="{{variation.name | anchor}}", once-text="variation.name")
+                        h4(id="{{ variation.name | anchor }}", once-text="variation.name")
                         div(preview-and-markup patterns="variation")

@@ -24,54 +24,51 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
         // script(src='_assets/bower_components/modernizr/modernizr.js')
 
     body
+
         div#wrapper
             nav#sidebar-wrapper
-                ul.sidebar-nav
-                    li.sidebar-brand
+                ul.nav.sidebar-nav
+                    li.nav.sidebar-brand
                         h3 Introduction
-                    li(ng-class="{active: section=='Overview'}")
+                    li.nav(ng-class="{active: section=='Overview'}")
                         a(href="#!/")
                             | Overview
                         div(ng-repeat="style in styles")
-                            ul
-                                li
+                            ul.nav
+                                li.nav
                                     h3(once-text="style.name")
-                                li(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
+                                li.nav(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
                                     a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
-
-
-            // / Menu
-            header.nav.nav-bar(ng-controller="headerController")
-                h3.tapestry__heading(ng-bind="section")
-
-                button.btn.btn--unstyled.btn--toggle(ng-click="toggleMenu($event)")
-                    em.fa.fa-bars
-
-                div.form-control.icon-left(action="")
-                    input.input.input-inverted(type="text",
-                        ng-model="selected",
-                        typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8",
-                        name="section")
-                    em.fa.fa-search.fa-lg
 
 
             // Content
             div.page-content-wrapper
+                // / Menu
+                header.navbar.navbar-top(ng-controller="headerController")
+                    div.navbar-header
+                        button.navbar-nav.btn.btn-unstyled.btn-toggle(ng-click="toggleMenu($event)")
+                            em.fa.fa-bars
+                        h3.navbar-brand(ng-bind="section")
+                    div.navbar-form.navbar-right
+                        div.input-group
+                            input.form-control(type="text",
+                                ng-model="selected",
+                                typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8",
+                                name="section")
+                            div.input-group-btn(action="")
+                                button.btn.btn-default
+                                    em.fa.fa-search.fa-lg
 
                 block content
 
-                div.container
-                    div.row
-                        div.columns.ten.twelve--tablet.column--center
-
-                            footer.tapestry__footer
-                                p
-                                    | Code licensed under MIT, documentation under CC BY 3.0. <br>Version
-                                    span(tapestry-version)
-                                    | . Last Updated on
-                                    span(last-updated)
-                                    | .
-                                    a(href="#!/changelog") Changelog
+                footer
+                    p
+                        | Code licensed under MIT, documentation under CC BY 3.0. <br>Version
+                        span(tapestry-version)
+                        | . Last Updated on
+                        span(last-updated)
+                        | .
+                        a(href="#!/changelog") Changelog
 
             block footer
         // jQuery

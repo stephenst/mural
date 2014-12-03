@@ -19,42 +19,43 @@
   <body>
     <div id="wrapper">
       <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li class="sidebar-brand">
+        <ul class="nav sidebar-nav">
+          <li class="nav sidebar-brand">
             <h3>Introduction</h3>
           </li>
-          <li ng-class="{active: section=='Overview'}"><a href="#!/">Overview</a>
+          <li ng-class="{active: section=='Overview'}" class="nav"><a href="#!/">Overview</a>
             <div ng-repeat="style in styles">
-              <ul>
-                <li>
+              <ul class="nav">
+                <li class="nav">
                   <h3 once-text="style.name"></h3>
                 </li>
-                <li ng-repeat="element in style.data" ng-class="{'active': element.slug == sectionSlug}" once-show="element.children.length"><a once-href="'#!/'+style.slug+'/'+element.slug" once-text="element.name"></a></li>
+                <li ng-repeat="element in style.data" ng-class="{'active': element.slug == sectionSlug}" once-show="element.children.length" class="nav"><a once-href="'#!/'+style.slug+'/'+element.slug" once-text="element.name"></a></li>
               </ul>
             </div>
           </li>
         </ul>
       </nav>
-      <!-- / Menu-->
-      <header ng-controller="headerController" class="nav nav-bar">
-        <h3 ng-bind="section" class="tapestry__heading"></h3>
-        <button ng-click="toggleMenu($event)" class="btn btn--unstyled btn--toggle"><em class="fa fa-bars"></em></button>
-        <div action="" class="form-control icon-left">
-          <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" class="input input-inverted"><em class="fa fa-search fa-lg"></em>
-        </div>
-      </header>
       <!-- Content-->
       <div class="page-content-wrapper">
-        <div ng-view></div>
-        <div class="container">
-          <div class="row">
-            <div class="columns ten twelve--tablet column--center">
-              <footer class="tapestry__footer">
-                <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version></span>. Last Updated on<span last-updated></span>.<a href="#!/changelog">Changelog</a></p>
-              </footer>
+        <!-- / Menu-->
+        <header ng-controller="headerController" class="navbar navbar-top">
+          <div class="navbar-header">
+            <button ng-click="toggleMenu($event)" class="navbar-nav btn btn-unstyled btn-toggle"><em class="fa fa-bars"></em></button>
+            <h3 ng-bind="section" class="navbar-brand"></h3>
+          </div>
+          <div class="navbar-form navbar-right">
+            <div class="input-group">
+              <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" class="form-control">
+              <div action="" class="input-group-btn">
+                <button class="btn btn-default"><em class="fa fa-search fa-lg"></em></button>
+              </div>
             </div>
           </div>
-        </div>
+        </header>
+        <div ng-view></div>
+        <footer>
+          <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version></span>. Last Updated on<span last-updated></span>.<a href="#!/changelog">Changelog</a></p>
+        </footer>
       </div>
     </div>
     <!-- jQuery-->

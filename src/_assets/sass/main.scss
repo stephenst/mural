@@ -1,50 +1,12 @@
 @charset "UTF-8";
-/*------------------------------------*\
-    MAIN.CSS
-\*------------------------------------*/
-
-/**
- * CSS Guidelines: https://github.com/csswizardry/CSS-Guidelines
- * Naming Convention: https://github.com/csswizardry/CSS-Guidelines#naming-conventions
- *
- * BEM Methodology:
- * ----------------
- * http://bem.info/
- * http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/
- * http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
- *
- * .block{}
- * .block__element{}
- * .block--modifier{}
- *
- * .block represents the higher level of an abstraction or component.
- * .block__element represents a descendent of .block that helps form .block as a whole.
- * .block--modifier represents a different state or version of .block.
- */
-
-
-/**
- * Setup
- */
-
 
 @import "bourbon/bourbon";
 
-/**
- * Import Variables
- */
-// @import "tapestry/modules/variables";
-
-/**
- * Import Inuit
- */
-// @import "inuit/inuit";
 
 
-/**
- * She's all yours, cap'n... Begin importing your stuff here.
- */
-// @import "tapestry/tapestry";
+$sidenav-width: 275px;
+
+
 
 
 
@@ -58,16 +20,16 @@
 }
 
 #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: $sidenav-width;
 }
 
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px;
+    left: $sidenav-width;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-left: -$sidenav-width;
     overflow-y: auto;
     background: #000;
     -webkit-transition: all 0.5s ease;
@@ -77,7 +39,7 @@
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 250px;
+    width: $sidenav-width;
 }
 
 #page-content-wrapper {
@@ -87,60 +49,79 @@
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -$sidenav-width;
 }
+
+/* Top Header */
+.navbar-header {
+    button.navbar-nav {
+        display: inline-block;
+    }
+    h3 {
+        height: auto;
+        line-height: 35px;
+        margin: 0;
+        padding: 0 20px;
+    }
+}
+
 
 /* Sidebar Styles */
 
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
+    overflow-x: hidden;
+
+    h3 {
+        padding-left: 10px;
+    }
+
+    li {
+        line-height: 40px;
+        a {
+            display: block;
+            text-decoration: none;
+            color: #999999;
+
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+                background: rgba(255,255,255,0.2);
+            }
+            &:active,
+            &:focus {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .sidebar-brand {
+        height: 65px;
+        font-size: 18px;
+        line-height: 60px;
+
+        a {
+            color: #999999;
+
+            &:hover {
+                color: #fff;
+                background: none;
+            }
+        }
+    }
 }
 
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
 
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999999;
-}
 
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-    height: 65px;
-    font-size: 18px;
-    line-height: 60px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 250px;
+        padding-left: $sidenav-width;
     }
 
     #wrapper.toggled {
@@ -148,7 +129,7 @@
     }
 
     #sidebar-wrapper {
-        width: 250px;
+        width: $sidenav-width;
     }
 
     #wrapper.toggled #sidebar-wrapper {
