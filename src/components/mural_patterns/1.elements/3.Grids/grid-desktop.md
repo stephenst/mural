@@ -2,38 +2,41 @@
 name: Gird desktop
 ---
 <div class="row row--demo">
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
-  <div class="columns one">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
+    <div class="col-md-1">one</div>
 </div>
 <div class="row row--demo">
-  <div class="columns twelve">twelve</div>
+  <div class="col-md-12">twelve</div>
 </div>
 <div class="row row--demo">
-  <div class="columns eight">eight</div>
-  <div class="columns four">four</div>
+  <div class="col-md-8">eight</div>
+  <div class="col-md-4">four</div>
 </div>
 <div class="row row--demo">
-  <div class="columns four">four</div>
-  <div class="columns four">four</div>
-  <div class="columns four">four</div>
+  <div class="col-md-4">four</div>
+  <div class="col-md-4">four</div>
+  <div class="col-md-4">four</div>
 </div>
 <div class="row row--demo">
-  <div class="columns three">three</div>
-  <div class="columns three">three</div>
-  <div class="columns three">three</div>
-  <div class="columns three">three</div>
+  <div class="col-md-3">three</div>
+  <div class="col-md-3">three</div>
+  <div class="col-md-3">three</div>
+  <div class="col-md-3">three</div>
 </div>
 <div class="row row--demo">
-  <div class="columns six">six</div>
-  <div class="columns six">six</div>
+  <div class="col-md-6">six</div>
+  <div class="col-md-6">six</div>
+</div>
+<div class="row row--demo">
+  <div class="col-md-6 col-md-offset-6">six offset</div>
 </div>

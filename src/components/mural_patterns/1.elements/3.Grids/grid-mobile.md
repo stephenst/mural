@@ -2,38 +2,38 @@
 name: Grid mobile
 ---
 <div class="row row--demo">
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
-  <div class="columns one one--phone">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
+    <div class="col-xs-1">one</div>
 </div>
 <div class="row row--demo">
-  <div class="columns twelve twelve--phone">twelve</div>
+    <div class="col-xs-12">twelve</div>
 </div>
 <div class="row row--demo">
-  <div class="columns eight four--phone">eight</div>
-  <div class="columns four eight--phone">four</div>
+    <div class="col-xs-8">eight</div>
+    <div class="col-xs-4">four</div>
 </div>
 <div class="row row--demo">
-  <div class="columns four four--phone">four</div>
-  <div class="columns four four--phone">four</div>
-  <div class="columns four four--phone">four</div>
+    <div class="col-xs-4">four</div>
+    <div class="col-xs-4">four</div>
+    <div class="col-xs-4">four</div>
 </div>
 <div class="row row--demo">
-  <div class="columns three three-tablet">three</div>
-  <div class="columns three three-tablet">three</div>
-  <div class="columns three three-tablet">three</div>
-  <div class="columns three three-tablet">three</div>
+    <div class="col-xs-3">three</div>
+    <div class="col-xs-3">three</div>
+    <div class="col-xs-3">three</div>
+    <div class="col-xs-3">three</div>
 </div>
 <div class="row row--demo">
-  <div class="columns six six--phone">six</div>
-  <div class="columns six six--phone">six</div>
+    <div class="col-xs-6">six</div>
+    <div class="col-xs-6">six</div>
 </div>

@@ -1,0 +1,12 @@
+@import "_mixins/_variables.scss";
+
+
+.row--demo {
+    div[class^="col"] {
+        background-color: $color-light-grey;
+        border: 1px solid $color-dark-grey;
+        color: $color-dark-grey;
+        padding: 10px;
+        border-collapse: collapse;
+    }
+}

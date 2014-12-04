@@ -208,6 +208,93 @@
 /**
      * Button google
      */
+.row--demo div[class^="col"] {
+  background-color: #EDEEF1;
+  border: 1px solid #BDC3C7;
+  color: #BDC3C7;
+  padding: 10px;
+  border-collapse: collapse; }
+
+/* ------------------------------------
+    Layout Items
+------------------------------------ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS FROM INUIT CSS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    $UI ELEMENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TEXT DIRECTION
+\*------------------------------------*/
+/*------------------------------------*\
+    $COLOR SWATCHES
+\*------------------------------------*/
+/*------------------------------------*\
+    $GRID SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/**
+     * Mobile Sizes
+     */
+/**
+     * Desktop font size
+     * Both tablets and desktops
+     */
+/**
+ * Optional font sizes
+ */
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+/*------------------------------------*\
+    $FORMS
+\*------------------------------------*/
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+     * Button default
+     */
+/**
+     * Button Primary
+     */
+/**
+     * Button Secondary
+     */
+/**
+     * Button Light
+     */
+/**
+     * Button Dark
+     */
+/**
+     * Button Warning
+     */
+/**
+     * Button facebook
+     */
+/**
+     * Button google
+     */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -218,7 +305,7 @@
     padding-left: 275px; }
     #wrapper.toggled #sidebar-wrapper {
       width: 275px; }
-    #wrapper.toggled #page-content-wrapper {
+    #wrapper.toggled .page-content-wrapper {
       position: absolute;
       margin-right: -275px; }
 
@@ -236,9 +323,9 @@
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-#page-content-wrapper {
+.page-content-wrapper {
   width: 100%;
-  padding: 15px; }
+  padding: 20px; }
 
 /* Top Header */
 .navbar-header button.navbar-nav {
@@ -487,31 +574,26 @@
   list-style: none;
   margin-left: 0;
   padding: 0; }
-
-.pattern-list > li {
-  margin-bottom: 24px;
-  margin-bottom: 1.71429rem;
-  background: #fff;
-  border-radius: 5px; }
-
-.pattern-list > li > h3 {
-  padding: 0.5em 15px;
-  margin: 0;
-  font-family: 'Open Sans', Helvetica, Arial;
-  border-bottom: 1px #d9d9d9 solid; }
-
-.pattern-list > li > div > h4 {
-  padding: 0.5em 15px;
-  margin: 0;
-  font-weight: 600;
-  background: #fff;
-  font-family: 'Open Sans', Helvetica, Arial;
-  border-bottom: 1px #d9d9d9 solid; }
-
-.pattern-list .block--description {
-  background: #f9fbfc;
-  border-radius: 0 0 5px 5px;
-  border-top: 1px #d9d9d9 solid; }
+  .pattern-list li {
+    margin-bottom: 24px;
+    margin-bottom: 1.71429rem;
+    background: #fff;
+    border-radius: 5px; }
+    .pattern-list li h3 {
+      padding: 0.5em 0;
+      margin: 0;
+      font-family: 'Open Sans', Helvetica, Arial;
+      border-bottom: 1px #d9d9d9 solid; }
+    .pattern-list li h4 {
+      padding: 0.5em 0;
+      margin: 0;
+      font-weight: 600;
+      background: #fff;
+      font-family: 'Open Sans', Helvetica, Arial; }
+  .pattern-list .block--description {
+    background: #f9fbfc;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px #d9d9d9 solid; }
 
 .pattern-variation {
   margin-bottom: 15px; }

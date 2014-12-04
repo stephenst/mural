@@ -61,12 +61,7 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
 
                 footer
                     p
-                        | Code licensed under MIT, documentation under CC BY 3.0. <br>Version
-                        span(tapestry-version)
-                        | . Last Updated on
-                        span(last-updated)
-                        | .
-                        a(href="#!/changelog") Changelog
+                        | Code licensed under MIT, documentation under CC BY 3.0. <br>Version #[span(mural-version)]. Last Updated on #[span(last-updated)]. View the #[a(href="#!/changelog") Changelog]
 
         // jQuery
         // script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js")
@@ -93,5 +88,6 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
 
         // Autocomplete
         script(src="_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js")
-        // Autocomplete
 
+        // Sticky scrollspy
+        script(src="_assets/bower_components/ngSticky/sticky.js")

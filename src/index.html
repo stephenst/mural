@@ -36,7 +36,7 @@
       <!-- Content-->
       <div class="page-content-wrapper">
         <!-- / Menu-->
-        <header ng-controller="headerController" class="navbar navbar-top">
+        <header ng-controller="headerController" sticky="" class="navbar navbar-top">
           <div class="navbar-header">
             <button ng-click="toggleMenu($event)" class="navbar-nav btn btn-unstyled btn-toggle"><em class="fa fa-bars"></em></button>
             <h3 ng-bind="section" class="navbar-brand"></h3>
@@ -50,9 +50,9 @@
             </div>
           </div>
         </header>
-        <div ng-view=""></div>
+        <div ng-view="" class="pattern-wrapper"></div>
         <footer>
-          <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version<span tapestry-version=""></span>. Last Updated on<span last-updated=""></span>.<a href="#!/changelog">Changelog</a></p>
+          <p>Code licensed under MIT, documentation under CC BY 3.0. <br>Version <span mural-version=""></span>. Last Updated on <span last-updated=""></span>. View the <a href="#!/changelog">Changelog</a></p>
         </footer>
       </div>
     </div>
@@ -77,7 +77,8 @@
     <!-- / Patterns-->
     <!-- Autocomplete-->
     <script src="_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <!-- Autocomplete-->
+    <!-- Sticky scrollspy-->
+    <script src="_assets/bower_components/ngSticky/sticky.js"></script>
 <script type="text/javascript">document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')</script>
 </body>
 </html>

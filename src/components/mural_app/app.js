@@ -7,14 +7,14 @@
  * Configuration
  */
 
-var version = '1.0.0',
-    lastUpdated = '26 Feb 2014';
+var version = '2.0.0',
+    lastUpdated = '04 Dec 2014';
 
 
 /* jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder */
 
 /**
- * Tapestry Module
+ * Mural Module
  */
 
 angular.module('mural', [
@@ -24,7 +24,8 @@ angular.module('mural', [
     'mural.filters',
     'ui.bootstrap',
     'ngRoute',
-    'once'
+    'once',
+    'sticky'
 ]).value('version', version)
     .value('lastUpdated', lastUpdated)
     .value('isMobile', /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test((navigator.userAgent || navigator.vendor || window.opera)))
@@ -36,11 +37,11 @@ angular.module('mural', [
             $locationProvider.hashPrefix('!');
             $routeProvider.when('/', {
                 title: 'Overview',
-                templateUrl: 'components/mural_app/home.html',
+                templateUrl: 'components/mural_templates/templates/home.html',
                 controller: 'headerController'
             }).when('/changelog', {
                 title: 'Changelog',
-                templateUrl: 'components/mural_app/changelog.html',
+                templateUrl: 'components/mural_templates/templates/changelog.html',
                 controller: 'headerController'
             }).otherwise({redirectTo: '/'});
 
@@ -49,15 +50,15 @@ angular.module('mural', [
                 value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
                 if (value.slug === "templates") {
                     $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: 'components/mural_app/listing-template.html',
+                        templateUrl: 'components/mural_templates/templates/listing-template.html',
                         controller: 'templateController'
                     });
                 } else {
                     $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: 'components/mural_app/listing.html',
+                        templateUrl: 'components/mural_templates/templates/listing.html',
                         controller: 'listingController'
                     }).when('/' + value.slug + '/:slug/:section', {
-                        templateUrl: 'components/mural_app/listing.html',
+                        templateUrl: 'components/mural_templates/templates/listing.html',
                         controller: 'listingController'
                     });
                 }

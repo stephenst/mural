@@ -159,7 +159,7 @@ angular.module('mural.directives', []).directive('compile', [
             }
         };
     }
-]).directive('tapestryVersion', [
+]).directive('muralVersion', [
     'version',
     function (version) {
         return function (scope, elm, attrs) {

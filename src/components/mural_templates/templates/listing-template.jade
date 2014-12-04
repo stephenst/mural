@@ -1,5 +1,5 @@
-div.tapestry-wrapper
-    div.tapestry-menu-side
+div
+    div.pattern-menu-side
         ul(once-show="patterns.children.length > 1")
             li(ng-repeat="pattern in patterns.children")
                 a(data-target="#{{pattern.name | anchor}}",
@@ -7,7 +7,7 @@ div.tapestry-wrapper
                 once-text=" pattern.name ",
                 ng-class="{active: anchor(pattern.name) == subSection}")
     div.main-content
-        ul.tapestry-template-list
+        ul.pattern-template-list
             li(ng-repeat="template in templates.children")
                 a(once-href="template.meta.url")
                     img(once-src="template.meta.preview")

@@ -71,7 +71,7 @@ gulp.task('injector', ['jade', 'tree'], function () {
  * Jade
  * --------------------------------------------- */
 gulp.task('jade', function () {
-    return gulp.src(['./src/components/mural_templates/**/*.jade', '!**/_*', '!src/mural_app/'])
+    return gulp.src(['./src/components/mural_templates/**/*.jade', '!**/_*', '!./src/components/mural_templates/templates/*.jade', '!src/mural_app/'])
         .pipe(jade({
             pretty : true
         }))
@@ -80,7 +80,7 @@ gulp.task('jade', function () {
 
 });
 gulp.task('patternsJade', function () {
-    return gulp.src('./src/components/mural_templates/**/*.jade')
+    return gulp.src(['!./src/components/mural_templates/**/*.jade', '!./src/components/mural_templates/templates'])
         .pipe(jade({
             pretty: true
         }))
@@ -90,11 +90,11 @@ gulp.task('patternsJade', function () {
         .pipe(gulp.dest('./src/components/mural_patterns'));
 });
 gulp.task('ngtemplatesJade', function () {
-    gulp.src(['./src/components/mural_app/*.jade'])
+    gulp.src(['./src/components/mural_templates/templates/*.jade'])
         .pipe(jade({
             pretty: true
         }))
-        .pipe(gulp.dest('./src/components/mural_app'));
+        .pipe(gulp.dest('./src/components/mural_templates/templates'));
 });
 
 /** -----------------------------------------------
@@ -107,7 +107,7 @@ gulp.task('cleanJSON', function (cb) {
 });
 gulp.task('cleaner', function (cb) {
     del([
-        './build/**'
+        './build'
     ], cb);
 });
 
@@ -134,40 +134,15 @@ gulp.task('watch', function () {
 /** -----------------------------------------------
  * Copy
  * --------------------------------------------- */
-gulp.task('copy', ['cleaner'], function () {
-
-    gulp.src(['./src/**', '!./src/components/mural_templates/jade'])
-        //.pipe(cssmin())
+gulp.task('copy', [], function () {
+    gulp.src(['./src/**', '!./src/components/**/*.jade'])
         .pipe(gulp.dest('./build'))
-
 });
 
-
-/** -----------------------------------------------
- * Servers
- * --------------------------------------------- */
-gulp.task('server', function () {
-    var port = process.env.PORT || 8000;
-    var enable_livereload = process.env.ENABLE_LIVERELOAD || 'yes';
-
-    http.createServer(ecstatic({root: './src'})).listen(port);
-
-    gutil.log(gutil.colors.blue('HTTP server listening on port ' + port));
-
-    if (enable_livereload == 'yes') {
-        tlr.listen(35729);
-
-        gutil.log(gutil.colors.blue('Livereload server listening on port 35729'));
-
-        /* Add a watcher */
-
-        gulp.watch(['./src/_assets/css/*', './src/*.html'])._watcher.on('all', livereload)
-    }
-});
 
 
 /** -----------------------------------------------
  * Main and Build
  * --------------------------------------------- */
-gulp.task('build', ['sass', 'jade', 'copy']);
-gulp.task('patterns', ['cleanJSON', 'injector', 'sass', 'watch', 'server']);
+gulp.task('patterns', ['cleanJSON', 'injector', 'sass']);
+gulp.task('build', ['sass', 'patterns', 'jade', 'ngtemplatesJade']);

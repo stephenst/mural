@@ -1,13 +1,13 @@
-div.tapestry-wrapper
+div
     div.row-fluid
-        div.col-md-2
-            ul.nav(ng-show="patterns.children.length > 1")
+        div.col-md-2(ng-show="patterns.children.length > 1")
+            ul.nav(sticky)
                 li.nav(ng-repeat="pattern in patterns.children")
                     a(data-target="#{{pattern.name | anchor }}",
                         ng-href="#!/{{ rootSection }}/{{ sectionSlug }}/{{ pattern.name | anchor }}",
                         once-text="pattern.name",
                         ng-class="{active: anchor(pattern.name) == subSection}")
-        div.main-content.col-md-10
+        div.main-content(ng-class="{ 'col-md-10': patterns.children.length > 1, 'col-md-12': patterns.children.length <= 1 }")
             div(preview-and-markup patterns="patterns")
             ul.pattern-list
                 li(ng-repeat="pattern in patterns.children")
