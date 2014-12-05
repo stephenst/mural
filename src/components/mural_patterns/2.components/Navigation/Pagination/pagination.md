@@ -1,25 +1,14 @@
 ---
 name: Pagination
 ---
-<ul class="ui-pagination">
-    <li><a href="#book-a"><em class="fa fa-long-arrow-left fa-lg fa-lone"></em></a>
-    </li>
-    <li class="active"><a href="#book-b">1</a>
-    </li>
-    <li><a href="#book-b">2</a>
-    </li>
-    <li><a href="#book-b">3</a>
-    </li>
-    <li><a href="#book-b">4</a>
-    </li>
-    <li><a href="#book-b">5</a>
-    </li>
-    <li><a href="#book-b">6</a>
-    </li>
-    <li><a href="#book-b">7</a>
-    </li>
-    <li><a href="#book-b">8</a>
-    </li>
-    <li><a href="#book-b"><em class="fa fa-long-arrow-right fa-lg fa-lone"></em></a>
-    </li>
-</ul>
+<nav>
+  <ul class="pagination">
+    <li><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+  </ul>
+</nav>

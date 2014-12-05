@@ -112,7 +112,9 @@ angular.module('mural.directives', []).directive('compile', [
                                 var $description = element.parent().next();
 
                                 if (conf.description) {
+                                    $log.info('CONF DESCRIPTION');
                                     parsedContent.markdown = marked(conf.description);
+                                    $log.info(parsedContent.markdown);
                                     $description.html(parsedContent.markdown);
                                 } else {
                                     /* If there is no description: Hide it */

@@ -123,7 +123,7 @@ gulp.task('watch', function () {
 
     gulp.watch('src/components/mural_app/*.jade', ['ngtemplatesJade']);
 
-    gulp.watch('src/components/mural_templates/**', ['patternsJade']);
+    // gulp.watch('src/components/mural_templates/**', ['patternsJade']);
 
     gulp.watch('src/components/mural_patterns/**/*', ['injector']);
 

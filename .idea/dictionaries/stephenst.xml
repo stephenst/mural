@@ -2,10 +2,13 @@
   <dictionary name="stephenst">
     <words>
       <w>autocomplete</w>
+      <w>fieldset</w>
       <w>injecter</w>
       <w>modernizr</w>
       <w>navbar</w>
+      <w>screenshot</w>
       <w>sidenav</w>
+      <w>unstyled</w>
     </words>
   </dictionary>
 </component>

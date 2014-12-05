@@ -116,7 +116,6 @@ angular.module('mural', [
                      */
                     angular.forEach(parseObject, function (value, key) {
                         value.slug = $filter('anchor')(value.name);
-                        $log.info('Anchor is: ' + value.slug);
                     });
 
                     /**

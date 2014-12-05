@@ -208,7 +208,10 @@
 /**
      * Button google
      */
-.row--demo div[class^="col"] {
+.row--demo {
+  margin-bottom: 5px; }
+
+.row--grid div[class^="col"] {
   background-color: #EDEEF1;
   border: 1px solid #BDC3C7;
   color: #BDC3C7;
@@ -577,7 +580,6 @@
   .pattern-list li {
     margin-bottom: 24px;
     margin-bottom: 1.71429rem;
-    background: #fff;
     border-radius: 5px; }
     .pattern-list li h3 {
       padding: 0.5em 0;

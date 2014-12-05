@@ -2,6 +2,10 @@
 
 
 .row--demo {
+    margin-bottom: 5px;
+}
+
+.row--grid {
     div[class^="col"] {
         background-color: $color-light-grey;
         border: 1px solid $color-dark-grey;

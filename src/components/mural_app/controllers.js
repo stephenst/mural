@@ -153,4 +153,91 @@ angular.module('mural.controllers', []).controller('headerController', [
         });
         //console.log($scope.templates)
     }
+]).controller('demoController', [
+    '$scope',
+    '$modal',
+    function ($scope, $modal) {
+        // Demo Controller is for the patterns that need a bit of JS.
+
+        // -------------------------------------------
+        // Alert Pattern
+        // -------------------------------------------
+        $scope.alerts = [
+            { type: 'danger', msg: 'DANGER: Change a few things up and try submitting again.' },
+            { type: 'info', msg: 'INFO: This is an informational alert.'},
+            { type: 'warning', msg: 'WARNING: This is an informational alert.'},
+            { type: 'success', msg: 'SUCCESS: You successfully read this important alert message.' }
+        ];
+        $scope.addAlert = function() {
+            $scope.alerts.push({msg: 'DEFAULT WARNING: Another alert!'});
+        };
+        $scope.closeAlert = function(index) {
+            $scope.alerts.splice(index, 1);
+        };
+
+
+        // -------------------------------------------
+        // Accordion Pattern
+        // -------------------------------------------
+        $scope.oneAtATime = true;
+        $scope.groups = [
+            {
+                title: 'Dynamic Group Header - 1',
+                content: 'Dynamic Group Body - 1'
+            },
+            {
+                title: 'Dynamic Group Header - 2',
+                content: 'Dynamic Group Body - 2'
+            }
+        ];
+
+        $scope.items = ['Item 1', 'Item 2', 'Item 3'];
+        $scope.addItem = function() {
+            var newItemNo = $scope.items.length + 1;
+            $scope.items.push('Item ' + newItemNo);
+        };
+        $scope.status = {
+            isFirstOpen: true,
+            isFirstDisabled: false
+        };
+
+
+        // -------------------------------------------
+        // Accordion Pattern
+        // -------------------------------------------
+        $scope.items = ['item1', 'item2', 'item3'];
+        $scope.open = function (size) {
+            var modalInstance = $modal.open({
+                templateUrl: 'myModalContent.html',
+                controller: 'demoModalInstanceController',
+                size: size,
+                resolve: {
+                    items: function () {
+                        return $scope.items;
+                    }
+                }
+            });
+            modalInstance.result.then(function (selectedItem) {
+                $scope.selected = selectedItem;
+            }, function () {
+                $log.info('Modal dismissed at: ' + new Date());
+            });
+        };
+    }
+]).controller('demoModalInstanceController', [
+    '$scope',
+    '$modalInstance',
+    'items',
+    function ($scope, $modalInstance, items) {
+        $scope.items = items;
+        $scope.selected = {
+            item: $scope.items[0]
+        };
+        $scope.ok = function () {
+            $modalInstance.close($scope.selected.item);
+        };
+        $scope.cancel = function () {
+            $modalInstance.dismiss('cancel');
+        };
+    }
 ]);

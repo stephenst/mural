@@ -1,7 +1,8 @@
 ---
 name: Article listing
 url: templateurl
-preview: patterns/3.templates/Listing Pages/listing.png
+preview: components/mural_patterns/3.templates/Listing Pages/listing.png
 description: |
-    ## Landing page
+    ### Landing page
+    A Screenshot
 ---

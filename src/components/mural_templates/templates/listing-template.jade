@@ -10,5 +10,6 @@ div
         ul.pattern-template-list
             li(ng-repeat="template in templates.children")
                 a(once-href="template.meta.url")
+                    h4(once-text="template.name")
+                        | {{ template.name }}
                     img(once-src="template.meta.preview")
-                    h4(once-text="template.name") {{template.name}}
