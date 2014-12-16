@@ -47,9 +47,10 @@ gulp.task('sass', function () {
 gulp.task('tree', function () {
     gulp.src('./src/components/mural_patterns')
         .pipe(tree({
-            path: './src/components/mural_data/'
+            patternsPath: './src/components/mural_patterns/',
+            jsonPath: './src/components/mural_data/'
         }))
-        .pipe(gulp.dest('./src/components/mural_data'));
+        .pipe(gulp.dest('./src/components/mural_data/'));
 });
 
 
@@ -60,10 +61,10 @@ gulp.task('injector', ['jade', 'tree'], function () {
     gulp.src('./src/index.html')
         .pipe(prunehtml(['#jsonPath']))
         .pipe(scriptInject({
-            json: './src/components/mural_data',
+            path: './src/components/mural_data',
             varname: 'jsonPath'
         }))
-        .pipe(gulp.dest('./src'))
+        .pipe(gulp.dest('./src'));
 });
 
 

@@ -4,7 +4,7 @@
   "description": "An fork of an app for creating and managing your front-end pattern library",
   "homepage": "https://github.com/stephenst/tapestry",
   "author": {
-    "name": "Tony Stephens (orig: Vinay M: http://github.com/PebbleRoad/tapestry)",
+    "name": "Tony Stephens",
     "url": "https://github.com/stephenst/tapestry"
   },
   "licenses": [
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:stephenst/tapestry.git"
+    "url": "https://github.com/stephenst/tapestry"
   },
   "bugs": {
     "url": "https://github.com/stephenst/tapestry"
@@ -31,11 +31,11 @@
     "gulp-embedlr": "~0.5.2",
     "gulp-jade": "~0.4.2",
     "gulp-prettify": "~0.1.2",
-    "gulp-prune-html": "git://github.com/rmdort/gulp-prune-html",
+    "gulp-prune-html": "^0.1.0",
     "gulp-rename": "~1.1.0",
     "gulp-sass": "~0.7.1",
     "gulp-script-inject": "0.0.6",
-    "gulp-tree": "0.1.4",
+    "gulp-tree": "^0.1.4",
     "gulp-util": "~2.2.14",
     "http": "0.0.0",
     "js-yaml": "~3.0.1",
@@ -43,6 +43,5 @@
     "path": "~0.4.9",
     "tiny-lr": "0.0.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
