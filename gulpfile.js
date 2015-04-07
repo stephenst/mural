@@ -44,7 +44,7 @@ gulp.task('sass', function () {
 /** -----------------------------------------------
  * JSON Tree
  * --------------------------------------------- */
-gulp.task('tree', function () {
+gulp.task('styleguideJsonTree', function () {
     gulp.src('./src/components/mural_patterns')
         .pipe(tree({
             patternsPath: './src/components/mural_patterns/',
@@ -57,7 +57,7 @@ gulp.task('tree', function () {
 /** -----------------------------------------------
  * INJECT JSON
  * --------------------------------------------- */
-gulp.task('injector', ['jade', 'tree'], function () {
+gulp.task('injector', ['styleguideJsonTree'], function () {
     gulp.src('./src/index.html')
         .pipe(prunehtml(['#jsonPath']))
         .pipe(scriptInject({
@@ -71,17 +71,16 @@ gulp.task('injector', ['jade', 'tree'], function () {
  /** -----------------------------------------------
  * Jade
  * --------------------------------------------- */
-gulp.task('jade', function () {
+gulp.task('styleguideJadeIndex', function () {
     return gulp.src(['./src/components/mural_templates/**/*.jade', '!**/_*', '!./src/components/mural_templates/templates/*.jade', '!src/mural_app/'])
         .pipe(jade({
             pretty : true
         }))
-        .pipe(embedlr())
         .pipe(gulp.dest('./src/'));
 
 });
-gulp.task('patternsJade', function () {
-    return gulp.src(['!./src/components/mural_templates/**/*.jade', '!./src/components/mural_templates/templates'])
+gulp.task('styleguideMarkdownPatterns', function () {
+    return gulp.src(['!./src/components/mural_templates/**/*.jade', '!./src/components/mural_templates/templates', './src/components/mural_patterns'])
         .pipe(jade({
             pretty: true
         }))
@@ -90,7 +89,7 @@ gulp.task('patternsJade', function () {
         }))
         .pipe(gulp.dest('./src/components/mural_patterns'));
 });
-gulp.task('ngtemplatesJade', function () {
+gulp.task('styleguideJadeTemplates', function () {
     gulp.src(['./src/components/mural_templates/templates/*.jade'])
         .pipe(jade({
             pretty: true
@@ -106,30 +105,6 @@ gulp.task('cleanJSON', function (cb) {
         './src/components/mural_data/*.json'
     ], cb);
 });
-gulp.task('cleaner', function (cb) {
-    del([
-        './build'
-    ], cb);
-});
-
-/** -----------------------------------------------
- * Watch Tasks
- * --------------------------------------------- */
-gulp.task('watch', function () {
-
-    gulp.watch(['src/components/mural_templates/**/*.jade'], ['jade', 'injector']);
-    gulp.watch('src/_assets/sass/**/*.scss', ['sass']);
-
-    /* Jade patterns */
-
-    gulp.watch('src/components/mural_app/*.jade', ['ngtemplatesJade']);
-
-    // gulp.watch('src/components/mural_templates/**', ['patternsJade']);
-
-    gulp.watch('src/components/mural_patterns/**/*', ['injector']);
-
-
-});
 
 
 /** -----------------------------------------------
@@ -140,10 +115,26 @@ gulp.task('copy', [], function () {
         .pipe(gulp.dest('./build'))
 });
 
+/** -----------------------------------------------
+ * Watch Tasks
+ * --------------------------------------------- */
+gulp.task('watch', function () {
+
+    gulp.watch('src/_assets/sass/**/*.scss', ['sass']);
+
+    /* Jade patterns */
+
+    gulp.watch('src/components/mural_app/*.jade', ['styleguidePatterns']);
+    gulp.watch('src/components/mural_patterns/**', ['styleguidePatterns']);
+    gulp.watch('src/components/mural_patterns/**/*', ['styleguidePatterns']);
+    gulp.watch(['src/components/mural_templates/**/*.jade'], ['styleguidePatterns']);
+});
+
 
 
 /** -----------------------------------------------
  * Main and Build
  * --------------------------------------------- */
 gulp.task('patterns', ['cleanJSON', 'injector', 'sass']);
-gulp.task('build', ['sass', 'patterns', 'jade', 'ngtemplatesJade']);
+gulp.task('styleguidePatterns', ['styleguideJadeIndex', 'styleguideJadeTemplates', 'styleguideMarkdownPatterns', 'injector']);
+gulp.task('buildStyleGuide', ['styleguideJsonTree', 'sass', 'styleguidePatterns', 'copy']);
