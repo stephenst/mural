@@ -1,0 +1,93 @@
+doctype
+html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+        block variables
+        title(ng-bind="'Mural - ' + section") Mural
+        meta(name='description', content='')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+
+        link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+
+        link(rel='stylesheet', href='_assets/bower_components/font-awesome/css/font-awesome.css')
+        link(rel='stylesheet', href='_assets/bower_components/prism/themes/prism.css')
+        link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', rel='stylesheet')
+
+        // Your CSS File
+        link(rel='stylesheet', href='_assets/css/main.css')
+        // / Your CSS File
+
+
+        block meta
+
+    body
+
+        div#wrapper
+            nav#sidebar-wrapper
+                ul.nav.sidebar-nav
+                    li.nav.sidebar-brand
+                        h3 Introduction
+                    li.nav(ng-class="{active: section=='Overview'}")
+                        a(href="#!/")
+                            | Overview
+                        div(ng-repeat="style in styles")
+                            ul.nav
+                                li.nav
+                                    h3(once-text="style.name")
+                                li.nav(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
+                                    a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
+
+
+            // Content
+            div.page-content-wrapper
+                // / Menu
+                header.navbar.navbar-top(ng-controller="headerController")
+                    div.navbar-header
+                        button.navbar-nav.btn.btn-unstyled.btn-toggle(ng-click="toggleMenu($event)")
+                            em.fa.fa-bars
+                        h3.navbar-brand(ng-bind="section")
+                    div.navbar-form.navbar-right
+                        div.input-group
+                            input.form-control(type="text",
+                                ng-model="selected",
+                                typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8",
+                                name="section")
+                            div.input-group-btn(action="")
+                                button.btn.btn-default
+                                    em.fa.fa-search.fa-lg
+
+                block content
+
+                footer
+                    p
+                        | Code licensed under MIT, documentation under CC BY 3.0. <br>Version #[span(mural-version)]. Last Updated on #[span(last-updated)]. View the #[a(href="#!/changelog") Changelog]
+
+        // jQuery
+        // script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js")
+        script(src="_assets/bower_components/jquery/jquery.js")
+        // jQuery
+
+        // Parsers
+        script(src="_assets/bower_components/js-yaml/js-yaml.js")
+        script(src="_assets/bower_components/marked/lib/marked.js")
+
+        // PrismJS code highlighter
+        script(src="_assets/bower_components/prism/prism.js")
+
+        // Patterns
+        script(src="_assets/bower_components/angular/angular.min.js")
+        script(src="_assets/bower_components/angular-route/angular-route.min.js")
+        script(src="_assets/bower_components/angular-once/once.js")
+        script(src="components/mural_app/controllers.js")
+        script(src="components/mural_app/directives.js")
+        script(src="components/mural_app/filters.js")
+        script(src="components/mural_app/services.js")
+        script(src="components/mural_app/app.js")
+        // / Patterns
+
+        // Autocomplete
+        script(src="_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js")
+
+        // Sticky scrollspy
+        script(src="_assets/bower_components/ngSticky/dist/sticky.min.js")
