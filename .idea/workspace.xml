@@ -2,661 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438d23b1-65bc-4f03-ac7b-da8c70adbcd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/1x1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-bootstrap/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/.jshintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/test/lib/JSLitmus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/MIT-LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/absolute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/atom+xml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/badcall.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/badjson.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/benchmark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/benchmarker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/benchmarker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/test/body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/support/bodyBackground.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-bootstrap/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/doc/broken.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/core/cc_on.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/cleanScript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/closest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/css/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/css/codemirror.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/schema/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/csp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/css.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/examples/custom_types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/examples/custom_types.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/dashboard.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/schema/default_full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/schema/default_safe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/delegatetest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/examples/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/dimensions/documentLarge.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/dimensions/documentSmall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/examples/dumper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/dumper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/examples/dumper.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/echoData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/echoQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/errorWithText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/es5-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/esprima.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/etag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/evalScript.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/event-alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/exception.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/schema/failsafe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/find.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/fixed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/float.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/css/font-awesome.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/js/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/hasher.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/test/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/headers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/hovertest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/selector/html5_selector.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/if_modified_since.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/manipulation/iframe-denied.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/test/iframe_body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/test/iframe_head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/int.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/intro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/codemirror/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/jquery-1.8.2.ajax_xhr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/jquery-basis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/jquery-migrate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/jquery-migrate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/js-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/bin/js-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/js-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/js-yaml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/schema/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/json3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/json_obj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/jsonp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/localfile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/event/longLoadScript.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/mark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/man/marked.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/lib/marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/marked.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/bin/marked" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/matchMedia.addListener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/matchmedia/matchMedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/name.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/name.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/networkerror.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/nocontent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/null.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/omap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/once.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/outro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-once/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-route/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/pairs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/params_html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/polluted.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-actionscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-actionscript.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-apacheconf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-apacheconf.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-applescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-applescript.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-aspnet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-aspnet.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-autohotkey.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-autohotkey.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/autolinker/prism-autolinker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/autolinker/prism-autolinker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/autolinker/prism-autolinker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-bash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-bash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-c.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-clike.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-coffeescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-coffeescript.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism-coy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-cpp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-cpp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-csharp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-csharp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-css-extras.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-css-extras.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-css.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-dart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-eiffel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-eiffel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-erlang.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/file-highlight/prism-file-highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/file-highlight/prism-file-highlight.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-fortran.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-fortran.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-fsharp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-fsharp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism-funky.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-gherkin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-gherkin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-git.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-git.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-go.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-groovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-groovy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-haml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-haml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-handlebars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-haskell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-haskell.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/highlight-keywords/prism-highlight-keywords.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/highlight-keywords/prism-highlight-keywords.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-http.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/ie8/prism-ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/ie8/prism-ie8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/ie8/prism-ie8.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-ini.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-ini.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-jade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-jade.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-java.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-java.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-javascript.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-jsx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-jsx.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-julia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-julia.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-latex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-latex.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-less.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/line-highlight/prism-line-highlight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/line-highlight/prism-line-highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/line-highlight/prism-line-highlight.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/line-numbers/prism-line-numbers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/line-numbers/prism-line-numbers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/line-numbers/prism-line-numbers.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-lolcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-lolcode.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-markdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-markup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-markup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-matlab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-matlab.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-nasm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-nasm.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-nsis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-nsis.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-objectivec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-objectivec.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism-okaidia.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-pascal.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-perl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-perl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-php-extras.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-php-extras.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-php.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-php.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-powershell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-powershell.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-python.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-python.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-r.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-rest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-rest.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-rip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-rip.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-ruby.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-rust.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-sas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-sas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-scala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-scala.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-scheme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-scheme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-scss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-scss.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-invisibles/prism-show-invisibles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-invisibles/prism-show-invisibles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-invisibles/prism-show-invisibles.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-language/prism-show-language.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-language/prism-show-language.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-language/prism-show-language.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/show-language/prism-show-language.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-smalltalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-smalltalk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-smarty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-smarty.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-sql.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-stylus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-stylus.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-swift.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-swift.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism-tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-twig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-twig.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism-twilight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-typescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-typescript.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-wiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-wiki.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/wpd/prism-wpd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/wpd/prism-wpd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/plugins/wpd/prism-wpd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/components/prism-yaml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/themes/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/prism.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/prism/vendor/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/event/promiseReady.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/readywait.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/readywaitasset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/readywaitloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/js/regexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/relative.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/examples/sample_document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/examples/sample_document.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/schema.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/script.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/scroll.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/seq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/support/shrinkWrapBlocks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/sizzle-jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/selector/sizzle_cache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/speed/slice.vs.concat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/static.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/statusText.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/lib/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/ngSticky/dist/sticky.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/str.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/stylguide/styleguide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/event/syncReady.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/offset/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/test3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/support/testElementCrash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/testinit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/testrunner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/testsuite.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/timestamp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/marked/doc/todo.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/unit/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/ua.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-bootstrap/ui-bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/angular-bootstrap/ui-bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/lib/js-yaml/type/js/undefined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/ajax/unreleasedXHR.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/with_fries.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/data/with_fries_over_jsonp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/jquery/test/xhtml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/_assets/bower_components/js-yaml/demo/js/codemirror/yaml.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/css/app/tapestry.css" afterPath="$PROJECT_DIR$/src/_mural/_assets/css/app/tapestry.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/css/main.css" afterPath="$PROJECT_DIR$/src/_mural/_assets/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/images/logo.png" afterPath="$PROJECT_DIR$/src/_mural/_assets/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/images/mascot.png" afterPath="$PROJECT_DIR$/src/_mural/_assets/images/mascot.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/images/media_image.png" afterPath="$PROJECT_DIR$/src/_mural/_assets/images/media_image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/images/media_item.png" afterPath="$PROJECT_DIR$/src/_mural/_assets/images/media_item.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/images/module_hero.png" afterPath="$PROJECT_DIR$/src/_mural/_assets/images/module_hero.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/_bourbon-deprecated-upcoming.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/_bourbon.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/_bourbon.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_button.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_button.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_clearfix.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_clearfix.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_font-family.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_font-family.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_hide-text.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_hide-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_html5-input-types.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_html5-input-types.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_position.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_position.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_prefixer.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_prefixer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_retina-image.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_retina-image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_size.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_size.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_timing-functions.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_timing-functions.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/addons/_triangle.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/addons/_triangle.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_animation.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_animation.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_appearance.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_appearance.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_backface-visibility.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_backface-visibility.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_background-image.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_background-image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_background.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_background.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_border-image.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_border-image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_border-radius.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_border-radius.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_box-sizing.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_box-sizing.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_columns.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_columns.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_flex-box.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_flex-box.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_font-face.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_font-face.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_hidpi-media-query.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_hidpi-media-query.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_image-rendering.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_image-rendering.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_inline-block.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_inline-block.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_keyframes.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_keyframes.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_linear-gradient.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_linear-gradient.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_perspective.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_perspective.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_placeholder.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_placeholder.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_radial-gradient.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_radial-gradient.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_transform.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_transform.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_transition.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_transition.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/css3/_user-select.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/css3/_user-select.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_compact.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_compact.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_flex-grid.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_flex-grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_grid-width.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_grid-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_linear-gradient.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_linear-gradient.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_modular-scale.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_modular-scale.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_px-to-em.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_px-to-em.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_radial-gradient.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_radial-gradient.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_tint-shade.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_tint-shade.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/functions/_transition-property-name.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/functions/_transition-property-name.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_deprecated-webkit-gradient.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_deprecated-webkit-gradient.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_gradient-positions-parser.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_gradient-positions-parser.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_linear-positions-parser.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_linear-positions-parser.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_radial-arg-parser.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_radial-arg-parser.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_radial-positions-parser.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_radial-positions-parser.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_render-gradients.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_render-gradients.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/bourbon/helpers/_shape-size-stripper.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/bourbon/helpers/_shape-size-stripper.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/main.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/main.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_grids.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_grids.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_layout.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_layout.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_mixins/_mixins.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_mixins/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_mixins/_variables.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_mixins/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_palette.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_palette.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_patterns.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_patterns.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_assets/sass/modules/_responsive.scss" afterPath="$PROJECT_DIR$/src/_mural/_assets/sass/modules/_responsive.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_app/app.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_app/controllers.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_app/directives.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/directives.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_app/filters.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/filters.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_app/services.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/services.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_data/1.elements.json" afterPath="$PROJECT_DIR$/src/_mural/components/mural_data/1.elements.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_data/2.components.json" afterPath="$PROJECT_DIR$/src/_mural/components/mural_data/2.components.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_data/3.templates.json" afterPath="$PROJECT_DIR$/src/_mural/components/mural_data/3.templates.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/1.Colors/palette.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/1.Colors/palette.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/bold-text.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/bold-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/italics-text.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/italics-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/small-text.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/small-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Emphasis/text-sizes.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/text-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-block.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-block.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-definition.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-definition.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-inline.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-ordered.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-ordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-unordered.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-unordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/Lists/list-unstyled.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-unstyled.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/blockquote.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/blockquote.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/body-copy.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/body-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/headings.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/headings.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/lead-copy.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/lead-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/links.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/links.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/rules.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/rules.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/summary-copy.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/summary-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/2.Typography/text-alignment.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/text-alignment.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-desktop.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-desktop.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-mobile.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-mobile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-tablet.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-tablet.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-groups.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-groups.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-icons.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-icons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-light.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-light.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-primary.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-primary.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-secondary.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-secondary.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-sizes.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-variations.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-variations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Buttons/buttons-warning.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-warning.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/1.fields.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/1.fields.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/field-sizes.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/field-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-error.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-error.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-horizontal.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-horizontal.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-login.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-login.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/form-subscribe.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-subscribe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Icons/icons.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Icons/icons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/images-thumbnail.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/images-thumbnail.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/images.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/images.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/media-grid.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/media-grid.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/media-listing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/media-listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Media/video.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/video.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-bordered.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-bordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-condensed.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-condensed.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-default.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-default.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-responsive.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-responsive.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table-zebra.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-zebra.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Table/table.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Accordion/1.accordion.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Accordion/1.accordion.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Alerts/1.alert-success.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Alerts/1.alert-success.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Autocomplete/1.autocomplete.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Autocomplete/1.autocomplete.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Autocomplete/autocomplete-categories.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Autocomplete/autocomplete-categories.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Autocomplete/autocomplete-noresults.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Autocomplete/autocomplete-noresults.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/date-display.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/date-display.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/datepicker-inline.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/datepicker-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/datepicker-start-end.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/datepicker-start-end.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Date/datepicker.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/datepicker.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-buttons.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-buttons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-click.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-click.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-hover.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-hover.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Dropdown/dropdown-split.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-split.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Hero Content/carousel.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Hero Content/carousel.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Hero Content/hero.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Hero Content/hero.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Modal/modal-ajax.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Modal/modal-ajax.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/Pagination/pagination-variations.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/Pagination/pagination-variations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/Pagination/pagination.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/Pagination/pagination.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/breadcrumbs.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/breadcrumbs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/navbar-dark.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/navbar-dark.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/navbar-light.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/navbar-light.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Page/page.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Page/page.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Panels/panel.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Panels/panel.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Progress bar/progress-bar.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Progress bar/progress-bar.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Search/search-facets.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Search/search-facets.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Search/search-listing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Search/search-listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Search/search.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Search/search.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Slider/slider-range.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Slider/slider-range.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Slider/slider.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Slider/slider.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tabs/tabs-simple.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tabs/tabs-simple.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tabs/tabs.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tabs/tabs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tags/tags-pointer.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tags/tags-pointer.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tags/tags-soft.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tags/tags-soft.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tags/tags.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tags/tags.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Tooltip/tooltip.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tooltip/tooltip.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard-line-inverted.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard-line-inverted.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard-line.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard-line.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard-vertical.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard-vertical.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/2.components/Wizard/wizard.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Landing Pages/landing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Landing Pages/landing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Landing Pages/landing.png" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Landing Pages/landing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Listing Pages/listing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Listing Pages/listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_patterns/3.templates/Listing Pages/listing.png" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Listing Pages/listing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/index.jade" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/index.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/layouts/_patterns.jade" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/layouts/_patterns.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/changelog.html" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/changelog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/changelog.jade" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/changelog.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/home.html" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/home.jade" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/home.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/listing-template.html" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/listing-template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/listing-template.jade" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/listing-template.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/listing.html" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/listing.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/mural_templates/templates/listing.jade" afterPath="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/listing.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/favicon.ico" afterPath="$PROJECT_DIR$/src/_mural/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/tapestry.iml" afterPath="$PROJECT_DIR$/.idea/mural.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/stylguide/styleguide.js" afterPath="$PROJECT_DIR$/gulp/stylguide/styleguide.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tapestry.iws" />
@@ -677,32 +29,7 @@
     <favorites_list name="tapestry" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41095892">
-              <caret line="20" column="18" selection-start-line="18" selection-start-column="17" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleguide.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/stylguide/styleguide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.592592">
-              <caret line="115" column="43" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -710,7 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/mural_app/listing.jade" />
         <option value="$PROJECT_DIR$/src/components/mural_app/listing-template.jade" />
         <option value="$PROJECT_DIR$/src/_assets/sass/modules/_layout.scss" />
         <option value="$PROJECT_DIR$/src/components/mural_app/home.jade" />
@@ -752,15 +78,16 @@
         <option value="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/Pagination/pagination-variations.md" />
         <option value="$PROJECT_DIR$/src/components/mural_patterns/2.components/Navigation/navbar-light.md" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/node_modules/gulp-script-inject/index.js" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/components/mural_templates/templates/listing.jade" />
         <option value="$PROJECT_DIR$/src/components/mural_templates/index.jade" />
         <option value="$PROJECT_DIR$/gulp/gulp_styleguide.js" />
         <option value="$PROJECT_DIR$/src/_mural/components/mural_templates/layouts/_patterns.jade" />
-        <option value="$PROJECT_DIR$/gulp/stylguide/styleguide.js" />
+        <option value="$PROJECT_DIR$/node_modules/gulp-script-inject/index.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulp/stylguide/styleguide.js" />
+        <option value="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" />
       </list>
     </option>
   </component>
@@ -805,6 +132,9 @@
             <task-name>buildStyleGuide</task-name>
           </GulpTaskState>
           <GulpTaskState>
+            <task-name>serve</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
             <dependencies>
               <dependency value="styleguideJadeIndex" />
               <dependency value="styleguideJadeTemplates" />
@@ -835,9 +165,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1916" />
-    <option name="height" value="1178" />
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -878,17 +208,19 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
+              <option name="myItemId" value="mural" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
+              <option name="myItemId" value="mural" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -898,7 +230,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
+              <option name="myItemId" value="mural" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -916,7 +248,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
+              <option name="myItemId" value="mural" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -932,32 +264,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tapestry" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styleguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="recentsLimit" value="5" />
@@ -1098,8 +410,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gulp.js.build" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js.injector" />
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.injector" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.build" />
         <item index="2" class="java.lang.String" itemvalue="Gulp.js.patterns" />
         <item index="3" class="java.lang.String" itemvalue="Gulp.js.jade" />
         <item index="4" class="java.lang.String" itemvalue="Gulp.js.tree" />
@@ -1140,31 +452,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1916" height="1178" extended-state="6" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23585913" sideWeight="0.38654354" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27785516" sideWeight="0.32909092" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18198529" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23585913" sideWeight="0.6134565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27785516" sideWeight="0.6709091" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3033088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31930694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17555147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1209,34 +521,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_mural/_assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-variations.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.366667">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-groups.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36377025">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-icons.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58762884">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-light.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08394698">
@@ -1255,13 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08394698">
           <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-secondary.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19587629">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1335,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-desktop.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7201166">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_mural/_assets/sass/modules/_patterns.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1842871">
@@ -1367,13 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13539192">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58669835">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1441,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-script-inject/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18349929">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-tree/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3328592">
@@ -1490,21 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0136986">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2054794">
-          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/filters.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1849315">
@@ -1530,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08219178">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,35 +778,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8835617">
           <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-tablet.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp/stylguide/styleguide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.592592">
-          <caret line="115" column="43" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.1535354">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/styleguide/index.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp-script-inject/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.67241377">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41095892">
-          <caret line="20" column="18" selection-start-line="18" selection-start-column="17" selection-end-line="20" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.7222222">
+          <caret line="51" column="123" selection-start-line="51" selection-start-column="123" selection-end-line="51" selection-end-column="123" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/1.Colors/palette.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29614604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/bold-text.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-desktop.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7444219">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-secondary.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30831644">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0020283">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80933064">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.151341">
+          <caret line="169" column="55" selection-start-line="169" selection-start-column="55" selection-end-line="169" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.678161">
+          <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

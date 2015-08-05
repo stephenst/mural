@@ -5,7 +5,8 @@
 // gulpfile.js
 var gulp        = require('gulp'),
     runSequence = require('run-sequence'),
-    requireDir  = require('require-dir');
+    requireDir  = require('require-dir'),
+    serve       = require('browser-sync');
 
 // Require all tasks.
 requireDir( './gulp', { recurse: true } );
@@ -25,6 +26,25 @@ gulp.task( 'buildStyleGuide', function(  )
     );
 } );
 
+
+gulp.task('serve', function () {
+    serve({
+        port: 3000,
+        open: false,
+        server: {
+            baseDir: 'build/styleguide',
+            middleware: function (req, res, next) {
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                next();
+            }
+            // serve our jspm dependencies with the client folder
+            //  routes: {
+            //      '/underscore.js': './_assets/vendor/underscore.js',
+            //  }
+        },
+        notify: false
+    });
+});
 
 /** -----------------------------------------------
  * Style Guide Build

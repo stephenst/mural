@@ -6,17 +6,14 @@
 /**
  * Configuration
  */
-
 var version = '2.0.0',
     lastUpdated = '04 Dec 2014';
 
-
-/* jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder */
+//  jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder
 
 /**
  * Mural Module
  */
-
 angular.module('mural', [
     'mural.services',
     'mural.controllers',
@@ -169,20 +166,16 @@ angular.module('mural', [
 
 
 /**
- * Flattening Array
+ * Flattening Array - could probably be done using underscore; but this works.  Not going to rewrite.
+ * -- note: this is NOT my code; but from pebbleRoad.
  * @param  {Object}
  * @return {Object} Flattened array
  */
 function flattener (arrr, template, category) {
-
     var a = [];
 
     var flattenArray = function (arr, parent) {
-
         for (var i = 0; i < arr.length; i++) {
-
-            //console.log(parent)
-
             var parent = parent ? parent : '',
                 root = parent.replace(/\s+/g, '-').toLowerCase(),
                 slug = arr[i].name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase();
@@ -195,10 +188,7 @@ function flattener (arrr, template, category) {
                 url: '/' + category + '/' + (root ? root : slug) + (slug != root && root ? '/' + slug : ''),
                 category: category
             });
-
-
             if (arr[i].children && typeof arr[i].children == 'object') {
-
                 var p = parent ? parent : arr[i].name;
 
                 flattenArray(arr[i].children, p);

@@ -120,15 +120,11 @@ gulp.task('copy', [], function () {
  * Watch Tasks
  * --------------------------------------------- */
 gulp.task('watch', function () {
-
-    gulp.watch('src/_mural/_assets/sass/**/*.scss', ['sass']);
-
-    /* Jade patterns */
-
-    gulp.watch('src/_mural/components/mural_app/*.jade', ['styleguidePatterns']);
-    gulp.watch('src/_mural/components/mural_patterns/**', ['styleguidePatterns']);
-    gulp.watch('src/_mural/components/mural_patterns/**/*', ['styleguidePatterns']);
-    gulp.watch(['src/_mural/components/mural_templates/**/*.jade'], ['styleguidePatterns']);
+    gulp.watch('src/_mural/_assets/sass/**/*.scss', ['sass', 'copy']);
+    gulp.watch('src/_mural/components/mural_app/*.jade', ['styleguidePatterns', 'copy']);
+    gulp.watch('src/_mural/components/mural_patterns/**', ['styleguidePatterns', 'copy']);
+    gulp.watch('src/_mural/components/mural_patterns/**/*', ['styleguidePatterns', 'copy']);
+    gulp.watch(['src/_mural/components/mural_templates/**/*.jade'], ['styleguidePatterns', 'copy']);
 });
 
 
