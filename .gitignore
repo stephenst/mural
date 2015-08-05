@@ -11,3 +11,4 @@ concat.rb
 .rvmrc
 
 build/
+src/_mural/_assets/bower_components

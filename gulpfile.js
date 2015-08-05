@@ -28,11 +28,27 @@ gulp.task( 'buildStyleGuide', function(  )
 
 
 gulp.task('serve', function () {
-    serve({
+    serve.create().init({
         port: 3000,
         open: false,
         server: {
             baseDir: 'build/styleguide',
+            middleware: function (req, res, next) {
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                next();
+            }
+            // serve our jspm dependencies with the client folder
+            //  routes: {
+            //      '/underscore.js': './_assets/vendor/underscore.js',
+            //  }
+        },
+        notify: false
+    });
+    serve.create().init({
+        port: 4000,
+        open: false,
+        server: {
+            baseDir: './build/api',
             middleware: function (req, res, next) {
                 res.setHeader('Access-Control-Allow-Origin', '*');
                 next();

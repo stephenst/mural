@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Dgeni Angular</title>
+  <link rel="stylesheet" type="text/css" href="/_assets/bower_components/angular-material/angular-material.css">
+  <style>
+    a:link, a:visited { color: #3f51b5; text-decoration: none }
+    a:hover { text-decoration: underline; }
+  </style>
+  <script src="/_assets/bower_components/angular/angular.min.js"></script>
+  <script src="/_assets/bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="/_assets/bower_components/angular-aria/angular-aria.min.js"></script>
+  <script src="/_assets/bower_components/angular-material/angular-material.min.js"></script>
+  <script type="text/javascript">
+  angular.module('app', ['ngMaterial', 'ngAnimate', 'ngAria']);
+  </script>
+</head>
+<body layout="column">
+  <md-toolbar>
+    <h2 class="md-toolbar-tools">Dgeni Angular</h2>
+  </md-toolbar>
+  <md-content layout-padding>
+  {% block body %}{% endblock %}
+  </md-content>
+</body>
+</html>
