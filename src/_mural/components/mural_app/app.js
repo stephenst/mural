@@ -1,13 +1,7 @@
-/**
- * The main application module.
- */
-
 /*jslint node: true, nomen: true */
 /*globals angular, module, window, browser */
 
 'use strict';
-
-
 
 /**
  * Configuration
