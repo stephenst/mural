@@ -19,7 +19,7 @@ Dependecy
 
 1. Clone the repository
 
-        git clone https://github.com/PebbleRoad/tapestry.git
+        git clone https://github.com/stephenst/mural.git
 
 2. Install NPM and bower packages
     
@@ -27,14 +27,14 @@ Dependecy
 
 3. Launch the server
 
-        gulp patterns
+        gulp serve
+        
 4. Open your browser and navigate to
         
         http://localhost:8000
 
 
 ## Pattern format
-
     ---
     name: Alert
     description: |
@@ -55,7 +55,3 @@ Dependecy
 2. AngularJS uses these JSON documents to show a browseable interface of the patterns
 3. Inject your own CSS by editing `index.html` and add your own patterns
 
-## Todo
-
-1. Unit testing gulp plugins - gulp-tree and gulp-script-inject
-2. Unit testing of the Angular app
