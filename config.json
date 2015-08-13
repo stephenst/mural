@@ -9,5 +9,9 @@
     "jsdoc": {
         "src": "src/_mural/",
         "dest": "build/mural/api/"
+    },
+    "styles": {
+        "dest": "build/mural/styles/",
+        "assets": "src/_mural/_assets/"
     }
 }

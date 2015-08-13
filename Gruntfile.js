@@ -1,12 +1,9 @@
-
 module.exports = function (grunt) {
     'use strict';
-
     require('load-grunt-tasks')(grunt);
 
     //Initializing Grunt Configuration
     grunt.initConfig({
-        //  Read in the Package File
         cfg: grunt.file.readJSON('config.json'),
         styleguide: {
             build: {
@@ -20,7 +17,17 @@ module.exports = function (grunt) {
                     name: 'Style Guide'
                 },
                 files: {
-                    '<%= cfg.dirs.docs %>/styles': '<%= cfg.dirs.dev.source %>styles/main.scss'
+                    '<%= cfg.styles.dest %>': '<%= cfg.styles.assets %>sass/main.scss'
+                }
+            }
+        },
+        styledocco: {
+            dist: {
+                options: {
+                    name: 'My Project'
+                },
+                files: {
+                    '<%= cfg.styles.dest %>': '<%= cfg.styles.assets %>sass/main.scss'
                 }
             }
         },
