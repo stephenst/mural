@@ -5,6 +5,7 @@
 
 var gulp = require('gulp'),
     runSequence = require('run-sequence').use(gulp),
+    fs = require('fs'),
     gutil = require('gulp-util'),
     serve = require('browser-sync'),
     jade = require('gulp-jade'),
@@ -17,15 +18,7 @@ var gulp = require('gulp'),
     tree = require('ng-mural-patterns-tree'),
     scriptInject = require('ng-mural-patterns-inject'),
     prunehtml = require('gulp-prune-html'),
-    muralConfig = {
-        src: 'src/_mural/',
-        root: 'build/mural/',
-        dest: 'build/mural/patterns/',
-        css: '_assets/css/',
-        data: 'components/mural_data/',
-        patterns: 'components/mural_patterns/',
-        templates: 'components/mural_templates/templates/'
-    };
+    muralConfig = JSON.parse(fs.readFileSync('./config.json'));
 
 
 /** -----------------------------------------------
