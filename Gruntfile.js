@@ -33,12 +33,12 @@ module.exports = function (grunt) {
                 ],
                 options: {
                     destination: '<%= cfg.jsdoc.dest %>/api',
-                    configure: './node_modules/angular-jsdoc/conf.json',
-                    template: './node_modules/angular-jsdoc/template'
+                    configure: './node_modules/ng-mural-jsdoc/conf.json',
+                    template: './node_modules/ng-mural-jsdoc/template'
                 }
             }
         }
     });
-    grunt.registerTask('default', ['docs']);
-    grunt.registerTask('docs', ['clean:docs','styleguide', 'ftp_push:html','ftp_push:images']);
+    grunt.registerTask('default', ['mural']);
+    grunt.registerTask('mural', ['styleguide', 'jsdoc']);
 };
