@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
     'use strict';
     require('load-grunt-tasks')(grunt);
+    grunt.loadNpmTasks('ng-mural-styledocco');
 
     //Initializing Grunt Configuration
     grunt.initConfig({
@@ -21,16 +22,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-        styledocco: {
-            dist: {
-                options: {
-                    name: 'My Project'
-                },
-                files: {
-                    '<%= cfg.styles.dest %>': '<%= cfg.styles.assets %>sass/main.scss'
-                }
-            }
-        },
         jsdoc: {
             dist: {
                 jsdoc: '/usr/local/bin/jsdoc',
@@ -39,7 +30,7 @@ module.exports = function (grunt) {
                     './readme.md'
                 ],
                 options: {
-                    destination: '<%= cfg.jsdoc.dest %>/api',
+                    destination: '<%= cfg.jsdoc.dest %>',
                     configure: './node_modules/ng-mural-jsdoc/conf.json',
                     template: './node_modules/ng-mural-jsdoc/template'
                 }

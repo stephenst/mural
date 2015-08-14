@@ -7,12 +7,7 @@
     "name": "Tony Stephens",
     "url": "https://github.com/stephenst/mural"
   },
-  "license": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/stephenst/mural"
@@ -31,8 +26,6 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-jsdoc": "^0.6.7",
-    "grunt-styledocco": "^0.2.1",
-    "grunt-styleguide": "^0.2.17",
     "gulp": "~3.8.0",
     "gulp-cssmin": "~0.1.0",
     "gulp-embedlr": "~0.5.2",
@@ -48,7 +41,7 @@
     "jsdoc": "^3.3.2",
     "load-grunt-tasks": "^3.2.0",
     "marked": "~0.3.1",
-    "ng-mural-jsdoc": "^0.1.2",
+    "ng-mural-jsdoc": "^0.1.4",
     "ng-mural-patterns-inject": "^0.1.1",
     "ng-mural-patterns-tree": "^0.1.1",
     "ng-mural-styledocco": "^0.1.1",
