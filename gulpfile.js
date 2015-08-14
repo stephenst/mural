@@ -18,7 +18,8 @@ var gulp = require('gulp'),
     tree = require('ng-mural-patterns-tree'),
     scriptInject = require('ng-mural-patterns-inject'),
     prunehtml = require('gulp-prune-html'),
-    muralConfig = JSON.parse(fs.readFileSync('./config.json'));
+    muralConfig = JSON.parse(fs.readFileSync('./config.json')),
+    gruntGulp = require('gulp-grunt')(gulp);  // add all the gruntfile tasks to gulp
 
 
 /** -----------------------------------------------
@@ -55,6 +56,12 @@ gulp.task('buildStyleGuide', function (callback) {
         callback
     );
 });
+gulp.task('Mural', [
+    // run complete grunt tasks
+    'grunt-jsdoc',
+    'grunt-styleguide',
+    'buildStyleGuide'
+]);
 
 
 /** -----------------------------------------------

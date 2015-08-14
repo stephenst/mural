@@ -29,9 +29,13 @@ Dependecy
 
         gulp serve
         
+3. Build the documentation
+
+        gulp Mural
+        
 4. Open your browser and navigate to
         
-        http://localhost:8000
+        http://localhost:3000/mural/patterns/index.html
 
 
 ## Pattern format
