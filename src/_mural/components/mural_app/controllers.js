@@ -73,12 +73,12 @@ angular.module('mural.controllers', []).controller('headerController', [
                 angular.forEach($rootScope.styles, function (value, key) {
                     if (value.slug === section) {
                         angular.forEach(value.data, function (v, k) {
-                            // $log.info('current subsection name: ' + (v.name.replace(/\s+/g, '-').toLowerCase()));
+                            $log.info('current subsection name: ' + (v.name.replace(/\s+/g, '-').toLowerCase()));
                             if (v.name.replace(/\s+/g, '-').toLowerCase() == element) {
-                                // $log.info('MATCH: ' + v.name.replace(/\s+/g, '-').toLowerCase());
+                                $log.info('MATCH: ' + v.name.replace(/\s+/g, '-').toLowerCase());
                                 $scope.patterns = value.data[k];
-                                // $log.info($scope.patterns);
-                                // $log.info(value.name + ' and ' + v.name);
+                                $log.info($scope.patterns);
+                                $log.info(value.name + ' and ' + v.name);
                                 /* Change to new section */
                                 $rootScope.$broadcast('sectionChange', v.name, value.name.replace(/\s+/g, '-').toLowerCase())
                             }

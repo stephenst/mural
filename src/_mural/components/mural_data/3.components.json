@@ -4,12 +4,12 @@
         "slug": "Accordion",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Accordion/1.accordion.md",
+                "path": "components/mural_patterns/3.components/Accordion/1.accordion.md",
                 "name": "Accordion Dynamic",
                 "slug": "1.accordion.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Accordion/2.accordion-alternate.md",
+                "path": "components/mural_patterns/3.components/Accordion/2.accordion-alternate.md",
                 "name": "Accordion Disabled",
                 "slug": "2.accordion-alternate.md"
             }
@@ -20,7 +20,7 @@
         "slug": "Alerts",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Alerts/1.alert-success.md",
+                "path": "components/mural_patterns/3.components/Alerts/1.alert-success.md",
                 "name": "Alerts",
                 "slug": "1.alert-success.md"
             }
@@ -31,17 +31,17 @@
         "slug": "Autocomplete",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Autocomplete/1.autocomplete.md",
+                "path": "components/mural_patterns/3.components/Autocomplete/1.autocomplete.md",
                 "name": "Autocomplete field",
                 "slug": "1.autocomplete.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Autocomplete/autocomplete-categories.md",
+                "path": "components/mural_patterns/3.components/Autocomplete/autocomplete-categories.md",
                 "name": "Autocomplete with categories",
                 "slug": "autocomplete-categories.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Autocomplete/autocomplete-noresults.md",
+                "path": "components/mural_patterns/3.components/Autocomplete/autocomplete-noresults.md",
                 "name": "Autocomplete - no result",
                 "slug": "autocomplete-noresults.md"
             }
@@ -52,22 +52,22 @@
         "slug": "Date",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Date/date-display.md",
+                "path": "components/mural_patterns/3.components/Date/date-display.md",
                 "name": "Date display module",
                 "slug": "date-display.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Date/datepicker-inline.md",
+                "path": "components/mural_patterns/3.components/Date/datepicker-inline.md",
                 "name": "Inline datepicker",
                 "slug": "datepicker-inline.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Date/datepicker-start-end.md",
+                "path": "components/mural_patterns/3.components/Date/datepicker-start-end.md",
                 "name": "Datepicker with start/end dates",
                 "slug": "datepicker-start-end.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Date/datepicker.md",
+                "path": "components/mural_patterns/3.components/Date/datepicker.md",
                 "name": "Datepicker",
                 "slug": "datepicker.md"
             }
@@ -78,22 +78,22 @@
         "slug": "Dropdown",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Dropdown/dropdown-buttons.md",
+                "path": "components/mural_patterns/3.components/Dropdown/dropdown-buttons.md",
                 "name": "Dropdown buttons",
                 "slug": "dropdown-buttons.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Dropdown/dropdown-click.md",
+                "path": "components/mural_patterns/3.components/Dropdown/dropdown-click.md",
                 "name": "Dropdown on click",
                 "slug": "dropdown-click.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Dropdown/dropdown-hover.md",
+                "path": "components/mural_patterns/3.components/Dropdown/dropdown-hover.md",
                 "name": "Dropdown on hover",
                 "slug": "dropdown-hover.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Dropdown/dropdown-split.md",
+                "path": "components/mural_patterns/3.components/Dropdown/dropdown-split.md",
                 "name": "Dropdown split button",
                 "slug": "dropdown-split.md"
             }
@@ -104,12 +104,12 @@
         "slug": "Hero Content",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Hero Content/carousel.md",
+                "path": "components/mural_patterns/3.components/Hero Content/carousel.md",
                 "name": "Carousel",
                 "slug": "carousel.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Hero Content/hero.md",
+                "path": "components/mural_patterns/3.components/Hero Content/hero.md",
                 "name": "Hero content",
                 "slug": "hero.md"
             }
@@ -120,7 +120,7 @@
         "slug": "Modal",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Modal/modal-ajax.md",
+                "path": "components/mural_patterns/3.components/Modal/modal-ajax.md",
                 "name": "Modal Ajax",
                 "slug": "modal-ajax.md"
             }
@@ -135,29 +135,29 @@
                 "slug": "Pagination",
                 "children": [
                     {
-                        "path": "components/mural_patterns/2.components/Navigation/Pagination/pagination-variations.md",
+                        "path": "components/mural_patterns/3.components/Navigation/Pagination/pagination-variations.md",
                         "name": "Pagination variations",
                         "slug": "pagination-variations.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.components/Navigation/Pagination/pagination.md",
+                        "path": "components/mural_patterns/3.components/Navigation/Pagination/pagination.md",
                         "name": "Pagination",
                         "slug": "pagination.md"
                     }
                 ]
             },
             {
-                "path": "components/mural_patterns/2.components/Navigation/breadcrumbs.md",
+                "path": "components/mural_patterns/3.components/Navigation/breadcrumbs.md",
                 "name": "Breadcrumbs",
                 "slug": "breadcrumbs.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Navigation/navbar-dark.md",
+                "path": "components/mural_patterns/3.components/Navigation/navbar-dark.md",
                 "name": "Navigation dark",
                 "slug": "navbar-dark.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Navigation/navbar-light.md",
+                "path": "components/mural_patterns/3.components/Navigation/navbar-light.md",
                 "name": "Navigation light",
                 "slug": "navbar-light.md"
             }
@@ -168,7 +168,7 @@
         "slug": "Page",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Page/page.md",
+                "path": "components/mural_patterns/3.components/Page/page.md",
                 "name": "Page title and description",
                 "slug": "page.md"
             }
@@ -179,7 +179,7 @@
         "slug": "Panels",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Panels/panel.md",
+                "path": "components/mural_patterns/3.components/Panels/panel.md",
                 "name": "Panel",
                 "slug": "panel.md"
             }
@@ -190,7 +190,7 @@
         "slug": "Progress bar",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Progress bar/progress-bar.md",
+                "path": "components/mural_patterns/3.components/Progress bar/progress-bar.md",
                 "name": "Progress bar",
                 "slug": "progress-bar.md"
             }
@@ -201,17 +201,17 @@
         "slug": "Search",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Search/search-facets.md",
+                "path": "components/mural_patterns/3.components/Search/search-facets.md",
                 "name": "Search breadcrumbs",
                 "slug": "search-facets.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Search/search-listing.md",
+                "path": "components/mural_patterns/3.components/Search/search-listing.md",
                 "name": "Search listing",
                 "slug": "search-listing.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Search/search.md",
+                "path": "components/mural_patterns/3.components/Search/search.md",
                 "name": "Keyword search",
                 "slug": "search.md"
             }
@@ -222,12 +222,12 @@
         "slug": "Slider",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Slider/slider-range.md",
+                "path": "components/mural_patterns/3.components/Slider/slider-range.md",
                 "name": "Range slider",
                 "slug": "slider-range.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Slider/slider.md",
+                "path": "components/mural_patterns/3.components/Slider/slider.md",
                 "name": "Slider",
                 "slug": "slider.md"
             }
@@ -238,12 +238,12 @@
         "slug": "Tabs",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Tabs/tabs-simple.md",
+                "path": "components/mural_patterns/3.components/Tabs/tabs-simple.md",
                 "name": "Tabs",
                 "slug": "tabs-simple.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Tabs/tabs.md",
+                "path": "components/mural_patterns/3.components/Tabs/tabs.md",
                 "name": "Tabs box",
                 "slug": "tabs.md"
             }
@@ -254,17 +254,17 @@
         "slug": "Tags",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Tags/tags-pointer.md",
+                "path": "components/mural_patterns/3.components/Tags/tags-pointer.md",
                 "name": "Tags pointer",
                 "slug": "tags-pointer.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Tags/tags-soft.md",
+                "path": "components/mural_patterns/3.components/Tags/tags-soft.md",
                 "name": "Tags soft",
                 "slug": "tags-soft.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Tags/tags.md",
+                "path": "components/mural_patterns/3.components/Tags/tags.md",
                 "name": "Tags default",
                 "slug": "tags.md"
             }
@@ -275,7 +275,7 @@
         "slug": "Tooltip",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Tooltip/tooltip.md",
+                "path": "components/mural_patterns/3.components/Tooltip/tooltip.md",
                 "name": "Tooltip",
                 "slug": "tooltip.md"
             }
@@ -286,22 +286,22 @@
         "slug": "Wizard",
         "children": [
             {
-                "path": "components/mural_patterns/2.components/Wizard/wizard-line-inverted.md",
+                "path": "components/mural_patterns/3.components/Wizard/wizard-line-inverted.md",
                 "name": "Wizard inverted",
                 "slug": "wizard-line-inverted.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Wizard/wizard-line.md",
+                "path": "components/mural_patterns/3.components/Wizard/wizard-line.md",
                 "name": "Wizard line",
                 "slug": "wizard-line.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Wizard/wizard-vertical.md",
+                "path": "components/mural_patterns/3.components/Wizard/wizard-vertical.md",
                 "name": "Wizard vertical",
                 "slug": "wizard-vertical.md"
             },
             {
-                "path": "components/mural_patterns/2.components/Wizard/wizard.md",
+                "path": "components/mural_patterns/3.components/Wizard/wizard.md",
                 "name": "Wizard",
                 "slug": "wizard.md"
             }

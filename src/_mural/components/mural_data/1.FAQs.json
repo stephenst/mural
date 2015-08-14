@@ -1,0 +1,13 @@
+[
+    {
+        "name": "instructions",
+        "slug": "instructions",
+        "children": [
+            {
+                "path": "components/mural_patterns/1.FAQs/instructions/how-to.md",
+                "name": "How To",
+                "slug": "how-to.md"
+            }
+        ]
+    }
+]

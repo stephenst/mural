@@ -80,7 +80,7 @@ gulp.task('sass', function () {
  * gulp styleguideJsonTree - JSON Tree
  * @summary This reads through the folders of markdown documents in `Patterns` and generates a JSON file with paths
  * --------------------------------------------- */
-gulp.task('styleguideJsonTree', function () {
+gulp.task('styleguideJsonTree', ['copy'], function () {
     gulp.src('./src/_mural/components/mural_patterns')
         .pipe(tree({
             patternsPath: './build/mural/patterns/components/mural_patterns/',
@@ -121,7 +121,7 @@ gulp.task('styleguideJadeIndex', function () {
  * @todo research this module more.
  * --------------------------------------------- */
 gulp.task('styleguideMarkdownPatterns', function () {
-    return gulp.src(['!./src/_mural/components/mural_templates/**/*.jade', '!./src/_mural/components/mural_templates/templates', './src/_mural/components/mural_patterns'])
+    return gulp.src(['./src/_mural/components/mural_patterns'])
         .pipe(jade({
             pretty: true
         }))
