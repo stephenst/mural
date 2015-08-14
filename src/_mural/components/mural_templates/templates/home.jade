@@ -1,20 +1,6 @@
 div.ui-module-hero
     div.row-fluid
         div.col-12
-            h1 Mural, a Pattern Library tool
-            hr.rule.rule--light
-            p.text--lead
-                | An app for creating and managing your front-end pattern library, forked from #[a(href="http://demos.pebbleroad.com/tapestry/src/") Pebbleroads Tapestry].
-            p.text--lead
-                a.btn-download(href="https://github.com/stephenst/tapestry") View on Github
-
-div.row-fluid
-    div.col-12
-        ul.tapestry-features
-            li
-                h3 Easily create and manage patterns
-                p Create your patterns in markdown and drop the files into the Mural directory to update the interface.
-            li
-                h3 Browseable interface
-                p Browse or search patterns by elements, components and templates. View examples, instructions and code samples.
+            //- This can happen because we use the Markded Node module. Easy-peasy.
+            include:md ../../../../../Readme.md
 

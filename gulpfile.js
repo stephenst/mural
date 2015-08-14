@@ -72,7 +72,7 @@ gulp.task('sass', function () {
         .pipe(sass({
             sourcemap: true
         }))
-        .pipe(gulp.dest(muralConfig.src + muralConfig.css));
+        .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.css));
 });
 
 
@@ -86,7 +86,7 @@ gulp.task('styleguideJsonTree', function () {
             patternsPath: './build/mural/patterns/components/mural_patterns/',
             jsonPath: './src/_mural/components/mural_data'
         }))
-        .pipe(gulp.dest(muralConfig.src + muralConfig.data));
+        .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.json));
 });
 
 
@@ -98,7 +98,7 @@ gulp.task('injector', ['styleguideJsonTree'], function () {
     gulp.src('./src/_mural/index.html')
         .pipe(prunehtml(['#jsonPath']))
         .pipe(scriptInject({
-            path: muralConfig.src + muralConfig.data,
+            path: muralConfig.src + muralConfig.patterns.json,
             varname: 'jsonPath'
         }))
         .pipe(gulp.dest(muralConfig.src));
@@ -128,7 +128,7 @@ gulp.task('styleguideMarkdownPatterns', function () {
         .pipe(rename(function (path) {
             path.extname = ".md"
         }))
-        .pipe(gulp.dest(muralConfig.src + muralConfig.patterns));
+        .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.patterns));
 });
 /** -----------------------------------------------
  * gulp styleguideJadeTemplates - Creates html templates cause I much prefer Jade
@@ -138,7 +138,7 @@ gulp.task('styleguideJadeTemplates', function () {
         .pipe(jade({
             pretty: true
         }))
-        .pipe(gulp.dest(muralConfig.dest + muralConfig.templates));
+        .pipe(gulp.dest(muralConfig.patterns.dest + muralConfig.patterns.templates));
 });
 
 /** -----------------------------------------------
@@ -156,10 +156,21 @@ gulp.task('clean', function (callback) {
 /** -----------------------------------------------
  * gulp copy - Copy the files to the mural/patterns directory.
  * --------------------------------------------- */
-gulp.task('copy', [], function () {
+gulp.task('copy', ['copy-patterns-readme', 'copy-api-readme', 'copy-styles-readme'], function () {
     return gulp.src(['./src/_mural/**', '!./src/_mural/components/**/*.jade'])
-        .pipe(gulp.dest(muralConfig.dest));
+        .pipe(gulp.dest(muralConfig.patterns.dest));
 });
-
+gulp.task('copy-patterns-readme', [], function () {
+    return gulp.src('./Readme.md')
+        .pipe(gulp.dest(muralConfig.patterns.dest));
+});
+gulp.task('copy-api-readme', [], function () {
+    return gulp.src('./node_modules/ng-mural-jsdoc/Readme.md')
+        .pipe(gulp.dest(muralConfig.jsdoc.dest));
+});
+gulp.task('copy-styles-readme', [], function () {
+    return gulp.src('./node_modules/ng-mural-styledocco/Readme.md')
+        .pipe(gulp.dest(muralConfig.styles.dest));
+});
 
 

@@ -1,17 +1,35 @@
 {
     "src": "src/_mural/",
+    "src-description": "This is the Root Path used to where the Mural Design Pattern App is located.",
+
     "root": "build/mural/",
-    "dest": "build/mural/patterns/",
-    "css": "_assets/css/",
-    "data": "components/mural_data/",
-    "patterns": "components/mural_patterns/",
-    "templates": "components/mural_templates/templates/",
+    "root-description": "This is the Root Path of where all the Mural App (api, styleguide, patterns) will be deployed",
+
+    "patterns": {
+        "src": "src/_mural",
+
+        "dest": "build/mural/patterns/",
+        "dest-description": "This is the Destination Path of all the Mural App - Patterns",
+
+        "css": "_assets/css/",
+        "css-description": "The CSS Path for the Mural App - Patterns",
+
+        "json": "components/mural_data/",
+        "json-description": "This is where the generated JSON files are created from reading from the Patterns.",
+
+        "patterns": "components/mural_patterns/",
+        "patterns-description": "This is the directory-tree of Markdown files that create the Patterns Structure.",
+
+        "templates": "components/mural_templates/templates/",
+        "templates-description": "These are the templates of the app; Markdown will get compiled into these."
+    },
     "jsdoc": {
         "src": "src/_mural/",
-        "dest": "build/mural/api/"
+        "dest": "./build/mural/api/",
+        "dest-description": "This is the Root Path of all the Mural App - Patterns"
     },
     "styles": {
-        "dest": "build/mural/styles/",
+        "dest": "./build/mural/styles/",
         "assets": "src/_mural/_assets/"
     }
 }
