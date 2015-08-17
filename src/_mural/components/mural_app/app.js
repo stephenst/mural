@@ -23,8 +23,8 @@
  * @requires sticky
  */
 
-var version = '2.0.0',
-    lastUpdated = '04 Dec 2014';
+var version = '3.1.1',
+    lastUpdated = '17 Aug 2015';
 
 //  jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder
 

@@ -1,6 +1,4 @@
-/**
- * Tapestry Controllers
- */
+
 
 angular.module('mural.controllers', []).controller('headerController', [
     '$scope',
@@ -8,6 +6,23 @@ angular.module('mural.controllers', []).controller('headerController', [
     '$rootScope',
     '$filter',
     function ($scope, isMobile, $rootScope, $filter) {
+        /**
+         * @ngdoc controller
+         * @name mural.controllers.headerController
+         * @memberof mural
+         *
+         * @classdesc
+         *  The Header Controller
+         *
+         * @summary
+         *  The Header Controller
+         *
+         * @requires $scope
+         * @requires isMobile
+         * @requires $rootScope
+         * @requires $filter
+         */
+
         var $html = angular.element('#wrapper');
 
         /**
@@ -63,7 +78,27 @@ angular.module('mural.controllers', []).controller('headerController', [
     '$route',
     '$log',
     function ($scope, $http, $routeParams, $location, $rootScope, $timeout, $interval, $filter, $route, $log) {
-
+        /**
+         * @ngdoc controller
+         * @name mural.controllers.listingController
+         * @memberof mural
+         *
+         * @classdesc
+         *  The Listing Controller
+         *
+         * @summary
+         *  The Listing Controller
+         *
+         * @requires $scope
+         * @requires $http
+         * @requires $routeParams
+         * @requires $location
+         * @requires $rootScope
+         * @requires $timeout
+         * @requires $interval
+         * @requires $route
+         * @requires $log
+         */
         var section = $location.$$path.split('/')[1],
             element = $routeParams.slug;
         // $log.info("section element : " + section + " - " + element);
@@ -137,6 +172,23 @@ angular.module('mural.controllers', []).controller('headerController', [
     '$location',
     '$routeParams',
     function ($scope, $rootScope, $location, $routeParams) {
+        /**
+         * @ngdoc controller
+         * @name mural.controllers.templateController
+         * @memberof mural
+         *
+         * @classdesc
+         *  The Template Controller
+         *
+         * @summary
+         *  The Template Controller
+         *
+         * @requires $scope
+         * @requires $rootScope
+         * @requires $location
+         * @requires $routeParams
+         */
+
         var section = $location.$$path.split('/')[1],
             element = $routeParams.slug;
 
@@ -157,7 +209,21 @@ angular.module('mural.controllers', []).controller('headerController', [
     '$scope',
     '$modal',
     function ($scope, $modal) {
-        // Demo Controller is for the patterns that need a bit of JS.
+
+        /**
+         * @ngdoc controller
+         * @name mural.controllers.demoController
+         * @memberof mural
+         *
+         * @classdesc
+         *  The Demo Controller
+         *
+         * @summary
+         *  Demo Controller is for the patterns that need a bit of JS.
+         *
+         * @requires $scope
+         * @requires $modal
+         */
 
         // -------------------------------------------
         // Alert Pattern
@@ -229,6 +295,23 @@ angular.module('mural.controllers', []).controller('headerController', [
     '$modalInstance',
     'items',
     function ($scope, $modalInstance, items) {
+
+        /**
+         * @ngdoc controller
+         * @name mural.controllers.demoModalInstanceController
+         * @memberof mural
+         *
+         * @classdesc
+         *  The Demo Controller
+         *
+         * @summary
+         *  Demo Controller is for the patterns that need a bit of JS.
+         *
+         * @requires $scope
+         * @requires $modalInstance
+         * @requires items
+         */
+
         $scope.items = items;
         $scope.selected = {
             item: $scope.items[0]

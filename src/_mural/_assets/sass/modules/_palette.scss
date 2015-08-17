@@ -1,35 +1,53 @@
-@import "_mixins/_variables.scss";
+@import '_mixins/_variables.scss';
 
 /**
  * Palette
  */
 .palette {
+    font-size: 0;
     list-style: none;
     margin-left: 0;
-    font-size: 0; }
+
+
+    span {
+        display: block;
+    }
+
+    .color {
+        border-radius: 5px 5px 0 0;
+        height: 80px;
+        padding-top: 1.5em;
+
+        .&:last-child {
+            border-radius: 0 0 5px 5px;
+        }
+    }
+
+    h3 {
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}
+
 .palette > li {
-    margin-right: 1%;
-    font-size: 13px;
-    font-size: 0.92857rem;
     color: #fff;
-    text-align: center; }
+    font-size: 13px;
+    margin-right: 1%;
+    text-align: center;
+}
+
 @media only screen and (min-width: 600px) {
     .palette > li {
         display: inline-block;
-        width: 19%; } }
-.palette span {
-    display: block; }
-.palette .color {
-    border-radius: 5px 5px 0 0;
-    height: 80px;
-    padding-top: 1.5em; }
+        width: 19%;
+    }
+}
+
+
 @media only screen and (min-width: 600px) {
     .palette .color {
-        height: 120px; } }
-.palette .color:last-child {
-    border-radius: 0 0 5px 5px; }
-.palette h3 {
-    color: #333;
-    font-size: 14px;
-    font-weight: 600; }
-
+        height: 120px;
+    }
+}

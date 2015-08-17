@@ -5,6 +5,11 @@
 angular.module('mural.directives', []).directive('compile', [
     '$compile',
     function ($compile) {
+        /**
+         * @ngdoc directive
+         * @name mural.directives.compile
+         * @memberof mural
+         */
         return function (scope, element, attrs) {
             scope.$watch(
                 function (scope) {
@@ -19,6 +24,14 @@ angular.module('mural.directives', []).directive('compile', [
         }
     }
 ]).directive('previewAndMarkup', function () {
+    /**
+     * @ngdoc directive
+     * @name mural.directives.previewAndMarkup
+     * @memberof mural
+     *
+     * @summary
+     *  This directive will insert the template for the patterns.
+     */
     return {
         restrict: 'A',
         scope: {
@@ -49,6 +62,19 @@ angular.module('mural.directives', []).directive('compile', [
     '$timeout',
     '$log',
     function ($http, $templateCache, $compile, $q, $timeout, $log) {
+        /**
+         * @ngdoc directive
+         * @name mural.directives.rawInclude
+         * @memberof mural
+         *
+         * @requires $http
+         * @requires $templateCache
+         * @requires $compile
+         * @requires $q
+         * @requires $timeout
+         * @requires $log
+         */
+
         var totalcount = 0;
 
         return {
@@ -164,6 +190,11 @@ angular.module('mural.directives', []).directive('compile', [
 ]).directive('muralVersion', [
     'version',
     function (version) {
+        /**
+         * @ngdoc directive
+         * @name mural.directives.muralVersion
+         * @memberof mural
+         */
         return function (scope, elm, attrs) {
             elm.text(version);
         };

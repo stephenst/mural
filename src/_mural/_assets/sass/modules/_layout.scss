@@ -1,12 +1,11 @@
-@import "_mixins/_variables.scss";
-
+@import '_mixins/_variables';
 
 #wrapper {
-    padding-left: 0;
     margin-top: 50px;
-    -webkit-transition: all 0.5s ease;
+    padding-left: 0;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 
     &.toggled {
@@ -24,18 +23,18 @@
 }
 
 #sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    left: $sidenav-width;
-    width: 0;
-    height: 100%;
-    margin-left: -$sidenav-width;
-    overflow-y: auto;
-    background: #000;
-    -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    background: #000;
+    height: 100%;
+    left: $sidenav-width;
+    margin-left: -$sidenav-width;
+    overflow-y: auto;
+    position: fixed;
     transition: all 0.5s ease;
+    width: 0;
+    z-index: 1000;
 }
 
 .page-content-wrapper {
@@ -43,12 +42,12 @@
     padding: 20px;
 }
 
-
 /* Top Header */
 .navbar-header {
     button.navbar-nav {
         display: inline-block;
     }
+
     h3 {
         height: auto;
         line-height: 35px;
@@ -56,7 +55,6 @@
         padding: 0 20px;
     }
 }
-
 
 /* Sidebar Styles */
 .sidebar-nav {
@@ -76,20 +74,21 @@
     li {
         line-height: 40px;
         a {
+            color: #999999;
             display: block;
             text-decoration: none;
-            color: #999999;
 
             &:hover {
                 text-decoration: none;
                 color: #fff;
-                background: rgba(255,255,255,0.2);
+                background: rgba(255, 255, 255, 0.2);
             }
             &:active,
             &:focus {
                 text-decoration: none;
             }
         }
+
     }
 
     .sidebar-brand {

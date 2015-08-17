@@ -45,7 +45,7 @@ What - What the item is.
 Use When - When do you implement it.
 
 HTML Code goes below the meta information.
-
+````
     ---
     name: Alert success
     description: |
@@ -60,4 +60,4 @@ HTML Code goes below the meta information.
         <div class="alert__body">More body text</div>
         <a href="#" class="alert_close"></a>
     </div>
-    
+````  

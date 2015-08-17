@@ -1,4 +1,4 @@
-@import "_mixins/_variables.scss";
+@import '_mixins/_variables';
 
 
 .row--demo {
@@ -9,8 +9,8 @@
     div[class^="col"] {
         background-color: $color-light-grey;
         border: 1px solid $color-dark-grey;
+        border-collapse: collapse;
         color: $color-dark-grey;
         padding: 10px;
-        border-collapse: collapse;
     }
 }
