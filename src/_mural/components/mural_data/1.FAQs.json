@@ -9,5 +9,16 @@
                 "slug": "how-to.md"
             }
         ]
+    },
+    {
+        "name": "jsdoc",
+        "slug": "jsdoc",
+        "children": [
+            {
+                "path": "components/mural_patterns/1.FAQs/jsdoc/how-to-jsdoc.md",
+                "name": "How To",
+                "slug": "how-to-jsdoc.md"
+            }
+        ]
     }
 ]

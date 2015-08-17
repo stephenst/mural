@@ -2,105 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438d23b1-65bc-4f03-ac7b-da8c70adbcd5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.FAQs/instructions/how-to.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_data/1.elements.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_data/2.components.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_data/3.templates.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/1.Colors/palette.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/1.Colors/palette.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/bold-text.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Emphasis/bold-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/italics-text.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Emphasis/italics-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/small-text.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Emphasis/small-text.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Emphasis/text-sizes.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Emphasis/text-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-block.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Lists/list-block.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-definition.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Lists/list-definition.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-inline.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Lists/list-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-ordered.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Lists/list-ordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-unordered.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Lists/list-unordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/Lists/list-unstyled.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/Lists/list-unstyled.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/blockquote.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/blockquote.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/body-copy.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/body-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/headings.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/headings.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/lead-copy.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/lead-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/links.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/links.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/rules.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/rules.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/summary-copy.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/summary-copy.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/2.Typography/text-alignment.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/2.Typography/text-alignment.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-desktop.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/3.Grids/grid-desktop.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-mobile.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/3.Grids/grid-mobile.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/3.Grids/grid-tablet.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/3.Grids/grid-tablet.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-groups.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-groups.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-icons.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-icons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-light.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-light.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-primary.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-primary.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-secondary.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-secondary.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-sizes.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-variations.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-variations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Buttons/buttons-warning.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Buttons/buttons-warning.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/1.fields.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Forms/1.fields.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/field-sizes.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Forms/field-sizes.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-error.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Forms/form-error.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-horizontal.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Forms/form-horizontal.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-login.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Forms/form-login.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Forms/form-subscribe.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Forms/form-subscribe.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Icons/icons.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Icons/icons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/images-thumbnail.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Media/images-thumbnail.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/images.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Media/images.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/media-grid.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Media/media-grid.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/media-listing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Media/media-listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Media/video.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Media/video.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-bordered.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Table/table-bordered.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-condensed.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Table/table-condensed.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-default.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Table/table-default.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-responsive.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Table/table-responsive.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table-zebra.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Table/table-zebra.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/Table/table.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/Table/table.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Accordion/1.accordion.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Accordion/1.accordion.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Accordion/2.accordion-alternate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Alerts/1.alert-success.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Alerts/1.alert-success.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Autocomplete/1.autocomplete.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Autocomplete/1.autocomplete.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Autocomplete/autocomplete-categories.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Autocomplete/autocomplete-categories.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Autocomplete/autocomplete-noresults.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Autocomplete/autocomplete-noresults.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/date-display.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Date/date-display.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/datepicker-inline.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Date/datepicker-inline.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/datepicker-start-end.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Date/datepicker-start-end.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Date/datepicker.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Date/datepicker.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-buttons.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Dropdown/dropdown-buttons.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-click.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Dropdown/dropdown-click.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-hover.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Dropdown/dropdown-hover.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Dropdown/dropdown-split.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Dropdown/dropdown-split.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Hero Content/carousel.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Hero Content/carousel.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Hero Content/hero.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Hero Content/hero.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Modal/modal-ajax.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Modal/modal-ajax.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/Pagination/pagination-variations.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Navigation/Pagination/pagination-variations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/Pagination/pagination.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Navigation/Pagination/pagination.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/breadcrumbs.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Navigation/breadcrumbs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/navbar-dark.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Navigation/navbar-dark.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Navigation/navbar-light.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Navigation/navbar-light.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Page/page.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Page/page.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Panels/panel.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Panels/panel.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Progress bar/progress-bar.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Progress bar/progress-bar.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Search/search-facets.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Search/search-facets.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Search/search-listing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Search/search-listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Search/search.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Search/search.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Slider/slider-range.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Slider/slider-range.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Slider/slider.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Slider/slider.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tabs/tabs-simple.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Tabs/tabs-simple.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tabs/tabs.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Tabs/tabs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tags/tags-pointer.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Tags/tags-pointer.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tags/tags-soft.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Tags/tags-soft.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tags/tags.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Tags/tags.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Tooltip/tooltip.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Tooltip/tooltip.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard-line-inverted.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Wizard/wizard-line-inverted.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard-line.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Wizard/wizard-line.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard-vertical.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Wizard/wizard-vertical.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/2.components/Wizard/wizard.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Wizard/wizard.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Landing Pages/landing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/4.templates/Landing Pages/landing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Landing Pages/landing.png" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/4.templates/Landing Pages/landing.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Listing Pages/listing.md" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/4.templates/Listing Pages/listing.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_mural/components/mural_patterns/3.templates/Listing Pages/listing.png" afterPath="$PROJECT_DIR$/src/_mural/components/mural_patterns/4.templates/Listing Pages/listing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_mural/index.html" afterPath="$PROJECT_DIR$/src/_mural/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_mural/components/mural_data/1.FAQs.json" afterPath="$PROJECT_DIR$/src/_mural/components/mural_data/1.FAQs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" afterPath="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tapestry.iws" />
@@ -122,100 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="listing.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_templates/templates/listing.jade">
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <state vertical-scroll-proportion="-11.692307">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/directives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1438615050000" expanded="true" signature="793:1873" placeholder="..." />
-                <marker date="1438615050000" expanded="true" signature="1002:1106" placeholder="..." />
-                <marker date="1438615050000" expanded="true" signature="1219:1579" placeholder="..." />
-                <marker date="1438615050000" expanded="true" signature="1662:1845" placeholder="..." />
-                <marker date="1438615050000" expanded="true" signature="1732:1812" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_patterns.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_templates/layouts/_patterns.jade">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.FAQs.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_data/1.FAQs.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31666666">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="palette.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/2.elements/1.Colors/palette.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3103448">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listing-template.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_templates/templates/listing-template.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.04477612">
+              <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
               <folding />
             </state>
           </provider>
@@ -234,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/mural_patterns/2.components/Accordion/1.accordion.md" />
-        <option value="$PROJECT_DIR$/src/components/mural_patterns/2.components/Accordion/2.accordion-alternate.md" />
         <option value="$PROJECT_DIR$/src/components/mural_patterns/1.elements/Forms/1.fields.md" />
         <option value="$PROJECT_DIR$/src/components/mural_patterns/1.elements/3.Grids/grid-desktop.md" />
         <option value="$PROJECT_DIR$/src/_assets/sass/modules/_grids.scss" />
@@ -253,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/components/mural_templates/templates/listing.jade" />
         <option value="$PROJECT_DIR$/src/components/mural_templates/index.jade" />
         <option value="$PROJECT_DIR$/gulp/gulp_styleguide.js" />
-        <option value="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" />
         <option value="$PROJECT_DIR$/build/styleguide/components/mural_data/1.elements.json" />
         <option value="$PROJECT_DIR$/build/styleguide/components/mural_data/2.components.json" />
         <option value="$PROJECT_DIR$/build/styleguide/components/mural_data/3.templates.json" />
@@ -270,7 +102,6 @@
         <option value="$PROJECT_DIR$/node_modules/ng-mural-styledocco/Gruntfile.js" />
         <option value="$PROJECT_DIR$/node_modules/ng-mural-styledocco/tasks/styleguide.js" />
         <option value="$PROJECT_DIR$/node_modules/ng-mural-styledocco/package.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/_mural/components/mural_templates/layouts/_patterns.jade" />
         <option value="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.elements/1.Colors/palette.md" />
         <option value="$PROJECT_DIR$/src/_mural/components/mural_templates/templates/home.jade" />
@@ -285,6 +116,10 @@
         <option value="$PROJECT_DIR$/build/mural/patterns/components/mural_patterns/1.howto/how-to/how-to.md" />
         <option value="$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js" />
         <option value="$PROJECT_DIR$/src/_mural/components/mural_data/2.elements.json" />
+        <option value="$PROJECT_DIR$/src/_mural/components/mural_app/app.js" />
+        <option value="$PROJECT_DIR$/src/_mural/components/mural_patterns/1.FAQs/jsdoc/how-to-jsdoc.md" />
+        <option value="$PROJECT_DIR$/../../temp-mural/mural/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -359,6 +194,9 @@
             <task-name>sass</task-name>
           </GulpTaskState>
           <GulpTaskState>
+            <dependencies>
+              <dependency value="copy" />
+            </dependencies>
             <task-name>styleguideJsonTree</task-name>
           </GulpTaskState>
           <GulpTaskState>
@@ -380,7 +218,21 @@
             <task-name>clean</task-name>
           </GulpTaskState>
           <GulpTaskState>
+            <dependencies>
+              <dependency value="copy-patterns-readme" />
+              <dependency value="copy-api-readme" />
+              <dependency value="copy-styles-readme" />
+            </dependencies>
             <task-name>copy</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>copy-patterns-readme</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>copy-api-readme</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>copy-styles-readme</task-name>
           </GulpTaskState>
         </tasks>
       </GulpfileState>
@@ -392,8 +244,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="78" />
     <option name="y" value="23" />
-    <option name="width" value="1842" />
-    <option name="height" value="1177" />
+    <option name="width" value="2482" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -434,6 +286,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -470,304 +324,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.FAQs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mural" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -962,32 +520,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="23" width="1842" height="1177" extended-state="0" />
+    <frame x="78" y="23" width="2482" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26037735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17358491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16833334" sideWeight="0.31538463" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22295082" sideWeight="0.32040817" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26277778" sideWeight="0.33333334" order="2" side_tool="true" content_ui="tabs" x="847" y="488" width="303" height="246" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1954918" sideWeight="0.345893" order="2" side_tool="true" content_ui="tabs" x="847" y="488" width="303" height="246" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26037735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26277778" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28663594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1954918" sideWeight="0.65410703" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16833334" sideWeight="0.31538463" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17358491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28603774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1098,19 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14126395">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07640751">
           <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="108" selection-start-line="18" selection-start-column="108" selection-end-line="18" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3324397">
           <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,15 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.101876676">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.692307">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,18 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.551724">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3103448">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,26 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="41" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.FAQs/instructions/how-to.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.4827585">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,33 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1438615050000" expanded="true" signature="793:1873" placeholder="..." />
-            <marker date="1438615050000" expanded="true" signature="1002:1106" placeholder="..." />
-            <marker date="1438615050000" expanded="true" signature="1219:1579" placeholder="..." />
-            <marker date="1438615050000" expanded="true" signature="1662:1845" placeholder="..." />
-            <marker date="1438615050000" expanded="true" signature="1732:1812" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,9 +895,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3103448">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,22 +907,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../temp-mural/mural/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72309417">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_templates/layouts/_patterns.jade">
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.FAQs/jsdoc/how-to-jsdoc.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5385827">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43149605">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/1.FAQs/instructions/how-to.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_data/1.FAQs.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31666666">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.25373134">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_templates/layouts/_patterns.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049268667">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1438615050000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438615050000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438615050000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438615050000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438615050000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_app/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_mural/components/mural_patterns/3.components/Accordion/1.accordion.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.692307">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04477612">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
           <folding />
         </state>
       </provider>

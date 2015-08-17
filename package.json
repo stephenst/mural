@@ -1,7 +1,7 @@
 {
   "name": "Mural",
-  "version": "1.0.1",
-  "description": "An fork of an app for creating and managing your front-end pattern library",
+  "version": "1.1.1",
+  "description": "An app that manages a Design Pattern Library as well as style and code generators built based on code comments.",
   "homepage": "https://github.com/stephenst/tapestry",
   "author": {
     "name": "Tony Stephens",
@@ -45,7 +45,7 @@
     "ng-mural-jsdoc": "^0.1.4",
     "ng-mural-patterns-inject": "^0.1.1",
     "ng-mural-patterns-tree": "^0.1.1",
-    "ng-mural-styledocco": "^0.1.1",
+    "ng-mural-styleguide": "^0.1.2",
     "path": "~0.4.9",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.2"

@@ -4,8 +4,25 @@
 'use strict';
 
 /**
- * Configuration
+ * @ngdoc overview
+ * @name mural
+ *
+ * @classdesc
+ *  The Criteria Browser Directive browses Criteria.  (I know; I'm kinda ashamed I just wrote that).
+ *
+ * @summary
+ *   It watches the Criteria Filter and recompiles/pushes data based on a new Filter.
+ *
+ * @requires mural.services
+ * @requires mural.controllers
+ * @requires mural.directives
+ * @requires mural.filters
+ * @requires ui.bootstrap
+ * @requires ngRoute
+ * @requires once
+ * @requires sticky
  */
+
 var version = '2.0.0',
     lastUpdated = '04 Dec 2014';
 
@@ -170,6 +187,7 @@ angular.module('mural', [
  * -- note: this is NOT my code; but from pebbleRoad.
  * @param  {Object}
  * @return {Object} Flattened array
+ * @memberof mural
  */
 function flattener (arrr, template, category) {
     var a = [];
