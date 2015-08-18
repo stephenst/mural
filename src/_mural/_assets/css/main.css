@@ -214,9 +214,9 @@
 .row--grid div[class^="col"] {
   background-color: #EDEEF1;
   border: 1px solid #BDC3C7;
+  border-collapse: collapse;
   color: #BDC3C7;
-  padding: 10px;
-  border-collapse: collapse; }
+  padding: 10px; }
 
 /* ------------------------------------
     Layout Items
@@ -299,11 +299,11 @@
      * Button google
      */
 #wrapper {
-  padding-left: 0;
   margin-top: 50px;
-  -webkit-transition: all 0.5s ease;
+  padding-left: 0;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   #wrapper.toggled {
     padding-left: 275px; }
@@ -314,18 +314,18 @@
       margin-right: -275px; }
 
 #sidebar-wrapper {
-  z-index: 1000;
-  position: fixed;
-  left: 275px;
-  width: 0;
-  height: 100%;
-  margin-left: -275px;
-  overflow-y: auto;
-  background: #000;
-  -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  -webkit-transition: all 0.5s ease;
+  background: #000;
+  height: 100%;
+  left: 275px;
+  margin-left: -275px;
+  overflow-y: auto;
+  position: fixed;
+  transition: all 0.5s ease;
+  width: 0;
+  z-index: 1000; }
 
 .page-content-wrapper {
   width: 100%;
@@ -355,9 +355,9 @@
   .sidebar-nav li {
     line-height: 40px; }
     .sidebar-nav li a {
+      color: #999999;
       display: block;
-      text-decoration: none;
-      color: #999999; }
+      text-decoration: none; }
       .sidebar-nav li a:hover {
         text-decoration: none;
         color: #fff;
@@ -458,15 +458,26 @@
  * Palette
  */
 .palette {
+  font-size: 0;
   list-style: none;
-  margin-left: 0;
-  font-size: 0; }
+  margin-left: 0; }
+  .palette span {
+    display: block; }
+  .palette .color {
+    border-radius: 5px 5px 0 0;
+    height: 80px;
+    padding-top: 1.5em; }
+    .palette .color:last-child {
+      border-radius: 0 0 5px 5px; }
+  .palette h3 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600; }
 
 .palette > li {
-  margin-right: 1%;
-  font-size: 13px;
-  font-size: 0.92857rem;
   color: #fff;
+  font-size: 13px;
+  margin-right: 1%;
   text-align: center; }
 
 @media only screen and (min-width: 600px) {
@@ -474,25 +485,9 @@
     display: inline-block;
     width: 19%; } }
 
-.palette span {
-  display: block; }
-
-.palette .color {
-  border-radius: 5px 5px 0 0;
-  height: 80px;
-  padding-top: 1.5em; }
-
 @media only screen and (min-width: 600px) {
   .palette .color {
     height: 120px; } }
-
-.palette .color:last-child {
-  border-radius: 0 0 5px 5px; }
-
-.palette h3 {
-  color: #333;
-  font-size: 14px;
-  font-weight: 600; }
 
 /* ------------------------------------
     Layout Items
@@ -580,7 +575,6 @@
   padding: 0; }
   .pattern-list li {
     margin-bottom: 24px;
-    margin-bottom: 1.71429rem;
     border-radius: 5px; }
     .pattern-list li h3 {
       padding: 0.5em 0;
@@ -588,11 +582,11 @@
       font-family: 'Open Sans', Helvetica, Arial;
       border-bottom: 1px #d9d9d9 solid; }
     .pattern-list li h4 {
-      padding: 0.5em 0;
-      margin: 0;
-      font-weight: 600;
       background: #fff;
-      font-family: 'Open Sans', Helvetica, Arial; }
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      margin: 0;
+      padding: 0.5em 0; }
   .pattern-list .block--description {
     background: #f9fbfc;
     border-radius: 0 0 5px 5px;

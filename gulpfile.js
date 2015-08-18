@@ -70,7 +70,8 @@ gulp.task('Mural', [
 gulp.task('sass', function () {
     return gulp.src(['./src/_mural/_assets/sass/*.scss', '!./src/_mural/**/_*'])
         .pipe(sass({
-            sourcemap: true
+            sourcemap: true,
+            errLogToConsole: true
         }))
         .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.css));
 });
