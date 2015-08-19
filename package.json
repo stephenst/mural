@@ -1,8 +1,8 @@
 {
-  "name": "Mural",
+  "name": "mural",
   "version": "3.1.1",
   "description": "An app that manages a Design Pattern Library as well as style and code generators built based on code comments.",
-  "homepage": "https://github.com/stephenst/tapestry",
+  "homepage": "https://github.com/stephenst/mural",
   "author": {
     "name": "Tony Stephens",
     "url": "https://github.com/stephenst/mural"
@@ -13,7 +13,7 @@
     "url": "https://github.com/stephenst/mural"
   },
   "bugs": {
-    "url": "https://github.com/stephenst/mural"
+    "url": "https://github.com/stephenst/mural/issues"
   },
   "engines": {
     "node": ">=0.8.0"
