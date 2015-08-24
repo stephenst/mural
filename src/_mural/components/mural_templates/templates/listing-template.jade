@@ -3,9 +3,9 @@ div
         ul(once-show="patterns.children.length > 1")
             li(ng-repeat="pattern in patterns.children")
                 a(data-target="#{{pattern.name | anchor}}",
-                ng-href="#!/{{ rootSection }}/{{ sectionSlug }}/{{ pattern.name | anchor }}",
-                once-text=" pattern.name ",
-                ng-class="{active: anchor(pattern.name) == subSection}")
+                    ng-href="#!/{{ rootSection }}/{{ sectionSlug }}/{{ pattern.name | anchor }}",
+                    once-text=" pattern.name ",
+                    ng-class="{active: anchor(pattern.name) == subSection}")
     div.main-content
         ul.pattern-template-list
             li(ng-repeat="template in templates.children")

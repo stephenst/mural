@@ -1,5 +1,16 @@
 /**
- * Mural Directives
+ * @ngdoc overview
+ * @name mural.directives
+ * @memberof mural
+ *
+ * @classdesc
+ *  The Mural Directives.
+ *
+ * @requires {@Link mural.directives.compile}
+ * @requires {@Link mural.directives.previewAndMarkup}
+ * @requires {@Link mural.directives.rawInclude}
+ * @requires {@Link mural.directives.muralVersion}
+ * @requires {@Link mural.directives.lastUpdated}
  */
 
 angular.module('mural.directives', []).directive('compile', [
@@ -46,9 +57,9 @@ angular.module('mural.directives', []).directive('compile', [
                             <a class="toggle-code" ng-hide="patterns.meta.hidecode" ng-class="{ active:patterns.togglecode }" ng-click="patterns.togglecode = !patterns.togglecode"><em class="fa fa-code fa-lg" /></a> \
                             <pre ng-show="patterns.togglecode"><code class="language-markup"></code></pre> \
                         </div> \
-                        <div class="block--meta" ng-show="patterns.meta.length"> \
+                        <div class="block--meta" ng-show="patterns.meta"> \
                             <div ng-repeat="meta in patterns.meta"> \
-                                {{meta}} \
+                                <span ng-hide="meta.hidecode">{{ meta }}</span> \
                             </div> \
                         </div>\
                     </div>'
@@ -138,14 +149,19 @@ angular.module('mural.directives', []).directive('compile', [
                                 var $description = element.parent().next();
 
                                 if (conf.description) {
-                                    $log.info('CONF DESCRIPTION');
                                     parsedContent.markdown = marked(conf.description);
-                                    $log.info(parsedContent.markdown);
                                     $description.html(parsedContent.markdown);
                                 } else {
                                     /* If there is no description: Hide it */
                                     $description.hide();
                                 }
+
+
+                                //  if (conf.meta && conf.meta !== 'hidecode') {
+                                //      $log.info('META DESCRIPTION');
+                                //      scope.meta = marked(conf.meta);
+                                //      $log.info(scope.meta);
+                                //  }
 
                                 /* Element preview */
                                 element.html(conf.content);
@@ -156,13 +172,13 @@ angular.module('mural.directives', []).directive('compile', [
                                 /* Trigger element added */
                                 if (count == totalcount) {
                                     $timeout(function () {
-                                        angular.element('body').trigger('tapestry.completed')
+                                        angular.element('body').trigger('tapestry.completed');
                                     },500);
                                 }
 
                                 /* Element Syntax highlight */
-                                var code = element.closest('.block--example').find('code'),
-                                    $element = element.clone();
+                                var code = element.closest('.block--example').find('code');
+                                //    $element = element.clone();
 
                                 /* Adds codes to the code block */
                                 code.text(conf.content.trim());
@@ -181,6 +197,7 @@ angular.module('mural.directives', []).directive('compile', [
             },
             link: function (scope, element, attrs) {
                 if (scope.$last) {
+                    $log.info('rawInclude link: is scope last.  element and attrs follow');
                     $log.info(element);
                     $log.info(attrs);
                 }

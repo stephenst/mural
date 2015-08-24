@@ -2,15 +2,22 @@
 
 // @TODO - Create Styledocco Styles/comments in this SASS
 
-@import 'bourbon/bourbon';
-
-@import 'modules/_mixins/_mixins.scss';
-@import 'modules/_mixins/_variables.scss';
 
 
-@import 'modules/_grids.scss';
-@import 'modules/_layout.scss';
-@import 'modules/_palette.scss';
-@import 'modules/_patterns.scss';
-@import 'modules/_responsive.scss';
 
+@import 'modules/_mixins/_mixins';
+@import 'modules/_mixins/_variables';
+
+
+@import 'modules/_grids';
+@import 'modules/_layout';
+@import 'modules/_palette';
+@import 'modules/_patterns';
+@import 'modules/_responsive';
+
+
+/*
+.pattern-wrapper {
+    @import '../../../../../styles/main';
+}
+*/

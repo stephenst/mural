@@ -5,8 +5,11 @@
         "children": [
             {
                 "path": "components/mural_patterns/1.FAQs/instructions/how-to.md",
-                "name": "How To",
-                "slug": "how-to.md"
+                "name": "Mural Patterns",
+                "slug": "how-to.md",
+                "meta": {
+                    "hidecode": true
+                }
             }
         ]
     },
@@ -16,8 +19,11 @@
         "children": [
             {
                 "path": "components/mural_patterns/1.FAQs/jsdoc/how-to-jsdoc.md",
-                "name": "How To",
-                "slug": "how-to-jsdoc.md"
+                "name": "Mural - API",
+                "slug": "how-to-jsdoc.md",
+                "meta": {
+                    "hidecode": true
+                }
             }
         ]
     }

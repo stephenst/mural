@@ -1,35 +1,33 @@
 /*jslint node: true, nomen: true */
 /*globals angular, module, window, browser */
 
+
 'use strict';
 
-/**
- * @ngdoc overview
- * @name mural
- *
- * @classdesc
- *  The Criteria Browser Directive browses Criteria.  (I know; I'm kinda ashamed I just wrote that).
- *
- * @summary
- *   It watches the Criteria Filter and recompiles/pushes data based on a new Filter.
- *
- * @requires mural.services
- * @requires mural.controllers
- * @requires mural.directives
- * @requires mural.filters
- * @requires ui.bootstrap
- * @requires ngRoute
- * @requires once
- * @requires sticky
- */
-
+// todo: have version and lastupdated read from package.json or npm.  dynamic, rather than static.
 var version = '3.1.1',
     lastUpdated = '17 Aug 2015';
 
 //  jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder
 
 /**
- * Mural Module
+ * @ngdoc overview
+ * @name mural
+ *
+ * @classdesc
+ *  The Main Mural App angular module.
+ *
+ * @summary
+ *   This module bootstraps and starts the Mural app.
+ *
+ * @requires {@Link mural.services}
+ * @requires {@Link mural.controllers}
+ * @requires {@Link mural.directives}
+ * @requires {@Link mural.filters}
+ * @requires ui.bootstrap
+ * @requires ngRoute
+ * @requires once
+ * @requires sticky
  */
 angular.module('mural', [
     'mural.services',
@@ -46,7 +44,8 @@ angular.module('mural', [
     .config([
         '$routeProvider',
         '$locationProvider',
-        function ($routeProvider, $locationProvider) {
+        '$provide',
+        function ($routeProvider, $locationProvider, $provide) {
 
             $locationProvider.hashPrefix('!');
             $routeProvider.when('/', {
@@ -77,6 +76,28 @@ angular.module('mural', [
                     });
                 }
             });
+
+            /**
+             * Log Decoration
+             * @memberof mural
+             * @requires $provide
+             */
+            $provide.decorator('$log', ['$delegate', '$filter', function ($delegate, $filter) {
+                // Save the original $log.debug()
+                var debugFn = $delegate.debug;
+
+                $delegate.info = function () {
+                    var args = [].slice.call(arguments),
+                        now = $filter('date')(new Date(), 'h:mma');
+
+                    // Prepend timestamp
+                    args[0] = [now, ': ', args[0]].join('');
+
+                    // Call the original with the output prepended with formatted timestamp
+                    debugFn.apply(null, args);
+                };
+                return $delegate;
+            }]);
         }
     ]).run([
         '$rootScope',
@@ -175,7 +196,7 @@ angular.module('mural', [
                      */
                     setTimeout(function () {
                         angular.element('#wrapper').removeClass('toggled');
-                    }, 2000)
+                    }, 2000);
                 }
             }, true);
         }
@@ -214,5 +235,5 @@ function flattener (arrr, template, category) {
         }
         return a;
     };
-    return flattenArray(arrr)
+    return flattenArray(arrr);
 }

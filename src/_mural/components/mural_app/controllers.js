@@ -1,5 +1,17 @@
-
-
+/**
+ * @ngdoc overview
+ * @name mural.controllers
+ * @memberof mural
+ *
+ * @classdesc
+ *  The Mural Controllers.
+ *
+ * @requires {@Link mural.controllers.headerController}
+ * @requires {@Link mural.controllers.listingController}
+ * @requires {@Link mural.controllers.templateController}
+ * @requires {@Link mural.controllers.demoController}
+ * @requires {@Link mural.controllers.demoModalInstanceController}
+ */
 angular.module('mural.controllers', []).controller('headerController', [
     '$scope',
     'isMobile',
@@ -9,7 +21,7 @@ angular.module('mural.controllers', []).controller('headerController', [
         /**
          * @ngdoc controller
          * @name mural.controllers.headerController
-         * @memberof mural
+         * @memberof mural.controllers
          *
          * @classdesc
          *  The Header Controller
@@ -81,7 +93,7 @@ angular.module('mural.controllers', []).controller('headerController', [
         /**
          * @ngdoc controller
          * @name mural.controllers.listingController
-         * @memberof mural
+         * @memberof mural.controllers
          *
          * @classdesc
          *  The Listing Controller
@@ -108,12 +120,8 @@ angular.module('mural.controllers', []).controller('headerController', [
                 angular.forEach($rootScope.styles, function (value, key) {
                     if (value.slug === section) {
                         angular.forEach(value.data, function (v, k) {
-                            $log.info('current subsection name: ' + (v.name.replace(/\s+/g, '-').toLowerCase()));
                             if (v.name.replace(/\s+/g, '-').toLowerCase() == element) {
-                                $log.info('MATCH: ' + v.name.replace(/\s+/g, '-').toLowerCase());
                                 $scope.patterns = value.data[k];
-                                $log.info($scope.patterns);
-                                $log.info(value.name + ' and ' + v.name);
                                 /* Change to new section */
                                 $rootScope.$broadcast('sectionChange', v.name, value.name.replace(/\s+/g, '-').toLowerCase())
                             }
@@ -148,16 +156,13 @@ angular.module('mural.controllers', []).controller('headerController', [
         var $menu = angular.element('.tapestry-menu-side').on('click', 'a', function (e) {
             var id = $(this).data('target'),
                 href = this.hash,
-                top = $(id).position().top
+                top = $(id).position().top;
 
             $menu.find('a').removeClass('active');
             $(this).addClass('active');
             //window.location.hash = href
             e.preventDefault();
         });
-
-
-
 
         /**
          * Destroy interval when scope is destroyed
@@ -175,7 +180,7 @@ angular.module('mural.controllers', []).controller('headerController', [
         /**
          * @ngdoc controller
          * @name mural.controllers.templateController
-         * @memberof mural
+         * @memberof mural.controllers
          *
          * @classdesc
          *  The Template Controller
@@ -203,7 +208,6 @@ angular.module('mural.controllers', []).controller('headerController', [
                 });
             }
         });
-        //console.log($scope.templates)
     }
 ]).controller('demoController', [
     '$scope',
@@ -213,7 +217,7 @@ angular.module('mural.controllers', []).controller('headerController', [
         /**
          * @ngdoc controller
          * @name mural.controllers.demoController
-         * @memberof mural
+         * @memberof mural.controllers
          *
          * @classdesc
          *  The Demo Controller
@@ -223,6 +227,7 @@ angular.module('mural.controllers', []).controller('headerController', [
          *
          * @requires $scope
          * @requires $modal
+         * @todo Do I really need this controller?
          */
 
         // -------------------------------------------
@@ -299,7 +304,7 @@ angular.module('mural.controllers', []).controller('headerController', [
         /**
          * @ngdoc controller
          * @name mural.controllers.demoModalInstanceController
-         * @memberof mural
+         * @memberof mural.controllers.demoController
          *
          * @classdesc
          *  The Demo Controller
