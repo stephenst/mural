@@ -77,6 +77,46 @@ angular.module('mural', [
                 }
             });
 
+
+            /**
+             *  Add new routes based on the Configuration
+             *  @memberof mural
+             *
+             * @summary
+             *   This will iterate through and create the paths for the Read-Me's.
+             *
+             * @requires {object} readmePath - This is the injected script to the dynamic JSON generated from teh Markdowns.
+             *
+             *  */
+            angular.forEach(readmePath, function (value, key) {
+                console.log('README FOLLOWS');
+                console.log(readmePath);
+                value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
+                console.log('the readmePath value.slug: ' + value.slug);
+
+                $routeProvider.when('/' + value.slug + '/:slug', {
+                    templateUrl: 'components/mural_templates/templates/readme.html',
+                    controller: 'listingController'
+                }).when('/' + value.slug + '/:slug/:section', {
+                    templateUrl: 'components/mural_templates/templates/readme.html',
+                    controller: 'listingController'
+                });
+            });
+
+            /**
+             *
+             div.col-md-2(ng-show="readmes[0].data[0].children.length > 1")
+                 ul.nav(sticky)
+                 li.nav(ng-repeat="readme in readmes[0].data[0].children")
+                 a(data-target="#{{readme.children[0].name | anchor }}",
+                 ng-href="#!/{{ readmes[0].slug }}/{{ readmes[0].data[0].slug }}#{{ readme.children[0].name | anchor }}",
+                 once-text="readme.name",
+                 ng-class="{active: anchor(readme.name) == subSection}")
+             */
+
+
+
+
             /**
              * Log Decoration
              * @memberof mural
@@ -108,6 +148,7 @@ angular.module('mural', [
         '$log',
         function ($rootScope, $http, $q, $filter, $cacheFactory, $log) {
             $rootScope.styles = [];
+            $rootScope.readmes = [];
 
             /**
              * Cachefactory
@@ -118,8 +159,8 @@ angular.module('mural', [
              * Change Title on routeChange
              */
             $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-                if (current.$$route && current.$$route.title) {
-                    $rootScope.$broadcast('sectionChange', current.$$route.title);
+                if (current.$route && current.$route.title) {
+                    $rootScope.$broadcast('sectionChange', current.$route.title);
                 }
             });
 
@@ -164,6 +205,58 @@ angular.module('mural', [
                 });
             });
 
+
+            /**
+             * Assign values to rootScope
+             */
+            var readmeRequests = [],
+                readmeNames = [],
+                readmeSlug = [];
+
+            angular.forEach(readmePath, function (value, key) {
+                //  $log.info('for each - pushing name and slug');
+                //  $log.info(value.name);
+                //  $log.info(value.slug);
+                /* Add Pattern name in array */
+                readmeNames.push(value.name);
+                readmeSlug.push(value.slug);
+
+                /* Add requests in to array for $q */
+                readmeRequests.push($http.get(value.path, {cache: cache}));
+            });
+            //  $log.info('requests follow');
+            //  $log.info(readmeRequests);
+            //  $log.info(readmeNames);
+            //  $log.info(readmeSlug);
+
+            /**
+             * When all requests are completed
+             */
+            $q.all(readmeRequests).then(function (response) {
+                angular.forEach(response, function (r, i) {
+                    var parseObject = r.data;
+                    /**
+                     * Create a Slug from the title
+                     * Reduces $watch on filter {{element.name | anchor}}
+                     */
+                    //  $log.info('r.data?');
+                    //  $log.info(parseObject);
+                    angular.forEach(parseObject, function (value, key) {
+                        value.slug = $filter('anchor')(value.name);
+                    });
+
+                    /**
+                     * Push to rootScope
+                     */
+                    $rootScope.readmes.push({
+                        name: readmeNames[i],
+                        slug: readmeSlug[i],
+                        data: parseObject
+                    });
+                });
+                $log.info('Readmes follow');
+                $log.info($rootScope.readmes);
+            });
 
             /**
              * Watch changes and add to Autocomplete

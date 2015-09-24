@@ -4,24 +4,11 @@
  * Palette
  */
 .palette {
+    display: inline-table;
     font-size: 0;
     list-style: none;
     margin-left: 0;
-
-
-    span {
-        display: block;
-    }
-
-    .color {
-        border-radius: 5px 5px 0 0;
-        height: 80px;
-        padding-top: 1.5em;
-
-        &:last-child {
-            border-radius: 0 0 5px 5px;
-        }
-    }
+    width: 100%;
 
     h3 {
         color: #333;
@@ -29,18 +16,44 @@
         font-weight: 600;
     }
 
-}
+    li {
+        color: #fff;
+        display: table-cell;
+        font-size: 13px;
+        margin-right: 1%;
+        padding-right: 1%;
+        text-align: center;
+        width: 19%;
+    }
 
-.palette > li {
-    color: #fff;
-    font-size: 13px;
-    margin-right: 1%;
-    text-align: center;
+    span {
+        display: block;
+    }
+
+    .color {
+        height: 80px;
+        padding-top: 1.5em;
+
+        &:first-child {
+            border-radius: 5px 5px 0 0;
+            border: 5px solid #000;
+        }
+        &:last-child {
+            border-radius: 0 0 5px 5px;
+        }
+        &.light {
+            color: #fff;
+        }
+
+        &.dark {
+            color: #000;
+        }
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
     .palette > li {
-        display: inline-block;
         width: 19%;
     }
 }

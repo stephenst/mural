@@ -35,8 +35,14 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
                         a(href='/mural/api/index.html') API
                     li
                         a(href='/mural/styles/index.html') Styles
-                    li.active
+                    li(ng-class="{ active: isActive('/')}")
                         a(href="/mural/patterns/index.html") Design Patterns
+                ul.nav.navbar-nav(ng-repeat="readme in readmes")
+                    li(ng-repeat="element in readme.data",
+                        ng-class="{ 'active': isActive('/' + readme.slug + '/' + element.slug) }", once-show="element.children.length")
+                        a(once-href="'#!/' + readme.slug + '/' + element.slug")
+                            | {{ element.name | dashToSpace | capitalize:true }}
+                        // a(href="{{ readme.data[0].path }}") {{ readme.name }}
 
         div#wrapper
             nav#sidebar-wrapper
@@ -52,7 +58,15 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
                                     h3(once-text="style.name")
                                 li.nav(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
                                     a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
-
+                    li.nav(ng-class="{active: section=='Overview'}", ng-if="isStyleGuide")
+                        a(href="#!/")
+                            | Overview
+                        div(ng-repeat="readme in currentReadMe.children")
+                            ul.nav
+                                li.nav
+                                    h3(once-text="readme.name")
+                                li.nav(ng-repeat="element in readme.children", ng-class="{'active': element.slug == sectionSlug}", once-show="readme.children.length")
+                                    a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
 
             // Content
             div.page-content-wrapper

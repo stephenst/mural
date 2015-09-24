@@ -1,10 +1,11 @@
 module.exports = function (grunt) {
     'use strict';
     require('load-grunt-tasks')(grunt);
-    grunt.loadNpmTasks('ng-mural-styledocco');
+    grunt.loadNpmTasks('ng-mural-styleguide');
 
     //Initializing Grunt Configuration
     grunt.initConfig({
+        //  Read in the Package File
         cfg: grunt.file.readJSON('config.json'),
         styleguide: {
             build: {
@@ -18,7 +19,7 @@ module.exports = function (grunt) {
                     name: 'Style Guide'
                 },
                 files: {
-                    '<%= cfg.styles.dest %>': '<%= cfg.styles.assets %>sass/main.scss'
+                    '<%= cfg.styles.dest %>': '<%= cfg.styles.assets %>'
                 }
             }
         },

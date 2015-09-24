@@ -1,4 +1,18 @@
 {
+    "dirs": {
+        "tmp" : "_tmp/",
+        "base" : "./",
+        "docs" : "docs",
+        "build": {
+        	"source" : "./",
+        	"dest" : "../target/sentinel"
+        },
+        "dev": {
+        	"source" : "./",
+        	"dest" : "/Volumes/webapp"
+        }
+    },
+
     "src": "src/_mural/",
     "src-description": "This is the Root Path used to where the Mural Design Pattern App is located.",
 
@@ -6,22 +20,37 @@
     "root-description": "This is the Root Path of where all the Mural App (api, styleguide, patterns) will be deployed",
 
     "patterns": {
-        "src": "src/_mural",
+        "src": "./src/_mural",
 
-        "dest": "build/mural/patterns/",
+        "dest": "./build/mural/patterns",
         "dest-description": "This is the Destination Path of all the Mural App - Patterns",
+
+        "sass": "_assets/sass/",
+        "sass-description": "The SCSS Path for the Mural App - Patterns",
 
         "css": "_assets/css/",
         "css-description": "The CSS Path for the Mural App - Patterns",
 
-        "json": "components/mural_data/",
+        "json": "/components/mural_data/",
         "json-description": "This is where the generated JSON files are created from reading from the Patterns.",
 
-        "patterns": "components/mural_patterns/",
+        "patterns": "/components/mural_patterns/",
         "patterns-description": "This is the directory-tree of Markdown files that create the Patterns Structure.",
 
-        "templates": "components/mural_templates/templates/",
+        "templates": "/components/mural_templates/",
         "templates-description": "These are the templates of the app; Markdown will get compiled into these."
+    },
+    "readme": {
+        "src": "./src/_mural",
+
+        "dest": "./build/mural/patterns",
+        "dest-description": "This is the destination where the ReadMes will be built and served from",
+
+        "markdown": "/components/mural_readmes/",
+        "patterns-description": "This is the directory-tree of Markdown files that create the Patterns Structure.",
+
+        "json": "/_assets/data/readmes/",
+        "json-description": "This is where the generated JSON files are created from reading from the Patterns."
     },
     "jsdoc": {
         "src": "src/_mural/",
@@ -29,7 +58,14 @@
         "dest-description": "This is the Root Path of all the Mural App - Patterns"
     },
     "styles": {
-        "dest": "./build/mural/styles/",
-        "assets": "src/_mural/_assets/"
+        "dest": "./build/mural/_assets/css/",
+        "assets": "src/_mural/_assets/",
+
+        "images": "./build/_assets/images/",
+        "images-description": "This is the Root Path to copy the images in.",
+
+        "css": "./build/mural/_assets/css/",
+        "images-description": "This is the Root Path to copy the images in."
     }
+
 }

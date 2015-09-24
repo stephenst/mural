@@ -17,7 +17,9 @@ angular.module('mural.controllers', []).controller('headerController', [
     'isMobile',
     '$rootScope',
     '$filter',
-    function ($scope, isMobile, $rootScope, $filter) {
+    '$location',
+    '$log',
+    function ($scope, isMobile, $rootScope, $filter, $location, $log) {
         /**
          * @ngdoc controller
          * @name mural.controllers.headerController
@@ -36,11 +38,18 @@ angular.module('mural.controllers', []).controller('headerController', [
          */
 
         var $html = angular.element('#wrapper');
+        $scope.states = {};
+
+        $rootScope.isActive = function (viewLocation) {
+            return viewLocation === $location.path();
+        };
+
 
         /**
          * Main Section
          */
         $scope.$on('sectionChange', function (scope, section, name) {
+            $log.info('SECTION CHANGE:--------------------');
             /* Main Section : elements or components */
             $rootScope.rootSection = name? $filter('anchor')(name): '';
 
@@ -88,8 +97,9 @@ angular.module('mural.controllers', []).controller('headerController', [
     '$interval',
     '$filter',
     '$route',
+    '$anchorScroll',
     '$log',
-    function ($scope, $http, $routeParams, $location, $rootScope, $timeout, $interval, $filter, $route, $log) {
+    function ($scope, $http, $routeParams, $location, $rootScope, $timeout, $interval, $filter, $route, $anchorScroll, $log) {
         /**
          * @ngdoc controller
          * @name mural.controllers.listingController
@@ -109,15 +119,40 @@ angular.module('mural.controllers', []).controller('headerController', [
          * @requires $timeout
          * @requires $interval
          * @requires $route
+         * @requires $anchorScroll
          * @requires $log
          */
-        var section = $location.$$path.split('/')[1],
-            element = $routeParams.slug;
-        // $log.info("section element : " + section + " - " + element);
+        var section = $location.$$path.split('/')[1];
+        var element = $routeParams.slug;
+        var n = $location.path().lastIndexOf('/');
+
+        $log.info("section element : " + section + " - " + element);
+        $scope.readmeToMatch = $location.path().substring(n+1);
+
+        if (!$scope.currentReadMe || $scope.currentReadMe.slug !== element) {
+            angular.forEach($rootScope.readmes[0].data, function (value, key) {
+                //  $log.info('ROOT ----- Readme value, then key');
+                //  $log.info(value);
+                //  $log.info(value.slug);
+                //  $log.info(key);
+                if (value.slug === $scope.readmeToMatch) {
+                    $log.info('IT MATCHED: ' + value.slug + ' = ' + $scope.readmeToMatch);
+                    $rootScope.currentReadMe = $rootScope.readmes[0].data[key];
+                    $log.info('currentReadMe:');
+                    $log.info($rootScope.currentReadMe);
+                }
+            });
+        }
 
         $rootScope.$watch('styles', function (newValue) {
             if (newValue) {
+                // $log.info('STYLES WATCH FIRED');
+                // $log.info(newValue);
+                // $log.info($rootScope.styles);
                 angular.forEach($rootScope.styles, function (value, key) {
+                    //  $log.info('Pattern value, then key');
+                    //  $log.info(value);
+                    //  $log.info(key);
                     if (value.slug === section) {
                         angular.forEach(value.data, function (v, k) {
                             if (v.name.replace(/\s+/g, '-').toLowerCase() == element) {
@@ -137,6 +172,24 @@ angular.module('mural.controllers', []).controller('headerController', [
         $scope.anchor = function (name) {
             // $log.info('ANCHOR: ' + $filter('anchor')(name));
             return $filter('anchor')(name);
+        };
+        /**
+         * $scope.scrollTo
+         * @memberof mural.controllers.listingController
+         * @param id
+         * @summary
+         *  The function takes the subnav (for the Angular Style Guide at this point.  but really the read-mes)
+         *  lower cases the link and adds dashes.
+         */
+        $scope.scrollTo = function (id) {
+            var old = $location.hash(),
+                newId = id.replace(/\s+/g, '-').toLowerCase().toLowerCase();
+
+            $log.info('SCROLLING TO: ' + newId);
+            $location.hash(newId);
+            $anchorScroll();
+            //reset to old to keep any additional routing logic from kicking in
+            $location.hash(old);
         };
 
         /**

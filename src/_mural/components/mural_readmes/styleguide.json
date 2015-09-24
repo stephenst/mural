@@ -1,0 +1,135 @@
+[
+    {
+        "name": "angular-styleguide",
+        "slug": "angular-styleguide",
+        "children": [
+            {
+                "name": "Intro",
+                "slug": "1-Intro",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/angular-styleguide/1-Intro/intro-and-resources.md",
+                        "name": "Intro and Resources",
+                        "slug": "intro-and-resources.md"
+                    }
+                ]
+            },
+            {
+                "name": "Single-File",
+                "slug": "2-Single-File",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/angular-styleguide/2-Single-File/single-file-responsibility.md",
+                        "name": "Single File Responsibility",
+                        "slug": "single-file-responsibility.md"
+                    }
+                ]
+            },
+            {
+                "name": "IIFE",
+                "slug": "3.IIFE",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/angular-styleguide/3.IIFE/iife.md",
+                        "name": "IIFE",
+                        "slug": "iife.md"
+                    }
+                ]
+            },
+            {
+                "name": "Modules",
+                "slug": "4.Modules",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/angular-styleguide/4.Modules/modules.md",
+                        "name": "Modules",
+                        "slug": "modules.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "javascript-styleguide",
+        "slug": "javascript-styleguide",
+        "children": [
+            {
+                "name": "General",
+                "slug": "1.General",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/1.General/general.md",
+                        "name": "General",
+                        "slug": "general.md"
+                    }
+                ]
+            },
+            {
+                "name": "Types",
+                "slug": "2.Types",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/2.Types/types.md",
+                        "name": "Types",
+                        "slug": "types.md"
+                    }
+                ]
+            },
+            {
+                "name": "Objects",
+                "slug": "3-Objects",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/3-Objects/objects.md",
+                        "name": "Objects",
+                        "slug": "objects.md"
+                    }
+                ]
+            },
+            {
+                "name": "Arrays",
+                "slug": "4-Arrays",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/4-Arrays/arrays.md",
+                        "name": "Arrays",
+                        "slug": "arrays.md"
+                    }
+                ]
+            },
+            {
+                "name": "Strings",
+                "slug": "5-Strings",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/5-Strings/strings.md",
+                        "name": "Strings",
+                        "slug": "strings.md"
+                    }
+                ]
+            },
+            {
+                "name": "Functions",
+                "slug": "6-Functions",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/6-Functions/functions.md",
+                        "name": "Functions",
+                        "slug": "functions.md"
+                    }
+                ]
+            },
+            {
+                "name": "Properties",
+                "slug": "7-Properties",
+                "children": [
+                    {
+                        "path": "components/mural_readmes/styleguide/javascript-styleguide/7-Properties/properties.md",
+                        "name": "Properties",
+                        "slug": "properties.md"
+                    }
+                ]
+            }
+        ]
+    }
+]
