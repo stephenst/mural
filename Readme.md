@@ -17,17 +17,17 @@ An app for creating and managing your front-end pattern library.
 Dependecy
 * [NodeJS](http://nodejs.org/)
 * Bower
-        npm install -g bower
+        `npm install -g bower`
 1. Clone the repository
-        git clone https://github.com/stephenst/mural.git
+        `git clone https://github.com/stephenst/mural.git`
 2. Install NPM and bower packages
-        npm install && bower install
+        `npm install && bower install`
 3. Launch the server
-        gulp serve
+        `gulp serve`
 3. Build the documentation
-        gulp Mural
+        `gulp Mural`
 4. Open your browser and navigate to
-        http://localhost:3000/mural/patterns/index.html
+        `http://localhost:3000/mural/patterns/index.html`
 
 
 ## How Mural Patterns works

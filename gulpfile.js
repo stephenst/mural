@@ -3,23 +3,23 @@
 
 'use strict';
 
-var gulp = require('gulp'),
-    runSequence = require('run-sequence').use(gulp),
-    fs = require('fs'),
-    gutil = require('gulp-util'),
-    serve = require('browser-sync'),
-    jade = require('gulp-jade'),
-    sass = require('gulp-sass'),
-    del = require('del'),
-    path = require('path'),
-    http = require('http'),
-    exec = require('child_process').exec,
-    rename = require('gulp-rename'),
-    tree = require('ng-mural-patterns-tree'),
-    scriptInject = require('ng-mural-patterns-inject'),
-    prunehtml = require('gulp-prune-html'),
-    muralConfig = JSON.parse(fs.readFileSync('./config.json')),
-    gruntGulp = require('gulp-grunt')(gulp);  // add all the gruntfile tasks to gulp
+var gulp = require('gulp');
+var runSequence = require('run-sequence').use(gulp);
+var fs = require('fs');
+var gutil = require('gulp-util');
+var serve = require('browser-sync');
+var jade = require('gulp-jade');
+var sass = require('gulp-sass');
+var del = require('del');
+var path = require('path');
+var http = require('http');
+var exec = require('child_process').exec;
+var rename = require('gulp-rename');
+var tree = require('ng-mural-patterns-tree');
+var scriptInject = require('ng-mural-patterns-inject');
+var prunehtml = require('gulp-prune-html');
+var muralConfig = JSON.parse(fs.readFileSync('./config.json'));
+var gruntGulp = require('gulp-grunt')(gulp);  // add all the gruntfile tasks to gulp
 
 
 /** -----------------------------------------------
@@ -49,7 +49,6 @@ gulp.task('buildStyleGuide', function (callback) {
         'styleguideJsonTree',
         'styleguideJadeIndex',
         'styleguideJadeTemplates',
-        'styleguideMarkdownPatterns',
         'injector',
         'sass',
         'copy',
@@ -69,7 +68,6 @@ gulp.task('Mural', [
  * @todo Remove this task; it's not needed as we use grunt-contrib-sass to build the sass; as the main Sentinal app uses Bourbon to compile (and gulp-sass would need node-bourbon, and grunt-contrib-sass uses Ruby)
  * --------------------------------------------- */
 gulp.task('sass', function () {
-    // return gulp.src(['./src/_mural/_assets/sass/*.scss', '!./src/_mural/**/_*'])
     return gulp.src(muralConfig.patterns.src + muralConfig.patterns.sass + '*.scss')
         .pipe(sass({
             errLogToConsole: true
@@ -86,16 +84,18 @@ gulp.task('sass', function () {
 gulp.task('styleguideJsonTree', ['copy'], function () {
     gulp.src(muralConfig.patterns.src + muralConfig.patterns.patterns)
         .pipe(tree({
-            patternsPath: muralConfig.patterns.dest + muralConfig.patterns.patterns,
-            jsonPath: muralConfig.patterns.src + muralConfig.patterns.patterns
+            patternsPath: muralConfig.patterns.src + muralConfig.patterns.patterns,
+            jsonPath: muralConfig.patterns.src + muralConfig.patterns.json,
+            pathToTrim: muralConfig.patterns.src
         }))
         .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.json));
 });
 gulp.task('readmeJsonTree', [], function () {
     gulp.src(muralConfig.readme.src + muralConfig.readme.markdown)
         .pipe(tree({
-            patternsPath: muralConfig.readme.dest + muralConfig.readme.markdown,
-            jsonPath: muralConfig.readme.src + muralConfig.readme.markdown
+            patternsPath: muralConfig.readme.src + muralConfig.readme.markdown,
+            jsonPath: muralConfig.readme.src + muralConfig.readme.json,
+            pathToTrim: muralConfig.patterns.src
         }))
         .pipe(gulp.dest(muralConfig.readme.src + muralConfig.readme.json));
 });
@@ -106,24 +106,24 @@ gulp.task('readmeJsonTree', [], function () {
  * @summary This reads the generated JSON files (from the Tree); and inserts those into the Index.
  * --------------------------------------------- */
 gulp.task('injector', ['styleguideJsonTree', 'readmeInjector'], function () {
-    gulp.src(muralConfig.patterns.src + '/index.html')
+    gulp.src(muralConfig.patterns.dest + 'index.html')
         .pipe(prunehtml(['#jsonPath']))
         .pipe(scriptInject({
-            jsonPath: muralConfig.patterns.src + muralConfig.patterns.json,
-            jsonPathToTrim: 'components/mural_data/',
+            jsonPath: muralConfig.patterns.dest + muralConfig.patterns.json,
+            jsonPathToTrim: muralConfig.patterns.json,
             jsonVar: 'jsonPath'
         }))
         .pipe(gulp.dest(muralConfig.patterns.dest));
 });
 gulp.task('readmeInjector', ['readmeJsonTree'], function () {
-    gulp.src(muralConfig.patterns.src + '/index.html')
+    gulp.src(muralConfig.patterns.src + 'index.html')
         .pipe(prunehtml(['#readmePath']))
         .pipe(scriptInject({
-            jsonPath: muralConfig.patterns.src + muralConfig.readme.json,
-            jsonPathToTrim: '_assets/data/readmes/',
+            jsonPath: muralConfig.patterns.dest + muralConfig.readme.json,
+            jsonPathToTrim: muralConfig.readme.json,
             jsonVar: 'readmePath'
         }))
-        .pipe(gulp.dest(muralConfig.src));
+        .pipe(gulp.dest(muralConfig.patterns.src));
 });
 
 
@@ -132,29 +132,14 @@ gulp.task('readmeInjector', ['readmeJsonTree'], function () {
  * gulp styleguideJadeIndex - Hack for index file.
  * --------------------------------------------- */
 gulp.task('styleguideJadeIndex', function () {
-    return gulp.src(['./js/angular-apps/_mural/components/mural_templates/index.jade'])
+    return gulp.src([muralConfig.patterns.src + muralConfig.patterns.templates + 'index.jade'])
         .pipe(jade({
             pretty: true
         }))
-        .pipe(gulp.dest(muralConfig.src));
+        .pipe(gulp.dest(muralConfig.patterns.src));
 
 });
-/** -----------------------------------------------
- * gulp styleguideMarkdownPatterns - Reads the markdown documents
- * @todo research this module more. Maybe just converts Jade to Markdown?
- * --------------------------------------------- */
-gulp.task('styleguideMarkdownPatterns', function () {
-    /*
-     return gulp.src('./js/angular-apps/_mural/components/mural_patterns/')
-     .pipe(jade({
-     pretty: true
-     }))
-     .pipe(rename(function (path) {
-     path.extname = ".md"
-     }))
-     .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.patterns));
-     */
-});
+
 /** -----------------------------------------------
  * gulp styleguideJadeTemplates - Creates html templates cause I much prefer Jade
  * --------------------------------------------- */
@@ -170,11 +155,7 @@ gulp.task('styleguideJadeTemplates', function () {
  * gulp clean - Clean scripts
  * --------------------------------------------- */
 gulp.task('clean', function (callback) {
-    del([
-        './js/angular-apps/_mural/index.html',
-        './js/angular-apps/_mural/components/**/*.html',
-        './build/mural/patterns/**/*.*'
-    ], callback);
+    del(muralConfig.mural.clean, callback);
 });
 
 
@@ -182,7 +163,7 @@ gulp.task('clean', function (callback) {
  * gulp copy - Copy the files to the mural/patterns directory.  also for images.
  * --------------------------------------------- */
 gulp.task('copy', ['copy-patterns-readme', 'copy-api-readme', 'copy-styles-readme', 'copy-styles-images', 'copy-styles'], function () {
-    return gulp.src([muralConfig.src + '**', '!' + muralConfig.src + 'components/**/*.jade'])
+    return gulp.src([muralConfig.patterns.src + '**', '!' + muralConfig.patterns.src + 'components/**/*.jade'])
         .pipe(gulp.dest(muralConfig.patterns.dest));
 });
 gulp.task('copy-patterns-readme', [], function () {
