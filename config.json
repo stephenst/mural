@@ -5,7 +5,8 @@
         "./src/_mural/components/**/*.html",
         "./src/_mural/components/mural_data/*.json",
         "./src/_mural/_assets/data/*.json",
-        "./build/mural"
+        "./build/mural",
+        "./sass-cache"
       ]
     },
     "patterns": {
@@ -44,11 +45,16 @@
     "jsdoc": {
         "src": "src/_mural/",
         "dest": "./build/mural/api/",
-        "dest-description": "This is the Root Path of all the Mural App - Patterns"
+        "dest-description": "This is the Root Path of all the Mural App - Patterns",
+        "sourceFiles": "components/mural_app/*.js",
+        "sourceFiles-description": "the JS files that will be parsed by ngDoc"
     },
     "styles": {
-        "dest": "./build/mural/_assets/css/",
         "assets": "src/_mural/_assets/",
+        "assets-description": "The source directory to read from ",
+
+        "dest": "./build/mural/_assets/css/",
+        "dest-description": "The destination direction to copy into",
 
         "images": "./build/_assets/images/",
         "images-description": "This is the Root Path to copy the images in.",

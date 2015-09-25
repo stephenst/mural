@@ -13,7 +13,7 @@
  * @requires {@Link mural.directives.lastUpdated}
  */
 
-angular.module('mural.directives', []).directive('compile', [
+angular.module('mural.directives', ['hc.marked']).directive('compile', [
     '$compile',
     function ($compile) {
         /**
@@ -49,11 +49,12 @@ angular.module('mural.directives', []).directive('compile', [
             patterns: '='
         },
         template: '<div once-wait-for="patterns" once-show="patterns.path" class="block block--example"> \
-                        <div class="block block--preview"><div raw-include="raw-include" patterns="patterns" src="patterns.path"></div></div> \
+                        <p>{{ patterns.path }}</p>\
+                        <div marked src="patterns.path"></div> \
                         <div class="block block--description"> \
                             <div class="patterns-description"></div> \
                         </div> \
-                        <div once-wait-for="patterns" once-hide="patterns.meta.hidecode" class="example-code"> \
+                        <div once-wait-for="patterns" class="example-code"> \
                             <a class="toggle-code" ng-hide="patterns.meta.hidecode" ng-class="{ active:patterns.togglecode }" ng-click="patterns.togglecode = !patterns.togglecode"><em class="fa fa-code fa-lg" /></a> \
                             <pre ng-show="patterns.togglecode"><code class="language-markup"></code></pre> \
                         </div> \
@@ -149,6 +150,7 @@ angular.module('mural.directives', []).directive('compile', [
                                 var $description = element.parent().next();
 
                                 if (conf.description) {
+                                    // parsedContent.markdown = marked(conf.description);
                                     parsedContent.markdown = marked(conf.description);
                                     $description.html(parsedContent.markdown);
                                 } else {
@@ -172,13 +174,13 @@ angular.module('mural.directives', []).directive('compile', [
                                 /* Trigger element added */
                                 if (count == totalcount) {
                                     $timeout(function () {
-                                        angular.element('body').trigger('tapestry.completed');
+                                        angular.element('body').trigger('mural.completed');
                                     },500);
                                 }
 
                                 /* Element Syntax highlight */
                                 var code = element.closest('.block--example').find('code');
-                                //    $element = element.clone();
+                                $element = element.clone();
 
                                 /* Adds codes to the code block */
                                 code.text(conf.content.trim());

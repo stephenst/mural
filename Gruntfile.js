@@ -27,7 +27,7 @@ module.exports = function (grunt) {
             dist: {
                 jsdoc: '/usr/local/bin/jsdoc',
                 src: [
-                    '<%= cfg.jsdoc.src %>/components/mural_app/*.js',
+                    '<%= cfg.jsdoc.src %><%= cfg.jsdoc.sourceFiles %>',
                     './readme.md'
                 ],
                 options: {
@@ -38,6 +38,5 @@ module.exports = function (grunt) {
             }
         }
     });
-    grunt.registerTask('default', ['mural']);
-    grunt.registerTask('mural', ['styleguide', 'jsdoc']);
+    grunt.registerTask('default', ['styleguide', 'jsdoc']);
 };

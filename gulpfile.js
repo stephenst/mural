@@ -58,7 +58,7 @@ gulp.task('buildStyleGuide', function (callback) {
 });
 gulp.task('Mural', [
     // run complete grunt tasks
-    'grunt-docs',
+    'grunt-default',
     'buildStyleGuide'
 ]);
 
@@ -162,7 +162,7 @@ gulp.task('clean', function (callback) {
 /** -----------------------------------------------
  * gulp copy - Copy the files to the mural/patterns directory.  also for images.
  * --------------------------------------------- */
-gulp.task('copy', ['copy-patterns-readme', 'copy-api-readme', 'copy-styles-readme', 'copy-styles-images', 'copy-styles'], function () {
+gulp.task('copy', ['copy-patterns-readme', 'copy-api-readme', 'copy-styles-readme'], function () {
     return gulp.src([muralConfig.patterns.src + '**', '!' + muralConfig.patterns.src + 'components/**/*.jade'])
         .pipe(gulp.dest(muralConfig.patterns.dest));
 });
@@ -178,14 +178,5 @@ gulp.task('copy-styles-readme', [], function () {
     return gulp.src('./node_modules/ng-mural-styledocco/Readme.md')
         .pipe(gulp.dest(muralConfig.styles.dest));
 });
-gulp.task('copy-styles-images', [], function () {
-    return gulp.src('./images/**')
-        .pipe(gulp.dest(muralConfig.styles.images));
-});
-gulp.task('copy-styles', [], function () {
-    return gulp.src('./styles/main.css')
-        .pipe(gulp.dest(muralConfig.styles.css));
-});
-
 
 

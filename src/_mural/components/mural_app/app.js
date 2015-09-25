@@ -37,7 +37,8 @@ angular.module('mural', [
     'ui.bootstrap',
     'ngRoute',
     'once',
-    'sticky'
+    'sticky',
+    'hc.marked'
 ]).value('version', version)
     .value('lastUpdated', lastUpdated)
     .value('isMobile', /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test((navigator.userAgent || navigator.vendor || window.opera)))
@@ -113,8 +114,6 @@ angular.module('mural', [
                  once-text="readme.name",
                  ng-class="{active: anchor(readme.name) == subSection}")
              */
-
-
 
 
             /**

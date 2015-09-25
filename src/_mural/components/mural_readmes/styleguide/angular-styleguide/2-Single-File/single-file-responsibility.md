@@ -8,92 +8,59 @@ description: |
 
   The following example defines the `app` module and its dependencies, defines a controller, and defines a factory all in the same file.
 
-    ```javascript
-    /* avoid */
-    angular
-      .module('app', ['ngRoute'])
-      .controller('SomeController', SomeController)
-      .factory('someFactory', someFactory);
-    
-    function SomeController() { }
-    
-    function someFactory() { }
-    ```
+  ```javascript
+      /* avoid */
+      angular
+        .module('app', ['ngRoute'])
+        .controller('SomeController', SomeController)
+        .factory('someFactory', someFactory);
+      
+      function SomeController() { }
+      
+      function someFactory() { }
+  ```
 
-    The same components are now separated into their own files.
+  The same components are now separated into their own files.
 
-    ```javascript
-    /* recommended */
+  ```javascript
+      /* recommended */
+      
+      // app.module.js
+      angular
+        .module('app', ['ngRoute']);
+  ```
     
-    // app.module.js
-    angular
-      .module('app', ['ngRoute']);
-    ```
+  ```javascript
+      /* recommended */
+      
+      // someController.js
+      angular
+        .module('app')
+        .controller('SomeController', SomeController);
+      
+      function SomeController() { }
+  ```
     
-    ```javascript
-    /* recommended */
-    
-    // someController.js
-    angular
-      .module('app')
-      .controller('SomeController', SomeController);
-    
-    function SomeController() { }
-    ```
-    
-    ```javascript
-    /* recommended */
-    
-    // someFactory.js
-    angular
-      .module('app')
-      .factory('someFactory', someFactory);
-    
-    function someFactory() { }
-    ```
+  ```javascript
+      /* recommended */
+      
+      // someFactory.js
+      angular
+        .module('app')
+        .factory('someFactory', someFactory);
+      
+      function someFactory() { }
+  ```
   
   **[⬆ back to top](#table-of-contents)**
 ---
-    ```javascript
-    /* avoid */
-    angular
-      .module('app', ['ngRoute'])
-      .controller('SomeController', SomeController)
-      .factory('someFactory', someFactory);
-    
-    function SomeController() { }
-    
-    function someFactory() { }
-    ```
-    
-    The same components are now separated into their own files.
-    
-    ```javascript
-    /* recommended */
-    
-    // app.module.js
-    angular
-      .module('app', ['ngRoute']);
-    ```
-    
-    ```javascript
-    /* recommended */
-    
-    // someController.js
-    angular
-      .module('app')
-      .controller('SomeController', SomeController);
-    
-    function SomeController() { }
-    ```
-    
-    ```javascript
+<script>
     /* recommended */
     
     // someFactory.js
     angular
-      .module('app')
-      .factory('someFactory', someFactory);
+    .module('app')
+    .factory('someFactory', someFactory);
     
     function someFactory() { }
-    ```
+</script>

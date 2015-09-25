@@ -8,9 +8,11 @@
     "angular-route": "~1.2.13",
     "js-yaml": "~3.0.1",
     "prism": "gh-pages",
-    "marked": "~0.3.1",
+    "marked": "~0.3.5",
     "angular-once": "~0.1.5",
-    "ngSticky": "~1.7.5"
+    "ngSticky": "~1.7.5",
+    "angular-marked": "~0.0.21",
+    "highlight": "~8.8.0"
   },
   "devDependencies": {
   }
