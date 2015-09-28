@@ -1,72 +1,17 @@
 /**
- * @ngdoc overview
- * @name mural.directives
- * @memberof mural
+ * @ngdoc directive
+ * @name mural.markdown.rawInclude
+ * @memberof mural.markdown
  *
- * @classdesc
- *  The Mural Directives.
- *
- * @requires {@Link mural.directives.compile}
- * @requires {@Link mural.directives.previewAndMarkup}
- * @requires {@Link mural.directives.rawInclude}
- * @requires {@Link mural.directives.muralVersion}
- * @requires {@Link mural.directives.lastUpdated}
+ * @requires $http
+ * @requires $templateCache
+ * @requires $compile
+ * @requires $q
+ * @requires $timeout
+ * @requires $log
  */
 
-angular.module('mural.directives', ['hc.marked']).directive('compile', [
-    '$compile',
-    function ($compile) {
-        /**
-         * @ngdoc directive
-         * @name mural.directives.compile
-         * @memberof mural
-         */
-        return function (scope, element, attrs) {
-            scope.$watch(
-                function (scope) {
-                    return scope.$eval(attrs.compile);
-                },
-                function (value) {
-                    var v = value? marked(value): value;
-                    element.html(v);
-                    $compile(element.contents())(scope);
-                }
-            );
-        }
-    }
-]).directive('previewAndMarkup', function () {
-    /**
-     * @ngdoc directive
-     * @name mural.directives.previewAndMarkup
-     * @memberof mural
-     *
-     * @summary
-     *  This directive will insert the template for the patterns.
-     */
-    return {
-        restrict: 'A',
-        scope: {
-            patterns: '='
-        },
-        template: '<div once-wait-for="patterns" once-show="patterns.path" class="block block--example"> \
-                        <p>{{ patterns.path }}</p>\
-                        <div marked src="patterns.path"></div> \
-                        <div class="block block--description"> \
-                            <div class="patterns-description"></div> \
-                        </div> \
-                        <div once-wait-for="patterns" class="example-code"> \
-                            <a class="toggle-code" ng-hide="patterns.meta.hidecode" ng-class="{ active:patterns.togglecode }" ng-click="patterns.togglecode = !patterns.togglecode"><em class="fa fa-code fa-lg" /></a> \
-                            <pre ng-show="patterns.togglecode"><code class="language-markup"></code></pre> \
-                        </div> \
-                        <div class="block--meta" ng-show="patterns.meta"> \
-                            <div ng-repeat="meta in patterns.meta"> \
-                                <span ng-hide="meta.hidecode">{{ meta }}</span> \
-                            </div> \
-                        </div>\
-                    </div>'
-
-    }
-}).directive('rawInclude', [
+angular.module("mural.markdown").directive('rawInclude', [
     '$http',
     '$templateCache',
     '$compile',
@@ -74,18 +19,6 @@ angular.module('mural.directives', ['hc.marked']).directive('compile', [
     '$timeout',
     '$log',
     function ($http, $templateCache, $compile, $q, $timeout, $log) {
-        /**
-         * @ngdoc directive
-         * @name mural.directives.rawInclude
-         * @memberof mural
-         *
-         * @requires $http
-         * @requires $templateCache
-         * @requires $compile
-         * @requires $q
-         * @requires $timeout
-         * @requires $log
-         */
 
         var totalcount = 0;
 
@@ -131,10 +64,10 @@ angular.module('mural.directives', ['hc.marked']).directive('compile', [
                                 };
 
                                 var re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/,
-                                      results = re.exec(response.trim()),
-                                      conf = {},
-                                      yamlOrJson,
-                                      name = "content";
+                                    results = re.exec(response.trim()),
+                                    conf = {},
+                                    yamlOrJson,
+                                    name = "content";
 
                                 if ((yamlOrJson = results[2])) {
                                     if (yamlOrJson.charAt(0) === '{') {
@@ -204,25 +137,6 @@ angular.module('mural.directives', ['hc.marked']).directive('compile', [
                     $log.info(attrs);
                 }
             }
-        };
-    }
-]).directive('muralVersion', [
-    'version',
-    function (version) {
-        /**
-         * @ngdoc directive
-         * @name mural.directives.muralVersion
-         * @memberof mural
-         */
-        return function (scope, elm, attrs) {
-            elm.text(version);
-        };
-    }
-]).directive('lastUpdated', [
-    'lastUpdated',
-    function (version) {
-        return function (scope, elm, attrs) {
-            elm.text(version);
         };
     }
 ]);

@@ -22,7 +22,7 @@ var version = '3.1.1',
  *
  * @requires {@Link mural.services}
  * @requires {@Link mural.controllers}
- * @requires {@Link mural.directives}
+ * @requires {@Link mural.markdown}
  * @requires {@Link mural.filters}
  * @requires ui.bootstrap
  * @requires ngRoute
@@ -32,13 +32,12 @@ var version = '3.1.1',
 angular.module('mural', [
     'mural.services',
     'mural.controllers',
-    'mural.directives',
+    'mural.markdown',
     'mural.filters',
     'ui.bootstrap',
     'ngRoute',
     'once',
-    'sticky',
-    'hc.marked'
+    'sticky'
 ]).value('version', version)
     .value('lastUpdated', lastUpdated)
     .value('isMobile', /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test((navigator.userAgent || navigator.vendor || window.opera)))
