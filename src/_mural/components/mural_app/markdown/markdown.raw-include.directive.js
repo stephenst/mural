@@ -11,34 +11,38 @@
  * @requires $log
  */
 
-angular.module("mural.markdown").directive('rawInclude', [
-    '$http',
-    '$templateCache',
-    '$compile',
-    '$q',
-    '$timeout',
-    '$log',
+"use strict";
+
+angular.module("mural.markdown").directive("rawInclude", [
+    "$http",
+    "$templateCache",
+    "$compile",
+    "$q",
+    "$timeout",
+    "$log",
     function ($http, $templateCache, $compile, $q, $timeout, $log) {
 
         var totalcount = 0;
 
         return {
-            restrict: 'A',
+            restrict: "A",
             terminal: true,
             scope: {
-                patterns: '='
+                patterns: "="
             },
             compile: function (telement, attr) {
                 var srcExp = attr.src, count = 0;
 
                 return function (scope, element) {
-                    scope.$watch('patterns', function (newValue) {
+                    var changeCounter = 0;
+
+                    scope.$watch("patterns", function (newValue) {
                         if (newValue) {
-                            if(scope.patterns && scope.patterns.children) totalcount = scope.patterns.children.length
+                            if (scope.patterns && scope.patterns.children) {
+                                totalcount = scope.patterns.children.length;
+                            }
                         }
                     }, true);
-
-                    var changeCounter = 0;
 
                     scope.$watch(srcExp, function (src) {
                         var thisChangeId = ++changeCounter;
@@ -47,7 +51,9 @@ angular.module("mural.markdown").directive('rawInclude', [
                             $http.get(src, {
                                 cache: $templateCache
                             }).success(function (response) {
-                                if (thisChangeId !== changeCounter) return;
+                                if (thisChangeId !== changeCounter) {
+                                    return;
+                                }
 
                                 /* Increment counter */
                                 count++;
@@ -57,9 +63,9 @@ angular.module("mural.markdown").directive('rawInclude', [
                                  * @type {Object}
                                  */
                                 var parsedContent = {
-                                    yaml: '',
-                                    markdown: '',
-                                    html: '',
+                                    yaml: "",
+                                    markdown: "",
+                                    html: "",
                                     meta: {}
                                 };
 
@@ -70,7 +76,7 @@ angular.module("mural.markdown").directive('rawInclude', [
                                     name = "content";
 
                                 if ((yamlOrJson = results[2])) {
-                                    if (yamlOrJson.charAt(0) === '{') {
+                                    if (yamlOrJson.charAt(0) === "{") {
                                         conf = JSON.parse(yamlOrJson);
                                     } else {
                                         conf = jsyaml.load(yamlOrJson);
@@ -107,20 +113,20 @@ angular.module("mural.markdown").directive('rawInclude', [
                                 /* Trigger element added */
                                 if (count == totalcount) {
                                     $timeout(function () {
-                                        angular.element('body').trigger('mural.completed');
+                                        angular.element("body").trigger("mural.completed");
                                     },500);
                                 }
 
                                 /* Element Syntax highlight */
-                                var code = element.closest('.block--example').find('code');
+                                var code = element.closest(".block--example").find("code");
                                 // $element = element.clone();
-                                console.log(code);
+                                // console.log(code);
 
                                 angular.forEach(code, function(value, key) {
-                                    this.push(key + ': ' + value);
-                                    console.log("code for each, value, then key");
-                                    console.log(value);
-                                    console.log(key);
+                                    this.push(key + ": " + value);
+                                    // console.log("code for each, value, then key");
+                                    // console.log(value);
+                                    // console.log(key);
 
                                     /* Adds codes to the code block */
                                     code[key].text = conf.content.trim();
@@ -132,17 +138,19 @@ angular.module("mural.markdown").directive('rawInclude', [
 
 
                             }).error(function () {
-                                if (thisChangeId === changeCounter) element.html('');
+                                if (thisChangeId === changeCounter) {
+                                    element.html("");
+                                }
                             });
                         } else {
-                            element.html('');
+                            element.html("");
                         }
                     });
                 };
             },
             link: function (scope, element, attrs) {
                 if (scope.$last) {
-                    $log.info('rawInclude link: is scope last.  element and attrs follow');
+                    $log.info("rawInclude link: is scope last.  element and attrs follow");
                     $log.info(element);
                     $log.info(attrs);
                 }

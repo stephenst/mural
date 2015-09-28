@@ -1,12 +1,11 @@
 /*jslint node: true, nomen: true */
 /*globals angular, module, window, browser */
 
-
-'use strict';
+"use strict";
 
 // todo: have version and lastupdated read from package.json or npm.  dynamic, rather than static.
-var version = '3.1.1',
-    lastUpdated = '17 Aug 2015';
+var version = "3.1.1",
+    lastUpdated = "17 Aug 2015";
 
 //  jsonPath of the files will be inserted by gulp-script-inject after reading /src/mural_data folder
 
@@ -29,54 +28,53 @@ var version = '3.1.1',
  * @requires once
  * @requires sticky
  */
-angular.module('mural', [
-    'mural.services',
-    'mural.controllers',
-    'mural.markdown',
-    'mural.filters',
-    'ui.bootstrap',
-    'ngRoute',
-    'once',
-    'sticky'
-]).value('version', version)
-    .value('lastUpdated', lastUpdated)
-    .value('isMobile', /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test((navigator.userAgent || navigator.vendor || window.opera)))
+angular.module("mural", [
+    "mural.services",
+    "mural.controllers",
+    "mural.markdown",
+    "mural.filters",
+    "ui.bootstrap",
+    "ngRoute",
+    "once",
+    "sticky"
+]).value("version", version)
+    .value("lastUpdated", lastUpdated)
+    .value("isMobile", /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test((navigator.userAgent || navigator.vendor || window.opera)))
     .config([
-        '$routeProvider',
-        '$locationProvider',
-        '$provide',
-        function ($routeProvider, $locationProvider, $provide) {
+        "$routeProvider",
+        "$locationProvider",
+        "$provide",
+        function($routeProvider, $locationProvider, $provide) {
 
-            $locationProvider.hashPrefix('!');
-            $routeProvider.when('/', {
-                title: 'Overview',
-                templateUrl: 'components/mural_templates/templates/home.html',
-                controller: 'headerController'
-            }).when('/changelog', {
-                title: 'Changelog',
-                templateUrl: 'components/mural_templates/templates/changelog.html',
-                controller: 'headerController'
-            }).otherwise({redirectTo: '/'});
+            $locationProvider.hashPrefix("!");
+            $routeProvider.when("/", {
+                title: "Overview",
+                templateUrl: "components/mural_templates/templates/home.html",
+                controller: "headerController"
+            }).when("/changelog", {
+                title: "Changelog",
+                templateUrl: "components/mural_templates/templates/changelog.html",
+                controller: "headerController"
+            }).otherwise({redirectTo: "/"});
 
             /* Add new routes based on the Configuration */
-            angular.forEach(jsonPath, function (value, key) {
-                value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
+            angular.forEach(jsonPath, function(value, key) {
+                value.slug = value.name.replace(/\s+/g, "-").toLowerCase();
                 if (value.slug === "templates") {
-                    $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: 'components/mural_templates/templates/listing-template.html',
-                        controller: 'templateController'
+                    $routeProvider.when("/" + value.slug + "/:slug", {
+                        templateUrl: "components/mural_templates/templates/listing-template.html",
+                        controller: "templateController"
                     });
                 } else {
-                    $routeProvider.when('/' + value.slug + '/:slug', {
-                        templateUrl: 'components/mural_templates/templates/listing.html',
-                        controller: 'listingController'
-                    }).when('/' + value.slug + '/:slug/:section', {
-                        templateUrl: 'components/mural_templates/templates/listing.html',
-                        controller: 'listingController'
+                    $routeProvider.when("/" + value.slug + "/:slug", {
+                        templateUrl: "components/mural_templates/templates/listing.html",
+                        controller: "listingController"
+                    }).when("/" + value.slug + "/:slug/:section", {
+                        templateUrl: "components/mural_templates/templates/listing.html",
+                        controller: "listingController"
                     });
                 }
             });
-
 
             /**
              *  Add new routes based on the Configuration
@@ -88,48 +86,37 @@ angular.module('mural', [
              * @requires {object} readmePath - This is the injected script to the dynamic JSON generated from teh Markdowns.
              *
              *  */
-            angular.forEach(readmePath, function (value, key) {
-                console.log('README FOLLOWS');
+            angular.forEach(readmePath, function(value, key) {
+                console.log("README FOLLOWS");
                 console.log(readmePath);
-                value.slug = value.name.replace(/\s+/g, '-').toLowerCase();
-                console.log('the readmePath value.slug: ' + value.slug);
+                value.slug = value.name.replace(/\s+/g, "-").toLowerCase();
+                console.log("the readmePath value.slug: " + value.slug);
 
-                $routeProvider.when('/' + value.slug + '/:slug', {
-                    templateUrl: 'components/mural_templates/templates/readme.html',
-                    controller: 'listingController'
-                }).when('/' + value.slug + '/:slug/:section', {
-                    templateUrl: 'components/mural_templates/templates/readme.html',
-                    controller: 'listingController'
+                $routeProvider.when("/" + value.slug + "/:slug", {
+                    templateUrl: "components/mural_templates/templates/readme.html",
+                    controller: "listingController"
+                }).when("/" + value.slug + "/:slug/:section", {
+                    templateUrl: "components/mural_templates/templates/readme.html",
+                    controller: "listingController"
                 });
             });
 
             /**
-             *
-             div.col-md-2(ng-show="readmes[0].data[0].children.length > 1")
-                 ul.nav(sticky)
-                 li.nav(ng-repeat="readme in readmes[0].data[0].children")
-                 a(data-target="#{{readme.children[0].name | anchor }}",
-                 ng-href="#!/{{ readmes[0].slug }}/{{ readmes[0].data[0].slug }}#{{ readme.children[0].name | anchor }}",
-                 once-text="readme.name",
-                 ng-class="{active: anchor(readme.name) == subSection}")
-             */
-
-
-            /**
              * Log Decoration
+             *
              * @memberof mural
              * @requires $provide
              */
-            $provide.decorator('$log', ['$delegate', '$filter', function ($delegate, $filter) {
+            $provide.decorator("$log", ["$delegate", "$filter", function($delegate, $filter) {
                 // Save the original $log.debug()
                 var debugFn = $delegate.debug;
 
-                $delegate.info = function () {
+                $delegate.info = function() {
                     var args = [].slice.call(arguments),
-                        now = $filter('date')(new Date(), 'h:mma');
+                        now = $filter("date")(new Date(), "h:mma");
 
                     // Prepend timestamp
-                    args[0] = [now, ': ', args[0]].join('');
+                    args[0] = [now, ": ", args[0]].join("");
 
                     // Call the original with the output prepended with formatted timestamp
                     debugFn.apply(null, args);
@@ -138,38 +125,32 @@ angular.module('mural', [
             }]);
         }
     ]).run([
-        '$rootScope',
-        '$http',
-        '$q',
-        '$filter',
-        '$cacheFactory',
-        '$log',
-        function ($rootScope, $http, $q, $filter, $cacheFactory, $log) {
+        "$rootScope",
+        "$http",
+        "$q",
+        "$filter",
+        "$cacheFactory",
+        "$log",
+        function($rootScope, $http, $q, $filter, $cacheFactory, $log) {
+
+            var cache = $cacheFactory.get("cache");
+            var requests = [];
+            var names = [];
+            var slug = [];
+
             $rootScope.styles = [];
             $rootScope.readmes = [];
 
             /**
-             * Cachefactory
-             */
-            var cache = $cacheFactory.get('cache');
-
-            /**
              * Change Title on routeChange
              */
-            $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
+            $rootScope.$on("$routeChangeSuccess", function(event, current, previous) {
                 if (current.$route && current.$route.title) {
-                    $rootScope.$broadcast('sectionChange', current.$route.title);
+                    $rootScope.$broadcast("sectionChange", current.$route.title);
                 }
             });
 
-            /**
-             * Assign values to rootScope
-             */
-            var requests = [],
-                names = [],
-                slug = [];
-
-            angular.forEach(jsonPath, function (value, key) {
+            angular.forEach(jsonPath, function(value, key) {
                 /* Add Pattern name in array */
                 names.push(value.name);
                 slug.push(value.slug);
@@ -181,40 +162,37 @@ angular.module('mural', [
             /**
              * When all requests are completed
              */
-            $q.all(requests).then(function (response) {
-                angular.forEach(response, function (r, i) {
-                    var parseObject = r.data;
+            $q.all(requests).then(function(response) {
+                angular.forEach(response, function(response, index) {
+                    var parseObject = response.data;
+
                     /**
                      * Create a Slug from the title
                      * Reduces $watch on filter {{element.name | anchor}}
                      */
-                    angular.forEach(parseObject, function (value, key) {
-                        value.slug = $filter('anchor')(value.name);
+                    angular.forEach(parseObject, function(value, key) {
+                        value.slug = $filter("anchor")(value.name);
                     });
 
                     /**
                      * Push to rootScope
                      */
                     $rootScope.styles.push({
-                        name: names[i],
-                        slug: slug[i],
+                        name: names[index],
+                        slug: slug[index],
                         data: parseObject
                     });
                 });
             });
 
-
             /**
              * Assign values to rootScope
              */
-            var readmeRequests = [],
-                readmeNames = [],
-                readmeSlug = [];
+            var readmeRequests = [];
+            var readmeNames = [];
+            var readmeSlug = [];
 
-            angular.forEach(readmePath, function (value, key) {
-                //  $log.info('for each - pushing name and slug');
-                //  $log.info(value.name);
-                //  $log.info(value.slug);
+            angular.forEach(readmePath, function(value, key) {
                 /* Add Pattern name in array */
                 readmeNames.push(value.name);
                 readmeSlug.push(value.slug);
@@ -222,25 +200,19 @@ angular.module('mural', [
                 /* Add requests in to array for $q */
                 readmeRequests.push($http.get(value.path, {cache: cache}));
             });
-            //  $log.info('requests follow');
-            //  $log.info(readmeRequests);
-            //  $log.info(readmeNames);
-            //  $log.info(readmeSlug);
 
             /**
              * When all requests are completed
              */
-            $q.all(readmeRequests).then(function (response) {
-                angular.forEach(response, function (r, i) {
+            $q.all(readmeRequests).then(function(response) {
+                angular.forEach(response, function(r, i) {
                     var parseObject = r.data;
                     /**
                      * Create a Slug from the title
                      * Reduces $watch on filter {{element.name | anchor}}
                      */
-                    //  $log.info('r.data?');
-                    //  $log.info(parseObject);
-                    angular.forEach(parseObject, function (value, key) {
-                        value.slug = $filter('anchor')(value.name);
+                    angular.forEach(parseObject, function(value, key) {
+                        value.slug = $filter("anchor")(value.name);
                     });
 
                     /**
@@ -252,47 +224,45 @@ angular.module('mural', [
                         data: parseObject
                     });
                 });
-                $log.info('Readmes follow');
+                $log.info("Readmes follow");
                 $log.info($rootScope.readmes);
             });
 
             /**
              * Watch changes and add to Autocomplete
              */
-            $rootScope.$watch('styles', function (newValue) {
+            $rootScope.$watch("styles", function(newValue) {
                 if (newValue.length) {
                     /**
                      * Creates a flattened version of the array
                      */
                     var autoCompleteArray = [];
-                    angular.forEach(newValue, function (value, index) {
+                    angular.forEach(newValue, function(value, index) {
                         autoCompleteArray.push(flattener(value.data, value.name, value.slug));
                     });
 
                     /**
                      * Combines Arrays
                      */
-                    var data = autoCompleteArray.reduce(function (a, b, index, array) {
+                    var data = autoCompleteArray.reduce(function(a, b, index, array) {
                         return a.concat(b);
                     });
 
                     /**
                      * Invokes autocomplete
                      */
-                    $rootScope.$emit('globalPatternsUpdate', data);
-
+                    $rootScope.$emit("globalPatternsUpdate", data);
 
                     /**
                      * hide Menu
                      */
-                    setTimeout(function () {
-                        angular.element('#wrapper').removeClass('toggled');
+                    setTimeout(function() {
+                        angular.element("#wrapper").removeClass("toggled");
                     }, 2000);
                 }
             }, true);
         }
     ]);
-
 
 /**
  * Flattening Array - could probably be done using underscore; but this works.  Not going to rewrite.
@@ -301,24 +271,24 @@ angular.module('mural', [
  * @return {Object} Flattened array
  * @memberof mural
  */
-function flattener (arrr, template, category) {
+function flattener(arrr, template, category) {
     var a = [];
 
-    var flattenArray = function (arr, parent) {
+    var flattenArray = function(arr, parent) {
         for (var i = 0; i < arr.length; i++) {
-            var parent = parent ? parent : '',
-                root = parent.replace(/\s+/g, '-').toLowerCase(),
-                slug = arr[i].name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase();
+            var parent = parent ? parent : "",
+                root = parent.replace(/\s+/g, "-").toLowerCase(),
+                slug = arr[i].name.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, "").replace(/\s+/g, "-").toLowerCase();
 
             a.push({
                 value: arr[i].name,
                 slug: slug,
                 root: root,
                 template: arr[i].template ? arr[i].template : null,
-                url: '/' + category + '/' + (root ? root : slug) + (slug != root && root ? '/' + slug : ''),
+                url: "/" + category + "/" + (root ? root : slug) + (slug != root && root ? "/" + slug : ""),
                 category: category
             });
-            if (arr[i].children && typeof arr[i].children == 'object') {
+            if (arr[i].children && typeof arr[i].children == "object") {
                 var p = parent ? parent : arr[i].name;
 
                 flattenArray(arr[i].children, p);

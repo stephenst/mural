@@ -27,12 +27,11 @@ div
 
 
         div.main-content(ng-class="{ 'col-md-10': currentReadMe.children.length > 1, 'col-md-12': currentReadMe.children.length <= 1 }")
-            div(preview-and-markup patterns="readmes")
             ul.pattern-list
                 li(ng-repeat="readme in currentReadMe.children")
                     h3(id="{{ readme.name | anchor }}", once-text="readme.name")
                     a(id="{{ readme.name | anchor }}")
-                    div(preview-and-markup, patterns="readme")
+                    div(preview-and-markup patterns="readme")
                     div.pattern-variation(ng-repeat="variation in readme.children")
                         h4(id="{{ variation.name | anchor }}", once-text="variation.name")
                         div(preview-and-markup patterns="variation")
