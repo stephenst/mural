@@ -9,13 +9,14 @@
  */
 angular.module("mural.markdown").directive("previewAndMarkup", function () {
     return {
-        restrict: 'A',
+        restrict: "A",
         scope: {
-            patterns: '='
+            patterns: "="
         },
         template: '<div once-wait-for="patterns" once-show="patterns.path" class="block block--example"> \
-                        <p>{{ patterns.path }}</p>\
-                        <div marked src="patterns.path"></div> \
+                        <div class="block block--preview" ng-hide="patterns.meta.hidecode">\
+                            <div raw-include="raw-include" patterns="patterns" src="patterns.path"></div>\
+                        </div> \
                         <div class="block block--description"> \
                             <div class="patterns-description"></div> \
                         </div> \

@@ -21,7 +21,10 @@
                     {
                         "path": "components/mural_readmes/styleguide/angular-styleguide/2-Single-File/single-file-responsibility.md",
                         "name": "Single File Responsibility",
-                        "slug": "single-file-responsibility.md"
+                        "slug": "single-file-responsibility.md",
+                        "meta": {
+                            "hidecode": "true,"
+                        }
                     }
                 ]
             },

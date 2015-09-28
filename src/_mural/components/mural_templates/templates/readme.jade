@@ -16,13 +16,6 @@
                     img(once-src="readmes.meta.preview")
 
 div
-    //- div.row-fluid
-        div.col-md-12
-            p {{ currentReadMe | json }}
-            hr
-            p {{ currentReadMe.children | json }}
-            hr
-            p {{ currentReadMe.children.length | json }}
 
     div.row-fluid
         div.col-md-2(ng-show="currentReadMe.children.length > 1")
@@ -39,7 +32,7 @@ div
                 li(ng-repeat="readme in currentReadMe.children")
                     h3(id="{{ readme.name | anchor }}", once-text="readme.name")
                     a(id="{{ readme.name | anchor }}")
-                    div(preview-and-markup patterns="readme")
+                    div(preview-and-markup, patterns="readme")
                     div.pattern-variation(ng-repeat="variation in readme.children")
                         h4(id="{{ variation.name | anchor }}", once-text="variation.name")
                         div(preview-and-markup patterns="variation")

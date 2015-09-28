@@ -1,10 +1,12 @@
 ---
 name: Single File Responsibility
-description: |
+hidecode: true,
+description: >
 
   ## Single Responsibility
   
   - Define 1 component per file.
+
 
   The following example defines the `app` module and its dependencies, defines a controller, and defines a factory all in the same file.
 
@@ -54,13 +56,3 @@ description: |
   
   **[⬆ back to top](#table-of-contents)**
 ---
-<script>
-    /* recommended */
-    
-    // someFactory.js
-    angular
-    .module('app')
-    .factory('someFactory', someFactory);
-    
-    function someFactory() { }
-</script>

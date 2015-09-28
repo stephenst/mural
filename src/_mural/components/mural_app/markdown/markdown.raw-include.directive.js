@@ -77,7 +77,7 @@ angular.module("mural.markdown").directive('rawInclude', [
                                     }
                                 }
 
-                                conf[name] = results[3] ? results[3] : '';
+                                conf[name] = results[3] ? results[3] : results[2];
 
                                 /* Add description */
                                 var $description = element.parent().next();
@@ -113,13 +113,23 @@ angular.module("mural.markdown").directive('rawInclude', [
 
                                 /* Element Syntax highlight */
                                 var code = element.closest('.block--example').find('code');
-                                $element = element.clone();
+                                // $element = element.clone();
+                                console.log(code);
 
-                                /* Adds codes to the code block */
-                                code.text(conf.content.trim());
+                                angular.forEach(code, function(value, key) {
+                                    this.push(key + ': ' + value);
+                                    console.log("code for each, value, then key");
+                                    console.log(value);
+                                    console.log(key);
 
-                                /* Highlighting */
-                                Prism.highlightElement(code[0]);
+                                    /* Adds codes to the code block */
+                                    code[key].text = conf.content.trim();
+
+                                    /* Highlighting */
+                                    Prism.highlightElement(code[key]);
+
+                                }, code);
+
 
                             }).error(function () {
                                 if (thisChangeId === changeCounter) element.html('');
