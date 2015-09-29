@@ -100,29 +100,6 @@ angular.module("mural", [
                     controller: "listingController"
                 });
             });
-
-            /**
-             * Log Decoration
-             *
-             * @memberof mural
-             * @requires $provide
-             */
-            $provide.decorator("$log", ["$delegate", "$filter", function($delegate, $filter) {
-                // Save the original $log.debug()
-                var debugFn = $delegate.debug;
-
-                $delegate.info = function() {
-                    var args = [].slice.call(arguments),
-                        now = $filter("date")(new Date(), "h:mma");
-
-                    // Prepend timestamp
-                    args[0] = [now, ": ", args[0]].join("");
-
-                    // Call the original with the output prepended with formatted timestamp
-                    debugFn.apply(null, args);
-                };
-                return $delegate;
-            }]);
         }
     ]).run([
         "$rootScope",

@@ -6,7 +6,7 @@
         "./src/_mural/components/mural_data/*.json",
         "./src/_mural/_assets/data/*.json",
         "./build/mural",
-        "./sass-cache"
+        "./.sass-cache"
       ]
     },
     "patterns": {

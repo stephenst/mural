@@ -128,6 +128,7 @@ angular.module('mural.controllers', []).controller('headerController', [
 
         $log.info("section element : " + section + " - " + element);
         $scope.readmeToMatch = $location.path().substring(n+1);
+        // $scope.currentReadMe = undefined;
 
         if (!$scope.currentReadMe || $scope.currentReadMe.slug !== element) {
             angular.forEach($rootScope.readmes[0].data, function (value, key) {
@@ -181,7 +182,7 @@ angular.module('mural.controllers', []).controller('headerController', [
          *  The function takes the subnav (for the Angular Style Guide at this point.  but really the read-mes)
          *  lower cases the link and adds dashes.
          */
-        $scope.scrollTo = function (id) {
+        $rootScope.scrollTo = function (id) {
             var old = $location.hash(),
                 newId = id.replace(/\s+/g, '-').toLowerCase().toLowerCase();
 
