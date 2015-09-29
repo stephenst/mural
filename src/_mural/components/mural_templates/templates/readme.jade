@@ -1,37 +1,10 @@
-//- div
-    div.pattern-menu-side
-        ul(once-show="patterns.children.length > 1")
-            li(ng-repeat="pattern in patterns.children")
-                a(data-target="#{{pattern.name | anchor}}",
-                    ng-href="#!/{{ rootSection }}/{{ sectionSlug }}/{{ pattern.name | anchor }}",
-                    once-text=" pattern.name ",
-                    ng-class="{active: anchor(pattern.name) == subSection}")
-    div.main-content
-        ul.pattern-template-list
-            h1 README TEMPLATE
-            li(ng-repeat="readmes in readmes.children")
-                a(once-href="readmes.meta.url")
-                    h4(once-text="readmes.name")
-                        | {{ readmes.name }}
-                    img(once-src="readmes.meta.preview")
-
-div
-
-    div.row-fluid
-        div.col-md-2(ng-show="currentReadMe.children.length > 1")
-            ul.nav(sticky offset="70")
-                li.nav(ng-repeat="readme in currentReadMe.children")
-                    a(ng-click="scrollTo(readme.children[0].name)",
-                        once-text="readme.name",
-                        ng-class="{active: anchor(readme.name) == subSection}")
-
-
-        div.main-content(ng-class="{ 'col-md-10': currentReadMe.children.length > 1, 'col-md-12': currentReadMe.children.length <= 1 }")
-            ul.pattern-list
-                li(ng-repeat="readme in currentReadMe.children")
-                    h3(id="{{ readme.name | anchor }}", once-text="readme.name")
-                    a(id="{{ readme.name | anchor }}")
-                    div(preview-and-markup patterns="readme")
-                    div.pattern-variation(ng-repeat="variation in readme.children")
-                        h4(id="{{ variation.name | anchor }}", once-text="variation.name")
-                        div(preview-and-markup patterns="variation")
+div.row-fluid
+    div.main-content(class="col-md-12")
+        ul.pattern-list
+            li(ng-repeat="readme in currentReadMe.children")
+                h3(id="{{ readme.name | anchor }}", once-text="readme.name")
+                a(id="{{ readme.name | anchor }}")
+                div(preview-and-markup patterns="readme")
+                div.pattern-variation(ng-repeat="variation in readme.children")
+                    h4(id="{{ variation.name | anchor }}", once-text="variation.name")
+                    div(preview-and-markup patterns="variation")
