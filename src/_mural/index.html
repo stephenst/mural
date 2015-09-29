@@ -23,12 +23,10 @@
         <ul class="nav navbar-nav">
           <li><a href="/mural/api/index.html">API</a></li>
           <li><a href="/mural/styles/index.html">Styles</a></li>
-          <li ng-class="{ active: isActive(&apos;/&apos;)}"><a href="/mural/patterns/index.html">Design Patterns</a></li>
+          <li ng-class="{ active: isActive(&apos;/&apos;)}"><a ng-href="#!/">Design Patterns</a></li>
         </ul>
         <ul ng-repeat="readme in readmes" class="nav navbar-nav">
-          <li ng-repeat="element in readme.data" ng-class="{ &apos;active&apos;: isActive(&apos;/&apos; + readme.slug + &apos;/&apos; + element.slug) }" once-show="element.children.length"><a once-href="&apos;#!/&apos; + readme.slug + &apos;/&apos; + element.slug">{{ element.name | dashToSpace | capitalize:true }}</a>
-            <!-- a(href="{{ readme.data[0].path }}") {{ readme.name }}-->
-          </li>
+          <li ng-repeat="element in readme.data" ng-class="{ &apos;active&apos;: isActive(&apos;/&apos; + readme.slug + &apos;/&apos; + element.slug) }" once-show="element.children.length"><a once-href="&apos;#!/&apos; + readme.slug + &apos;/&apos; + element.slug">{{ element.name | dashToSpace | capitalize:true }}</a></li>
         </ul>
       </div>
     </div>

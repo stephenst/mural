@@ -34,15 +34,19 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
                     li
                         a(href='/mural/api/index.html') API
                     li
-                        a(href='/mural/styles/index.html') Styles
+                        a(href='/mural/styles/index.html')
+                            | Styles
                     li(ng-class="{ active: isActive('/')}")
-                        a(href="/mural/patterns/index.html") Design Patterns
+                        a(ng-href="#!/")
+                            | Design Patterns
+                //- The Global Guides Navigation
                 ul.nav.navbar-nav(ng-repeat="readme in readmes")
                     li(ng-repeat="element in readme.data",
-                        ng-class="{ 'active': isActive('/' + readme.slug + '/' + element.slug) }", once-show="element.children.length")
+                        ng-class="{ 'active': isActive('/' + readme.slug + '/' + element.slug) }",
+                        once-show="element.children.length")
+
                         a(once-href="'#!/' + readme.slug + '/' + element.slug")
                             | {{ element.name | dashToSpace | capitalize:true }}
-                        // a(href="{{ readme.data[0].path }}") {{ readme.name }}
 
         div#wrapper
             nav#sidebar-wrapper
