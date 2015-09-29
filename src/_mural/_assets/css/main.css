@@ -738,9 +738,3 @@
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
-
-/*
-.pattern-wrapper {
-    @import '../../../../../styles/main';
-}
-*/
