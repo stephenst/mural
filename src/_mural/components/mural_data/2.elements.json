@@ -4,7 +4,7 @@
         "slug": "1.Colors",
         "children": [
             {
-                "path": "components/mural_patterns/2.elements/1.Colors/palette.md",
+                "path": "_patterns/2.elements/1.Colors/palette.md",
                 "name": "Color palette",
                 "slug": "palette.md",
                 "meta": {
@@ -22,22 +22,22 @@
                 "slug": "Emphasis",
                 "children": [
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Emphasis/bold-text.md",
+                        "path": "_patterns/2.elements/2.Typography/Emphasis/bold-text.md",
                         "name": "Bold",
                         "slug": "bold-text.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Emphasis/italics-text.md",
+                        "path": "_patterns/2.elements/2.Typography/Emphasis/italics-text.md",
                         "name": "Italics",
                         "slug": "italics-text.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Emphasis/small-text.md",
+                        "path": "_patterns/2.elements/2.Typography/Emphasis/small-text.md",
                         "name": "Small",
                         "slug": "small-text.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Emphasis/text-sizes.md",
+                        "path": "_patterns/2.elements/2.Typography/Emphasis/text-sizes.md",
                         "name": "Text size variations",
                         "slug": "text-sizes.md"
                     }
@@ -48,74 +48,74 @@
                 "slug": "Lists",
                 "children": [
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Lists/list-block.md",
+                        "path": "_patterns/2.elements/2.Typography/Lists/list-block.md",
                         "name": "Block list",
                         "slug": "list-block.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Lists/list-definition.md",
+                        "path": "_patterns/2.elements/2.Typography/Lists/list-definition.md",
                         "name": "Definition list",
                         "slug": "list-definition.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Lists/list-inline.md",
+                        "path": "_patterns/2.elements/2.Typography/Lists/list-inline.md",
                         "name": "Inline list",
                         "slug": "list-inline.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Lists/list-ordered.md",
+                        "path": "_patterns/2.elements/2.Typography/Lists/list-ordered.md",
                         "name": "Ordered list",
                         "slug": "list-ordered.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Lists/list-unordered.md",
+                        "path": "_patterns/2.elements/2.Typography/Lists/list-unordered.md",
                         "name": "Unordered list",
                         "slug": "list-unordered.md"
                     },
                     {
-                        "path": "components/mural_patterns/2.elements/2.Typography/Lists/list-unstyled.md",
+                        "path": "_patterns/2.elements/2.Typography/Lists/list-unstyled.md",
                         "name": "Unstyled list",
                         "slug": "list-unstyled.md"
                     }
                 ]
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/blockquote.md",
+                "path": "_patterns/2.elements/2.Typography/blockquote.md",
                 "name": "Blockquote",
                 "slug": "blockquote.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/body-copy.md",
+                "path": "_patterns/2.elements/2.Typography/body-copy.md",
                 "name": "Body copy",
                 "slug": "body-copy.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/headings.md",
+                "path": "_patterns/2.elements/2.Typography/headings.md",
                 "name": "Headings",
                 "slug": "headings.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/lead-copy.md",
+                "path": "_patterns/2.elements/2.Typography/lead-copy.md",
                 "name": "Lead copy",
                 "slug": "lead-copy.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/links.md",
+                "path": "_patterns/2.elements/2.Typography/links.md",
                 "name": "Links",
                 "slug": "links.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/rules.md",
+                "path": "_patterns/2.elements/2.Typography/rules.md",
                 "name": "Horizontal rule",
                 "slug": "rules.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/summary-copy.md",
+                "path": "_patterns/2.elements/2.Typography/summary-copy.md",
                 "name": "Summary copy",
                 "slug": "summary-copy.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/2.Typography/text-alignment.md",
+                "path": "_patterns/2.elements/2.Typography/text-alignment.md",
                 "name": "Text alignment",
                 "slug": "text-alignment.md"
             }
@@ -126,17 +126,17 @@
         "slug": "3.Grids",
         "children": [
             {
-                "path": "components/mural_patterns/2.elements/3.Grids/grid-desktop.md",
+                "path": "_patterns/2.elements/3.Grids/grid-desktop.md",
                 "name": "Grid desktop",
                 "slug": "grid-desktop.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/3.Grids/grid-mobile.md",
+                "path": "_patterns/2.elements/3.Grids/grid-mobile.md",
                 "name": "Grid mobile",
                 "slug": "grid-mobile.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/3.Grids/grid-tablet.md",
+                "path": "_patterns/2.elements/3.Grids/grid-tablet.md",
                 "name": "Grid tablet",
                 "slug": "grid-tablet.md"
             }
@@ -147,42 +147,42 @@
         "slug": "Buttons",
         "children": [
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-groups.md",
+                "path": "_patterns/2.elements/Buttons/buttons-groups.md",
                 "name": "Button groups",
                 "slug": "buttons-groups.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-icons.md",
+                "path": "_patterns/2.elements/Buttons/buttons-icons.md",
                 "name": "Buttons with icons",
                 "slug": "buttons-icons.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-light.md",
+                "path": "_patterns/2.elements/Buttons/buttons-light.md",
                 "name": "Buttons light",
                 "slug": "buttons-light.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-primary.md",
+                "path": "_patterns/2.elements/Buttons/buttons-primary.md",
                 "name": "Buttons primary",
                 "slug": "buttons-primary.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-secondary.md",
+                "path": "_patterns/2.elements/Buttons/buttons-secondary.md",
                 "name": "Buttons secondary",
                 "slug": "buttons-secondary.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-sizes.md",
+                "path": "_patterns/2.elements/Buttons/buttons-sizes.md",
                 "name": "Buttons sizes",
                 "slug": "buttons-sizes.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-variations.md",
+                "path": "_patterns/2.elements/Buttons/buttons-variations.md",
                 "name": "Button Variations",
                 "slug": "buttons-variations.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Buttons/buttons-warning.md",
+                "path": "_patterns/2.elements/Buttons/buttons-warning.md",
                 "name": "Buttons warning",
                 "slug": "buttons-warning.md"
             }
@@ -193,32 +193,32 @@
         "slug": "Forms",
         "children": [
             {
-                "path": "components/mural_patterns/2.elements/Forms/1.fields.md",
+                "path": "_patterns/2.elements/Forms/1.fields.md",
                 "name": "Form fields",
                 "slug": "1.fields.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Forms/field-sizes.md",
+                "path": "_patterns/2.elements/Forms/field-sizes.md",
                 "name": "Field sizes",
                 "slug": "field-sizes.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Forms/form-error.md",
+                "path": "_patterns/2.elements/Forms/form-error.md",
                 "name": "Form error message",
                 "slug": "form-error.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Forms/form-horizontal.md",
+                "path": "_patterns/2.elements/Forms/form-horizontal.md",
                 "name": "Horizontal form",
                 "slug": "form-horizontal.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Forms/form-login.md",
+                "path": "_patterns/2.elements/Forms/form-login.md",
                 "name": "Login form",
                 "slug": "form-login.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Forms/form-subscribe.md",
+                "path": "_patterns/2.elements/Forms/form-subscribe.md",
                 "name": "Subscribe form",
                 "slug": "form-subscribe.md"
             }
@@ -229,7 +229,7 @@
         "slug": "Icons",
         "children": [
             {
-                "path": "components/mural_patterns/2.elements/Icons/icons.md",
+                "path": "_patterns/2.elements/Icons/icons.md",
                 "name": "Icons",
                 "slug": "icons.md"
             }
@@ -240,32 +240,32 @@
         "slug": "Table",
         "children": [
             {
-                "path": "components/mural_patterns/2.elements/Table/table-bordered.md",
+                "path": "_patterns/2.elements/Table/table-bordered.md",
                 "name": "Table bordered",
                 "slug": "table-bordered.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Table/table-condensed.md",
+                "path": "_patterns/2.elements/Table/table-condensed.md",
                 "name": "Table condensed",
                 "slug": "table-condensed.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Table/table-default.md",
+                "path": "_patterns/2.elements/Table/table-default.md",
                 "name": "Table",
                 "slug": "table-default.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Table/table-responsive.md",
+                "path": "_patterns/2.elements/Table/table-responsive.md",
                 "name": "Responsive table",
                 "slug": "table-responsive.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Table/table-zebra.md",
+                "path": "_patterns/2.elements/Table/table-zebra.md",
                 "name": "Zebra table",
                 "slug": "table-zebra.md"
             },
             {
-                "path": "components/mural_patterns/2.elements/Table/table.md",
+                "path": "_patterns/2.elements/Table/table.md",
                 "name": "Table",
                 "slug": "table.md"
             }

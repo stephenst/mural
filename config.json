@@ -12,6 +12,9 @@
     "patterns": {
         "src": "./src/_mural/",
 
+        "rootPath": "./src/_mural/_patterns/",
+        "rootPath-description": "This is the path to the patterns that is outside of the app",
+
         "dest": "./build/mural/patterns/",
         "dest-description": "This is the Destination Path of all the Mural App - Patterns",
 
@@ -32,6 +35,9 @@
     },
     "readme": {
         "src": "./src/_mural/",
+
+        "rootPath": "./src/_mural/_guides/",
+        "rootPath-description": "This is the path to the Guides that is outside of the app",
 
         "dest": "./build/mural/patterns/",
         "dest-description": "This is the destination where the ReadMes will be built and served from",

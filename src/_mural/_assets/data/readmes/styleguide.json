@@ -8,7 +8,7 @@
                 "slug": "1-Intro",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/angular-styleguide/1-Intro/intro-and-resources.md",
+                        "path": "_guides/styleguide/angular-styleguide/1-Intro/intro-and-resources.md",
                         "name": "Intro and Resources",
                         "slug": "intro-and-resources.md",
                         "meta": {
@@ -22,7 +22,7 @@
                 "slug": "2-Single-File",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/angular-styleguide/2-Single-File/single-file-responsibility.md",
+                        "path": "_guides/styleguide/angular-styleguide/2-Single-File/single-file-responsibility.md",
                         "name": "Single File Responsibility",
                         "slug": "single-file-responsibility.md",
                         "meta": {
@@ -36,7 +36,7 @@
                 "slug": "3.IIFE",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/angular-styleguide/3.IIFE/iife.md",
+                        "path": "_guides/styleguide/angular-styleguide/3.IIFE/iife.md",
                         "name": "IIFE",
                         "slug": "iife.md",
                         "meta": {
@@ -50,7 +50,7 @@
                 "slug": "4.Modules",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/angular-styleguide/4.Modules/modules.md",
+                        "path": "_guides/styleguide/angular-styleguide/4.Modules/modules.md",
                         "name": "Modules",
                         "slug": "modules.md",
                         "meta": {
@@ -70,7 +70,7 @@
                 "slug": "1.General",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/1.General/general.md",
+                        "path": "_guides/styleguide/javascript-styleguide/1.General/general.md",
                         "name": "General",
                         "slug": "general.md"
                     }
@@ -81,7 +81,7 @@
                 "slug": "2.Types",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/2.Types/types.md",
+                        "path": "_guides/styleguide/javascript-styleguide/2.Types/types.md",
                         "name": "Types",
                         "slug": "types.md"
                     }
@@ -92,7 +92,7 @@
                 "slug": "3-Objects",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/3-Objects/objects.md",
+                        "path": "_guides/styleguide/javascript-styleguide/3-Objects/objects.md",
                         "name": "Objects",
                         "slug": "objects.md"
                     }
@@ -103,7 +103,7 @@
                 "slug": "4-Arrays",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/4-Arrays/arrays.md",
+                        "path": "_guides/styleguide/javascript-styleguide/4-Arrays/arrays.md",
                         "name": "Arrays",
                         "slug": "arrays.md"
                     }
@@ -114,7 +114,7 @@
                 "slug": "5-Strings",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/5-Strings/strings.md",
+                        "path": "_guides/styleguide/javascript-styleguide/5-Strings/strings.md",
                         "name": "Strings",
                         "slug": "strings.md"
                     }
@@ -125,7 +125,7 @@
                 "slug": "6-Functions",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/6-Functions/functions.md",
+                        "path": "_guides/styleguide/javascript-styleguide/6-Functions/functions.md",
                         "name": "Functions",
                         "slug": "functions.md"
                     }
@@ -136,7 +136,7 @@
                 "slug": "7-Properties",
                 "children": [
                     {
-                        "path": "components/mural_readmes/styleguide/javascript-styleguide/7-Properties/properties.md",
+                        "path": "_guides/styleguide/javascript-styleguide/7-Properties/properties.md",
                         "name": "Properties",
                         "slug": "properties.md"
                     }

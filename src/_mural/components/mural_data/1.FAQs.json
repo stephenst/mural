@@ -4,7 +4,7 @@
         "slug": "instructions",
         "children": [
             {
-                "path": "components/mural_patterns/1.FAQs/instructions/how-to.md",
+                "path": "_patterns/1.FAQs/instructions/how-to.md",
                 "name": "Mural Patterns",
                 "slug": "how-to.md"
             }
@@ -15,7 +15,7 @@
         "slug": "jsdoc",
         "children": [
             {
-                "path": "components/mural_patterns/1.FAQs/jsdoc/how-to-jsdoc.md",
+                "path": "_patterns/1.FAQs/jsdoc/how-to-jsdoc.md",
                 "name": "Mural - API",
                 "slug": "how-to-jsdoc.md",
                 "meta": {
@@ -29,7 +29,7 @@
         "slug": "jsstyleguide",
         "children": [
             {
-                "path": "components/mural_patterns/1.FAQs/jsstyleguide/jsstyleguide.md",
+                "path": "_patterns/1.FAQs/jsstyleguide/jsstyleguide.md",
                 "name": "Angular Style Guide",
                 "slug": "jsstyleguide.md"
             }

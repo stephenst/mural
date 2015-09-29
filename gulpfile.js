@@ -79,18 +79,18 @@ gulp.task("sass", function() {
  * @todo (@tstephens) Fix config.json so the paths aren't goofy when read in. Suspect a JSON parsing issue??
  * --------------------------------------------- */
 gulp.task("styleguideJsonTree", ["copy"], function() {
-    gulp.src(muralConfig.patterns.src + muralConfig.patterns.patterns)
+    gulp.src(muralConfig.patterns.rootPath)
         .pipe(tree({
-            patternsPath: muralConfig.patterns.src + muralConfig.patterns.patterns,
+            patternsPath: muralConfig.patterns.rootPath,
             jsonPath: muralConfig.patterns.src + muralConfig.patterns.json,
             pathToTrim: muralConfig.patterns.src
         }))
         .pipe(gulp.dest(muralConfig.src + muralConfig.patterns.json));
 });
-gulp.task("readmeJsonTree", [], function() {
-    gulp.src(muralConfig.readme.src + muralConfig.readme.markdown)
+gulp.task("readmeJsonTree", [], function () {
+    gulp.src(muralConfig.readme.rootPath)
         .pipe(tree({
-            patternsPath: muralConfig.readme.src + muralConfig.readme.markdown,
+            patternsPath: muralConfig.readme.rootPath,
             jsonPath: muralConfig.readme.src + muralConfig.readme.json,
             pathToTrim: muralConfig.patterns.src
         }))
@@ -105,7 +105,7 @@ gulp.task("injector", ["styleguideJsonTree", "readmeInjector"], function() {
     gulp.src(muralConfig.patterns.dest + "index.html")
         .pipe(prunehtml(["#jsonPath"]))
         .pipe(scriptInject({
-            jsonPath: muralConfig.patterns.dest + muralConfig.patterns.json,
+            jsonPath: muralConfig.patterns.src + muralConfig.patterns.json,
             jsonPathToTrim: muralConfig.patterns.json,
             jsonVar: "jsonPath"
         }))
@@ -115,7 +115,7 @@ gulp.task("readmeInjector", ["readmeJsonTree"], function() {
     gulp.src(muralConfig.patterns.src + "index.html")
         .pipe(prunehtml(["#readmePath"]))
         .pipe(scriptInject({
-            jsonPath: muralConfig.patterns.dest + muralConfig.readme.json,
+            jsonPath: muralConfig.readme.dest + muralConfig.readme.json,
             jsonPathToTrim: muralConfig.readme.json,
             jsonVar: "readmePath"
         }))
