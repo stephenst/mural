@@ -10,7 +10,10 @@
                     {
                         "path": "components/mural_readmes/styleguide/angular-styleguide/1-Intro/intro-and-resources.md",
                         "name": "Intro and Resources",
-                        "slug": "intro-and-resources.md"
+                        "slug": "intro-and-resources.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             },
@@ -23,7 +26,7 @@
                         "name": "Single File Responsibility",
                         "slug": "single-file-responsibility.md",
                         "meta": {
-                            "hidecode": "true,"
+                            "hidecode": true
                         }
                     }
                 ]
@@ -35,7 +38,10 @@
                     {
                         "path": "components/mural_readmes/styleguide/angular-styleguide/3.IIFE/iife.md",
                         "name": "IIFE",
-                        "slug": "iife.md"
+                        "slug": "iife.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             },
@@ -46,7 +52,10 @@
                     {
                         "path": "components/mural_readmes/styleguide/angular-styleguide/4.Modules/modules.md",
                         "name": "Modules",
-                        "slug": "modules.md"
+                        "slug": "modules.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             }

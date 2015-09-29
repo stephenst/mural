@@ -1,8 +1,7 @@
 ---
 name: Intro and Resources
+hidecode: true
 description: |
-  ## Intro and Resources
-  
   There are many ways to code. Especially in Angular. This is one shared approach that works.
   
   #### Official Docs

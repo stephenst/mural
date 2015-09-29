@@ -51,7 +51,7 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
         div#wrapper
             nav#sidebar-wrapper
                 ul.nav.sidebar-nav
-                    li.nav.sidebar-brand
+                    li.nav.sidebar-brand(ng-if="!currentReadMe")
                         h3 Introduction
                     li.nav(ng-class="{active: section=='Overview'}", ng-if="!currentReadMe")
                         a(href="#!/")
@@ -62,13 +62,11 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
                                     h3(once-text="style.name")
                                 li.nav(ng-repeat="element in style.data", ng-class="{'active': element.slug == sectionSlug}", once-show="element.children.length")
                                     a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
+                    li.nav.sidebar-brand(ng-if="currentReadMe")
+                        h3 {{ currentReadMe.name | dashToSpace | capitalize:true }}
                     li.nav(ng-class="{active: section=='Overview'}", ng-if="currentReadMe")
-                        a(href="#!/")
-                            | Overview
                         div(ng-repeat="readme in currentReadMe.children")
                             ul.nav
-                                li.nav
-                                    h3(once-text="readme.name")
                                 li.nav(ng-repeat="element in readme.children", ng-class="{'active': element.slug == sectionSlug}", once-show="readme.children.length")
                                     //- a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
                                     a(ng-click="scrollTo(element.name)",

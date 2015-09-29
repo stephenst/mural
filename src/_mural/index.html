@@ -33,7 +33,7 @@
     <div id="wrapper">
       <nav id="sidebar-wrapper">
         <ul class="nav sidebar-nav">
-          <li class="nav sidebar-brand">
+          <li ng-if="!currentReadMe" class="nav sidebar-brand">
             <h3>Introduction</h3>
           </li>
           <li ng-class="{active: section==&apos;Overview&apos;}" ng-if="!currentReadMe" class="nav"><a href="#!/">Overview</a>
@@ -46,12 +46,12 @@
               </ul>
             </div>
           </li>
-          <li ng-class="{active: section==&apos;Overview&apos;}" ng-if="currentReadMe" class="nav"><a href="#!/">Overview</a>
+          <li ng-if="currentReadMe" class="nav sidebar-brand">
+            <h3>{{ currentReadMe.name | dashToSpace | capitalize:true }}</h3>
+          </li>
+          <li ng-class="{active: section==&apos;Overview&apos;}" ng-if="currentReadMe" class="nav">
             <div ng-repeat="readme in currentReadMe.children">
               <ul class="nav">
-                <li class="nav">
-                  <h3 once-text="readme.name"></h3>
-                </li>
                 <li ng-repeat="element in readme.children" ng-class="{&apos;active&apos;: element.slug == sectionSlug}" once-show="readme.children.length" class="nav"><a ng-click="scrollTo(element.name)" once-text="readme.name" ng-class="{active: anchor(readme.name) == subSection}"></a>
                 </li>
               </ul>

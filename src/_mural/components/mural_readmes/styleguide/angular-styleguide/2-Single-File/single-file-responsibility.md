@@ -1,9 +1,7 @@
 ---
 name: Single File Responsibility
-hidecode: true,
+hidecode: true
 description: >
-
-  ## Single Responsibility
   
   - Define 1 component per file.
 

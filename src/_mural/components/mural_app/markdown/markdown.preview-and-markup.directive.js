@@ -20,13 +20,13 @@ angular.module("mural.markdown").directive("previewAndMarkup", function () {
                   "     <div class=\"block block--description\">" +
                   "         <div class=\"patterns-description\"></div>" +
                   "     </div>" +
-                  "     <div once-wait-for=\"patterns\" class=\"example-code\">" +
+                  "     <div once-wait-for=\"patterns\" class=\"example-code\" ng-hide=\"patterns.meta.hidecode\">" +
                   "         <a class=\"toggle-code\" ng-hide=\"patterns.meta.hidecode\" ng-class=\"{ active:patterns.togglecode }\" ng-click=\"patterns.togglecode = !patterns.togglecode\">" +
                   "             <em class=\"fa fa-code fa-lg\" />" +
                   "         </a>" +
                   "         <pre ng-show=\"patterns.togglecode\"><code class=\"language-markup\"></code></pre>" +
                   "     </div>" +
-                  "     <div class=\"block--meta\" ng-show=\"patterns.meta\">" +
+                  "     <div class=\"block--meta\" ng-show=\"patterns.meta && !patterns.meta.hidecode\">" +
                   "         <div ng-repeat=\"meta in patterns.meta\">" +
                   "             <span ng-hide=\"meta.hidecode\">{{ meta }}</span>" +
                   "         </div>" +

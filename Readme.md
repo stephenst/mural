@@ -39,16 +39,18 @@ Dependecy
 The meta information in these files go between lines with `---`
 
 Name: Title of the Pattern Section
+hidecode: true|false  (if you have HTML code showing the exmaple have it under the bottom --- and we'll seperate it out.)
 Description: This is the body copy that will display.  
-Subsections within Description: (Preceded by ###)
+Subsections within Description: (use markdown)
 What - What the item is.
 Use When - When do you implement it.
 
 HTML Code goes below the meta information.
-````
+```
     ---
     name: Alert success
-    description: |
+    hidecode: true
+    description: >
         ### What
         Page level information or service alert. Critical updates with a defined time period should be pushed using the alert box.
     
@@ -60,4 +62,4 @@ HTML Code goes below the meta information.
         <div class="alert__body">More body text</div>
         <a href="#" class="alert_close"></a>
     </div>
-````  
+```

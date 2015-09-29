@@ -6,5 +6,5 @@ div.row-fluid
                 a(id="{{ readme.name | anchor }}")
                 div(preview-and-markup patterns="readme")
                 div.pattern-variation(ng-repeat="variation in readme.children")
-                    h4(id="{{ variation.name | anchor }}", once-text="variation.name")
+                    //- h4(id="{{ variation.name | anchor }}", once-text="variation.name")
                     div(preview-and-markup patterns="variation")

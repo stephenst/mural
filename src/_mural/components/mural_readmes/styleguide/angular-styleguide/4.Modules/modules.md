@@ -1,7 +1,7 @@
 ---
 name: Modules
+hidecode: true
 description: |
-  ## Modules
   
   ### Avoid Naming Collisions
   
