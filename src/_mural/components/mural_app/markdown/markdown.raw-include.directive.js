@@ -139,10 +139,10 @@ angular.module("mural.markdown").directive("rawInclude", [
                                     console.log("else code length");
                                     console.log(code);
                                     /* Adds codes to the code block */
-                                    code.text = conf.content.trim();
+                                    code.text(conf.content.trim());
 
                                     /* Highlighting */
-                                    Prism.highlightElement(code);
+                                    Prism.highlightElement(code[0]);
                                 }
 
                             }).error(function() {
