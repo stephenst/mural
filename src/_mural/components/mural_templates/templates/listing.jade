@@ -8,12 +8,12 @@ div
                         once-text="pattern.name",
                         ng-class="{active: anchor(pattern.name) == subSection}")
         div.main-content(ng-class="{ 'col-md-10': patterns.children.length > 1, 'col-md-12': patterns.children.length <= 1 }")
-            div(preview-and-markup patterns="patterns")
+            div(preview-pattern patterns="patterns")
             ul.pattern-list
                 li(ng-repeat="pattern in patterns.children")
                     h3(id="{{ pattern.name | anchor }}", once-text="pattern.name")
                     a(id="{{ pattern.name | anchor }}")
-                    div(preview-and-markup patterns="pattern")
+                    div(preview-pattern patterns="pattern")
                     div.pattern-variation(ng-repeat="variation in pattern.children")
                         h4(id="{{ variation.name | anchor }}", once-text="variation.name")
-                        div(preview-and-markup patterns="variation")
+                        div(preview-pattern patterns="variation")

@@ -114,30 +114,38 @@ angular.module("mural.markdown").directive("rawInclude", [
                                 if (count == totalcount) {
                                     $timeout(function () {
                                         angular.element("body").trigger("mural.completed");
-                                    },500);
+                                    }, 500);
                                 }
 
                                 /* Element Syntax highlight */
                                 var code = element.closest(".block--example").find("code");
                                 // $element = element.clone();
-                                // console.log(code);
+                                console.log(code.length);
 
-                                angular.forEach(code, function(value, key) {
-                                    this.push(key + ": " + value);
-                                    // console.log("code for each, value, then key");
-                                    // console.log(value);
-                                    // console.log(key);
+                                if (code.length > 1) {
+                                    angular.forEach(code, function (value, key) {
+                                        this.push(key + ": " + value);
+                                        console.log("code for each, key of: " + key + ", now value:");
+                                        console.log(value);
 
+                                        /* Adds codes to the code block */
+                                        code[key].text = conf.content.trim();
+
+                                        /* Highlighting */
+                                        Prism.highlightElement(code[key]);
+
+                                    }, code);
+                                } else {
+                                    console.log("else code length");
+                                    console.log(code);
                                     /* Adds codes to the code block */
-                                    code[key].text = conf.content.trim();
+                                    code.text = conf.content.trim();
 
                                     /* Highlighting */
-                                    Prism.highlightElement(code[key]);
+                                    Prism.highlightElement(code);
+                                }
 
-                                }, code);
-
-
-                            }).error(function () {
+                            }).error(function() {
                                 if (thisChangeId === changeCounter) {
                                     element.html("");
                                 }
