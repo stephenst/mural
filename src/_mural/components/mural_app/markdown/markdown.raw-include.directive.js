@@ -20,7 +20,7 @@ angular.module("mural.markdown").directive("rawInclude", [
     "$q",
     "$timeout",
     "$log",
-    function ($http, $templateCache, $compile, $q, $timeout, $log) {
+    function($http, $templateCache, $compile, $q, $timeout, $log) {
 
         var totalcount = 0;
 
@@ -30,13 +30,13 @@ angular.module("mural.markdown").directive("rawInclude", [
             scope: {
                 patterns: "="
             },
-            compile: function (telement, attr) {
+            compile: function(telement, attr) {
                 var srcExp = attr.src, count = 0;
 
-                return function (scope, element) {
+                return function(scope, element) {
                     var changeCounter = 0;
 
-                    scope.$watch("patterns", function (newValue) {
+                    scope.$watch("patterns", function(newValue) {
                         if (newValue) {
                             if (scope.patterns && scope.patterns.children) {
                                 totalcount = scope.patterns.children.length;
@@ -44,20 +44,13 @@ angular.module("mural.markdown").directive("rawInclude", [
                         }
                     }, true);
 
-                    scope.$watch(srcExp, function (src) {
+                    scope.$watch(srcExp, function(src) {
                         var thisChangeId = ++changeCounter;
 
                         if (src) {
                             $http.get(src, {
                                 cache: $templateCache
-                            }).success(function (response) {
-                                if (thisChangeId !== changeCounter) {
-                                    return;
-                                }
-
-                                /* Increment counter */
-                                count++;
-
+                            }).success(function(response) {
                                 /**
                                  * Parsing Markdown files
                                  * @type {Object}
@@ -68,12 +61,21 @@ angular.module("mural.markdown").directive("rawInclude", [
                                     html: "",
                                     meta: {}
                                 };
+                                var re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/;
+                                var results = re.exec(response.trim());
+                                var conf = {};
+                                var yamlOrJson; // Flag to check if we're reading markdown or json
+                                var name = "content"; // Conf element to find
+                                /* Add description */
+                                var $description = element.parent().next();
+                                var code = element.closest(".block--example").find("code"); // the raw code to display
 
-                                var re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/,
-                                    results = re.exec(response.trim()),
-                                    conf = {},
-                                    yamlOrJson,
-                                    name = "content";
+                                if (thisChangeId !== changeCounter) {
+                                    return;
+                                }
+
+                                /* Increment counter */
+                                count++;
 
                                 if ((yamlOrJson = results[2])) {
                                     if (yamlOrJson.charAt(0) === "{") {
@@ -85,9 +87,6 @@ angular.module("mural.markdown").directive("rawInclude", [
 
                                 conf[name] = results[3] ? results[3] : results[2];
 
-                                /* Add description */
-                                var $description = element.parent().next();
-
                                 if (conf.description) {
                                     // parsedContent.markdown = marked(conf.description);
                                     parsedContent.markdown = marked(conf.description);
@@ -97,13 +96,6 @@ angular.module("mural.markdown").directive("rawInclude", [
                                     $description.hide();
                                 }
 
-
-                                //  if (conf.meta && conf.meta !== 'hidecode') {
-                                //      $log.info('META DESCRIPTION');
-                                //      scope.meta = marked(conf.meta);
-                                //      $log.info(scope.meta);
-                                //  }
-
                                 /* Element preview */
                                 element.html(conf.content);
 
@@ -112,21 +104,19 @@ angular.module("mural.markdown").directive("rawInclude", [
 
                                 /* Trigger element added */
                                 if (count == totalcount) {
-                                    $timeout(function () {
+                                    $timeout(function() {
                                         angular.element("body").trigger("mural.completed");
                                     }, 500);
                                 }
 
-                                /* Element Syntax highlight */
-                                var code = element.closest(".block--example").find("code");
-                                // $element = element.clone();
-                                console.log(code.length);
-
+                                /**
+                                 *  Element Syntax highlight
+                                 *  Two options here; the Guide/Readmes and the Pattern Library.
+                                 *  Pattern Library code length is 1, Readmes is more than 1.
+                                 *  */
                                 if (code.length > 1) {
-                                    angular.forEach(code, function (value, key) {
+                                    angular.forEach(code, function(value, key) {
                                         this.push(key + ": " + value);
-                                        console.log("code for each, key of: " + key + ", now value:");
-                                        console.log(value);
 
                                         /* Adds codes to the code block */
                                         code[key].text = conf.content.trim();
@@ -136,8 +126,6 @@ angular.module("mural.markdown").directive("rawInclude", [
 
                                     }, code);
                                 } else {
-                                    console.log("else code length");
-                                    console.log(code);
                                     /* Adds codes to the code block */
                                     code.text(conf.content.trim());
 
@@ -156,7 +144,7 @@ angular.module("mural.markdown").directive("rawInclude", [
                     });
                 };
             },
-            link: function (scope, element, attrs) {
+            link: function(scope, element, attrs) {
                 if (scope.$last) {
                     $log.info("rawInclude link: is scope last.  element and attrs follow");
                     $log.info(element);
