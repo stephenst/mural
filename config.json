@@ -12,6 +12,9 @@
     "patterns": {
         "src": "./src/_mural/",
 
+        "rootPath": "./src/_mural/_patterns/",
+        "rootPath-description": "This is the path to the patterns that is outside of the app",
+
         "dest": "./build/mural/patterns/",
         "dest-description": "This is the Destination Path of all the Mural App - Patterns",
 
@@ -33,6 +36,9 @@
     "readme": {
         "src": "./src/_mural/",
 
+        "rootPath": "./src/_mural/_guides/",
+        "rootPath-description": "This is the path to the Guides that is outside of the app",
+
         "dest": "./build/mural/patterns/",
         "dest-description": "This is the destination where the ReadMes will be built and served from",
 
@@ -50,11 +56,17 @@
         "sourceFiles-description": "the JS files that will be parsed by ngDoc"
     },
     "styles": {
+        "src": "src/_mural/_assets/sass/main.scss",
+        "src-description": "The direct path to the main sass file for the Style Guide Generation",
+
         "assets": "src/_mural/_assets/",
         "assets-description": "The source directory to read from ",
 
-        "dest": "./build/mural/_assets/css/",
-        "dest-description": "The destination direction to copy into",
+        "root": "./build/mural/styles",
+        "root-description": "where the Style Gudie will be built",
+
+        "dest": "./build/mural/_assets/css",
+        "dest-description": "The destination direction to convert into",
 
         "images": "./build/_assets/images/",
         "images-description": "This is the Root Path to copy the images in.",

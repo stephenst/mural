@@ -4,12 +4,12 @@
         "slug": "Accordion",
         "children": [
             {
-                "path": "components/mural_patterns/3.components/Accordion/1.accordion.md",
+                "path": "_patterns/3.components/Accordion/1.accordion.md",
                 "name": "Accordion Dynamic",
                 "slug": "1.accordion.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Accordion/2.accordion-alternate.md",
+                "path": "_patterns/3.components/Accordion/2.accordion-alternate.md",
                 "name": "Accordion Disabled",
                 "slug": "2.accordion-alternate.md"
             }
@@ -20,7 +20,7 @@
         "slug": "Alerts",
         "children": [
             {
-                "path": "components/mural_patterns/3.components/Alerts/1.alert-success.md",
+                "path": "_patterns/3.components/Alerts/1.alert-success.md",
                 "name": "Alerts",
                 "slug": "1.alert-success.md"
             }
@@ -31,22 +31,22 @@
         "slug": "Dropdown",
         "children": [
             {
-                "path": "components/mural_patterns/3.components/Dropdown/dropdown-buttons.md",
+                "path": "_patterns/3.components/Dropdown/dropdown-buttons.md",
                 "name": "Dropdown buttons",
                 "slug": "dropdown-buttons.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Dropdown/dropdown-click.md",
+                "path": "_patterns/3.components/Dropdown/dropdown-click.md",
                 "name": "Dropdown on click",
                 "slug": "dropdown-click.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Dropdown/dropdown-hover.md",
+                "path": "_patterns/3.components/Dropdown/dropdown-hover.md",
                 "name": "Dropdown on hover",
                 "slug": "dropdown-hover.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Dropdown/dropdown-split.md",
+                "path": "_patterns/3.components/Dropdown/dropdown-split.md",
                 "name": "Dropdown split button",
                 "slug": "dropdown-split.md"
             }
@@ -57,7 +57,7 @@
         "slug": "Modal",
         "children": [
             {
-                "path": "components/mural_patterns/3.components/Modal/modal-ajax.md",
+                "path": "_patterns/3.components/Modal/modal-ajax.md",
                 "name": "Modal Ajax",
                 "slug": "modal-ajax.md"
             }
@@ -72,29 +72,29 @@
                 "slug": "Pagination",
                 "children": [
                     {
-                        "path": "components/mural_patterns/3.components/Navigation/Pagination/pagination-variations.md",
+                        "path": "_patterns/3.components/Navigation/Pagination/pagination-variations.md",
                         "name": "Pagination variations",
                         "slug": "pagination-variations.md"
                     },
                     {
-                        "path": "components/mural_patterns/3.components/Navigation/Pagination/pagination.md",
+                        "path": "_patterns/3.components/Navigation/Pagination/pagination.md",
                         "name": "Pagination",
                         "slug": "pagination.md"
                     }
                 ]
             },
             {
-                "path": "components/mural_patterns/3.components/Navigation/breadcrumbs.md",
+                "path": "_patterns/3.components/Navigation/breadcrumbs.md",
                 "name": "Breadcrumbs",
                 "slug": "breadcrumbs.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Navigation/navbar-dark.md",
+                "path": "_patterns/3.components/Navigation/navbar-dark.md",
                 "name": "Navigation dark",
                 "slug": "navbar-dark.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Navigation/navbar-light.md",
+                "path": "_patterns/3.components/Navigation/navbar-light.md",
                 "name": "Navigation light",
                 "slug": "navbar-light.md"
             }
@@ -105,7 +105,7 @@
         "slug": "Page",
         "children": [
             {
-                "path": "components/mural_patterns/3.components/Page/page.md",
+                "path": "_patterns/3.components/Page/page.md",
                 "name": "Page title and description",
                 "slug": "page.md"
             }
@@ -116,12 +116,12 @@
         "slug": "Tabs",
         "children": [
             {
-                "path": "components/mural_patterns/3.components/Tabs/tabs-simple.md",
+                "path": "_patterns/3.components/Tabs/tabs-simple.md",
                 "name": "Tabs",
                 "slug": "tabs-simple.md"
             },
             {
-                "path": "components/mural_patterns/3.components/Tabs/tabs.md",
+                "path": "_patterns/3.components/Tabs/tabs.md",
                 "name": "Tabs box",
                 "slug": "tabs.md"
             }
