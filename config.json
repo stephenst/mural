@@ -56,11 +56,17 @@
         "sourceFiles-description": "the JS files that will be parsed by ngDoc"
     },
     "styles": {
+        "src": "src/_mural/_assets/sass/main.scss",
+        "src-description": "The direct path to the main sass file for the Style Guide Generation",
+
         "assets": "src/_mural/_assets/",
         "assets-description": "The source directory to read from ",
 
-        "dest": "./build/mural/_assets/css/",
-        "dest-description": "The destination direction to copy into",
+        "root": "./build/mural/styles",
+        "root-description": "where the Style Gudie will be built",
+
+        "dest": "./build/mural/_assets/css",
+        "dest-description": "The destination direction to convert into",
 
         "images": "./build/_assets/images/",
         "images-description": "This is the Root Path to copy the images in.",
