@@ -16,7 +16,7 @@ description: |
 
   *Why?*: With 1 component per file, there is rarely a need to introduce a variable for the module.
 
-    ```javascript
+  ```javascript
     /* avoid */
     var app = angular.module('app', [
        'ngAnimate',
@@ -24,11 +24,11 @@ description: |
        'app.shared',
        'app.dashboard'
     ]);
-    ```
+  ```
  
   Instead use the simple setter syntax.
  
-    ```javascript
+  ```javascript
     /* recommended */
     angular.module('app', [
        'ngAnimate',
@@ -36,7 +36,7 @@ description: |
        'app.shared',
        'app.dashboard'
     ]);
-    ```
+  ```
   
   ### Getters
    
@@ -44,22 +44,22 @@ description: |
 
   *Why?*: This produces more readable code and avoids variable collisions or leaks.
    
-    ```javascript
+  ```javascript
     /* avoid */
     var app = angular.module('app');
     app.controller('SomeController', SomeController);
     
     function SomeController() { }
-    ```
+  ```
     
-    ```javascript
+  ```javascript
     /* recommended */
     angular
        .module('app')
        .controller('SomeController', SomeController);
     
     function SomeController() { }
-    ```
+  ```
   
   ### Setting vs Getting
   
@@ -77,15 +77,15 @@ description: |
   
   *Why?*: This produces more readable code, is much easier to debug, and reduces the amount of nested callback code.
    
-    ```javascript
+  ```javascript
     /* avoid */
     angular
        .module('app')
        .controller('Dashboard', function() { })
        .factory('logger', function() { });
-    ```
+  ```
     
-    ```javascript
+  ```javascript
     /* recommended */
     
     // dashboard.js
@@ -94,16 +94,16 @@ description: |
        .controller('Dashboard', Dashboard);
     
     function Dashboard() { }
-    ```
+  ```
     
-    ```javascript
+  ```javascript
     // logger.js
     angular
        .module('app')
        .factory('logger', logger);
     
     function logger() { }
-    ```
+  ```
   
   **[⬆ back to top](#table-of-contents)**
 

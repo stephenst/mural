@@ -7,10 +7,10 @@
             {
                 "name": "Intro",
                 "order": "1",
-                "slug": "1-Intro",
+                "slug": "1.Intro",
                 "children": [
                     {
-                        "path": "_guides/styleguide/angular-styleguide/1-Intro/intro-and-resources.md",
+                        "path": "_guides/styleguide/angular-styleguide/1.Intro/intro-and-resources.md",
                         "name": "Intro and Resources",
                         "order": "",
                         "slug": "intro-and-resources.md",
@@ -21,12 +21,44 @@
                 ]
             },
             {
-                "name": "Single-File",
-                "order": "2",
-                "slug": "2-Single-File",
+                "name": "Constants",
+                "order": "10",
+                "slug": "10.Constants",
                 "children": [
                     {
-                        "path": "_guides/styleguide/angular-styleguide/2-Single-File/single-file-responsibility.md",
+                        "path": "_guides/styleguide/angular-styleguide/10.Constants/constants.md",
+                        "name": "Constants",
+                        "order": "",
+                        "slug": "constants.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "leftover",
+                "order": "11",
+                "slug": "11.leftover",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/11.leftover/angular-styleguide.md",
+                        "name": "Leftover",
+                        "order": "",
+                        "slug": "angular-styleguide.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Single-File",
+                "order": "2",
+                "slug": "2.Single-File",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/2.Single-File/single-file-responsibility.md",
                         "name": "Single File Responsibility",
                         "order": "",
                         "slug": "single-file-responsibility.md",
@@ -62,6 +94,86 @@
                         "name": "Modules",
                         "order": "",
                         "slug": "modules.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Controllers",
+                "order": "5",
+                "slug": "5.Controllers",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/5.Controllers/controllers.md",
+                        "name": "Controllers",
+                        "order": "",
+                        "slug": "controllers.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Services",
+                "order": "6",
+                "slug": "6.Services",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/6.Services/services.md",
+                        "name": "Services",
+                        "order": "",
+                        "slug": "services.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Directives",
+                "order": "7",
+                "slug": "7.Directives",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/7.Directives/directives.md",
+                        "name": "Directives",
+                        "order": "",
+                        "slug": "directives.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Promises-for-Controller",
+                "order": "8",
+                "slug": "8.Promises-for-Controller",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/8.Promises-for-Controller/promises-for-controller.md",
+                        "name": "Resolving Promises for a Controller",
+                        "order": "",
+                        "slug": "promises-for-controller.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Filters",
+                "order": "9",
+                "slug": "9.Filters",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/angular-styleguide/9.Filters/filters.md",
+                        "name": "Filters",
+                        "order": "",
+                        "slug": "filters.md",
                         "meta": {
                             "hidecode": true
                         }
