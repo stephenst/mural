@@ -10,16 +10,16 @@
  *
  */
 
-angular.module('mural.filters', []).filter('anchor', [function () {
+angular.module("mural.filters", []).filter("anchor", [function () {
     /**
      * @ngdoc filter
      * @name mural.filters.anchor
      * @memberof mural.filters
      */
     return function (text) {
-        return text.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '').replace(/\s+/g, '-').toLowerCase();
+        return text.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, "").replace(/\s+/g, "-").toLowerCase();
     };
-}]).filter('capitalize', [function () {
+}]).filter("capitalize", [function () {
     /**
      * @ngdoc capitalize
      * @name mural.filters.capitalize
@@ -28,15 +28,24 @@ angular.module('mural.filters', []).filter('anchor', [function () {
     return function (input, all) {
         return (!!input) ? input.replace(/([^\W_]+[^\s-]*) */g, function (txt) {
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-        }) : '';
+        }) : "";
     }
-}]).filter('dashToSpace', [function () {
+}]).filter("dashToSpace", [function () {
     /**
      * @ngdoc capitalize
      * @name mural.filters.capitalize
      * @memberof mural.filters
      */
     return function (text) {
-        return text.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, ' ').toLowerCase();
+        return text.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, " ").toLowerCase();
     };
-}]);
+}]).filter("toNumber", function () {
+    /**
+     * @ngdoc toNumber
+     * @name mural.filters.toNumber
+     * @memberof mural.filters
+     */
+    return function (input) {
+        return parseInt(input, 10);
+    };
+});

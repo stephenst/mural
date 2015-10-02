@@ -1,22 +1,26 @@
 [
     {
         "name": "instructions",
+        "order": "",
         "slug": "instructions",
         "children": [
             {
                 "path": "_patterns/1.FAQs/instructions/how-to.md",
                 "name": "Mural Patterns",
+                "order": "",
                 "slug": "how-to.md"
             }
         ]
     },
     {
         "name": "jsdoc",
+        "order": "",
         "slug": "jsdoc",
         "children": [
             {
                 "path": "_patterns/1.FAQs/jsdoc/how-to-jsdoc.md",
                 "name": "Mural - API",
+                "order": "",
                 "slug": "how-to-jsdoc.md",
                 "meta": {
                     "hidecode": true
@@ -26,11 +30,13 @@
     },
     {
         "name": "jsstyleguide",
+        "order": "",
         "slug": "jsstyleguide",
         "children": [
             {
                 "path": "_patterns/1.FAQs/jsstyleguide/jsstyleguide.md",
                 "name": "Angular Style Guide",
+                "order": "",
                 "slug": "jsstyleguide.md"
             }
         ]

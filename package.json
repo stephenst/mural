@@ -36,6 +36,7 @@
     "gulp-prune-html": "^0.1.0",
     "gulp-rename": "~1.1.0",
     "gulp-sass": "~0.7.1",
+    "gulp-sass-lint": "^1.0.1",
     "gulp-util": "~2.2.14",
     "http": "0.0.0",
     "js-yaml": "~3.0.1",
@@ -50,5 +51,10 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "prestart": "npm install",
+    "preinstall": "npm install sass-lint -g",
+    "start": "gulp"
+  }
 }

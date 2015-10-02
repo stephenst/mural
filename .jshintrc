@@ -1,77 +1,231 @@
 {
-    "maxerr": 1,
-    "bitwise": true,
-    "camelcase": true,
-    "curly": true,
-    "eqeqeq": true,
-    "forin": true,
-    "freeze": true,
-    "immed": false,
-    "indent": 4,
-    "latedef": "nofunc",
-    "newcap": true,
-    "noarg": true,
-    "noempty": true,
-    "nonbsp": true,
-    "nonew": false,
-    "plusplus": false,
-    "quotmark": "double",
-    "undef": true,
-    "unused": true,
-    "strict": true,
-    "maxparams": 10,
-    "maxdepth": 5,
-    "maxstatements": 40,
-    "maxcomplexity": 8,
-    "maxlen": 120,
-    "asi": false,
-    "boss": false,
-    "debug": false,
-    "eqnull": false,
-    "es5": false,
-    "esnext": true,
-    "moz": false,
-    "evil": false,
-    "expr": false,
-    "funcscope": false,
-    "globalstrict": false,
-    "iterator": false,
-    "lastsemic": false,
-    "laxbreak": false,
-    "laxcomma": false,
-    "loopfunc": false,
-    "multistr": true,
-    "noyield": false,
-    "notypeof": false,
-    "proto": false,
-    "scripturl": false,
-    "shadow": false,
-    "sub": true,
-    "supernew": false,
-    "validthis": false,
-    "browser": true,
-    "browserify": true,
-    "couch": false,
-    "devel": true,
-    "dojo": false,
-    "jasmine": true,
-    "jquery": false,
-    "mocha": false,
-    "mootools": false,
-    "node": true,
-    "nonstandard": false,
-    "phantom": true,
-    "prototypejs": false,
-    "qunit": false,
-    "rhino": false,
-    "shelljs": false,
-    "typed": false,
-    "worker": false,
-    "wsh": false,
-    "yui": false,
+  "maxerr": 1,
+  "maxerr-description": "{int} Maximum error before stopping",
+  "maxerr-why": "Any error should stop things IMO",
 
-    "globals": {
-        "angular": true,
-        "$": true
-    }
+  "bitwise": true,
+  "bitwise-description": "true: Prohibit bitwise operators (&, |, ^, etc.)",
+
+  "camelcase": true,
+  "camlecase-description": "true: Identifiers must be in camelCase",
+
+  "curly": true,
+  "curly-description": "true: Require {} for every new block or scope",
+
+  "eqeqeq": true,
+  "eqeqeq-description": "true: Require triple equals (===) for comparison",
+
+  "forin": true,
+  "forin-description": "true: Require filtering for..in loops with obj.hasOwnProperty()",
+
+  "freeze": true,
+  "freeze-description": "true: prohibits overwriting prototypes of native objects such as Array, Date etc.",
+
+  "immed": false,
+  "immed-description": "true: Require immediate invocations to be wrapped in parens e.g. `(function () { } ());`",
+
+  "indent": 4,
+  "indent-description": "{int} Number of spaces to use for indentation",
+
+  "latedef": "nofunc",
+  "latedef-description": "true: Require variables/functions to be defined before being used",
+
+  "newcap": true,
+  "newcap-description": "true: Require capitalization of all constructor functions e.g. `new F()`",
+
+  "noarg": true,
+  "noarg-description": "true: Prohibit use of `arguments.caller` and `arguments.callee`",
+
+  "noempty": true,
+  "noempty-description": "Ptrue: rohibit use of empty blocks",
+
+  "nonbsp": true,
+  "nonbsp-description": "true: Prohibit non-breaking whitespace characters.",
+
+  "nonew": false,
+  "nonew-description": "true: Prohibit use of constructors for side-effects (without assignment)",
+
+  "plusplus": false,
+  "plusplus-description": "true: Prohibit use of `++` & `--`",
+
+  "quotmark": "double",
+  "quotmark-description": "Quotation mark consistency: (false, true, single, double) false: do nothing (default),  true : ensure whatever is used is consistent,  single : require single quotes, double : require double quotes",
+
+  "undef": true,
+  "undef-description": "true: Require all non-global variables to be declared (prevents global leaks)",
+
+  "unused": true,
+  "unused-description": "Unused variables: (true, vars, strict).  true: all variables, last function parameter, vars: all variables only, strict: all variables, all function parameters",
+
+  "strict": true,
+  "strict-description": "true: Requires all functions run in ES5 Strict Mode",
+
+  "maxparams": 10,
+  "maxparams-description": "{int} Max number of formal params allowed per function",
+
+  "maxdepth": 5,
+  "maxdepth-description": "{int} Max depth of nested blocks (within functions)",
+
+  "maxstatements": 40,
+  "maxstatements-description": "{int} Max number statements per function",
+
+  "maxcomplexity": 8,
+  "maxcomplexity-description": "{int} Max cyclomatic complexity per function",
+
+  "maxlen": 120,
+  "maxlen-description": "{int} Max number of characters per line",
+
+
+
+  "RELAXING-RULES": "----------------------------- These are the Relaxing Rules -----------------------------",
+
+  "asi": false,
+  "asi-description": "true: Tolerate Automatic Semicolon Insertion (no semicolons)",
+
+  "boss": false,
+  "boss-description": "true: Tolerate assignments where comparisons would be expected",
+
+  "debug": false,
+  "debug-description": "true: Allow debugger statements e.g. browser breakpoints.",
+
+  "eqnull": false,
+  "eqnull-description": "true: Tolerate use of `== null`",
+
+  "es5": true,
+  "es5-description": "true: Allow ES5 syntax (ex: getters and setters)",
+
+  "esnext": true,
+  "esnext-description": "true: Allow ES.next (ES6) syntax (ex: `const`)",
+  "esnext-why": "Why not allow this if it's working in the app?  prepare for ES6?",
+
+  "moz": false,
+  "moz-description": "true: Allow Mozilla specific syntax (extends and overrides esnext features)",
+
+  "evil": false,
+  "evil-description": "true: Tolerate use of `eval` and `new Function()`",
+
+  "expr": false,
+  "expr-description": "true: Tolerate `ExpressionStatement` as Programs",
+
+  "funcscope": false,
+  "funcscope-description": "true: Tolerate defining variables inside control statements",
+
+  "globalstrict": false,
+  "globalstrict-description": "true: Allow global 'use strict' (also enables 'strict')",
+
+  "iterator": false,
+  "iterator-description": "true: Tolerate using the `__iterator__` property",
+
+  "lastsemic": false,
+  "lastsemic-description": "true: Tolerate omitting a semicolon for the last statement of a 1-line block",
+
+  "laxbreak": false,
+  "laxbreak-description": "true: Tolerate possibly unsafe line breakings",
+
+  "laxcomma": false,
+  "laxcomma-description": "true: Tolerate comma-first style coding",
+
+  "loopfunc": false,
+  "loopfunc-description": "true: Tolerate functions being defined in loops",
+
+  "multistr": true,
+  "multistr-description": "true: Tolerate multi-line strings",
+  "multistr-why": "In our JS StyleGuide we say it's allowed",
+
+  "noyield": false,
+  "noyield-description": "true: Tolerate generator functions with no yield statement in them.",
+
+  "notypeof": false,
+  "notypeof-description": "true: Tolerate invalid typeof operator values",
+
+  "proto": false,
+  "proto-description": "true: Tolerate using the `__proto__` property",
+
+  "scripturl": false,
+  "scripturl-description": "true: Tolerate script-targeted URLs",
+
+  "shadow": false,
+  "shadow-description": "true: Allows re-define variables later in code e.g. `var x=1; x=2;`",
+
+  "sub": true,
+  "sub-description": "true: Tolerate using `[]` notation when it can still be expressed in dot notation",
+
+  "supernew": false,
+  "supernew-description": "true: Tolerate `new function () { ... };` and `new Object;`",
+
+  "validthis": false,
+  "validthis-description": "true: Tolerate using this in a non-constructor function",
+
+
+
+  "ENVIRONMENTS": "----------------------------- These are the Environments Rules -----------------------------",
+
+  "browser": true,
+  "browser-description": "Web Browser (window, document, etc)",
+
+  "browserify": true,
+  "browserify-description": "Browserify (node.js code in the browser)",
+  "browserify-why": "We plan to serve up local dev files this way, do we not?",
+
+  "couch": false,
+  "couch-description": "CouchDB",
+
+  "devel": true,
+  "devel-description": "Development/debugging (alert, confirm, etc)",
+
+  "dojo": false,
+  "dojo-description": "Dojo Toolkit",
+
+  "jasmine": true,
+  "jasmine-description": "Jasmine",
+
+  "jquery": false,
+  "jquerydescription": "jQuery",
+
+  "mocha": false,
+  "mocha-description": "Mocha",
+  "mocha-why": "Aren't we using Jasmine?",
+
+  "mootools": false,
+  "mootools-description": "MooTools",
+
+  "node": true,
+  "node-description": "Node.js",
+
+  "nonstandard": false,
+  "nonstandard-description": "Widely adopted globals (escape, unescape, etc)",
+
+  "phantom": true,
+  "phantom-description": "PhantomJS",
+
+  "prototypejs": false,
+  "prototypejs-description": "Prototype and Scriptaculous",
+
+  "qunit": false,
+  "qunit-description": "QUnit",
+
+  "rhino": false,
+  "rhino-description": "Rhino",
+
+  "shelljs": false,
+  "shelljs-description": "ShellJS",
+
+  "typed": false,
+  "typed-description": "Globals for typed array constructions",
+
+  "worker": false,
+  "worker-description": "Web Workers",
+
+  "wsh": false,
+  "wsh-description": "Windows Scripting Host",
+
+  "yui": false,
+  "yui-description": "Yahoo User Interface",
+
+
+  // Custom Globals
+  "globals": {
+    "angular": true,
+    "$": true
+  }
 }

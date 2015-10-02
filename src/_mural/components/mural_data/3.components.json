@@ -1,84 +1,100 @@
 [
     {
         "name": "Accordion",
+        "order": "",
         "slug": "Accordion",
         "children": [
             {
                 "path": "_patterns/3.components/Accordion/1.accordion.md",
                 "name": "Accordion Dynamic",
+                "order": "1",
                 "slug": "1.accordion.md"
             },
             {
                 "path": "_patterns/3.components/Accordion/2.accordion-alternate.md",
                 "name": "Accordion Disabled",
+                "order": "2",
                 "slug": "2.accordion-alternate.md"
             }
         ]
     },
     {
         "name": "Alerts",
+        "order": "",
         "slug": "Alerts",
         "children": [
             {
                 "path": "_patterns/3.components/Alerts/1.alert-success.md",
                 "name": "Alerts",
+                "order": "1",
                 "slug": "1.alert-success.md"
             }
         ]
     },
     {
         "name": "Dropdown",
+        "order": "",
         "slug": "Dropdown",
         "children": [
             {
                 "path": "_patterns/3.components/Dropdown/dropdown-buttons.md",
                 "name": "Dropdown buttons",
+                "order": "",
                 "slug": "dropdown-buttons.md"
             },
             {
                 "path": "_patterns/3.components/Dropdown/dropdown-click.md",
                 "name": "Dropdown on click",
+                "order": "",
                 "slug": "dropdown-click.md"
             },
             {
                 "path": "_patterns/3.components/Dropdown/dropdown-hover.md",
                 "name": "Dropdown on hover",
+                "order": "",
                 "slug": "dropdown-hover.md"
             },
             {
                 "path": "_patterns/3.components/Dropdown/dropdown-split.md",
                 "name": "Dropdown split button",
+                "order": "",
                 "slug": "dropdown-split.md"
             }
         ]
     },
     {
         "name": "Modal",
+        "order": "",
         "slug": "Modal",
         "children": [
             {
                 "path": "_patterns/3.components/Modal/modal-ajax.md",
                 "name": "Modal Ajax",
+                "order": "",
                 "slug": "modal-ajax.md"
             }
         ]
     },
     {
         "name": "Navigation",
+        "order": "",
         "slug": "Navigation",
         "children": [
             {
                 "name": "Pagination",
+                "order": "",
                 "slug": "Pagination",
                 "children": [
                     {
                         "path": "_patterns/3.components/Navigation/Pagination/pagination-variations.md",
                         "name": "Pagination variations",
+                        "order": "",
                         "slug": "pagination-variations.md"
                     },
                     {
                         "path": "_patterns/3.components/Navigation/Pagination/pagination.md",
                         "name": "Pagination",
+                        "order": "",
                         "slug": "pagination.md"
                     }
                 ]
@@ -86,43 +102,51 @@
             {
                 "path": "_patterns/3.components/Navigation/breadcrumbs.md",
                 "name": "Breadcrumbs",
+                "order": "",
                 "slug": "breadcrumbs.md"
             },
             {
                 "path": "_patterns/3.components/Navigation/navbar-dark.md",
                 "name": "Navigation dark",
+                "order": "",
                 "slug": "navbar-dark.md"
             },
             {
                 "path": "_patterns/3.components/Navigation/navbar-light.md",
                 "name": "Navigation light",
+                "order": "",
                 "slug": "navbar-light.md"
             }
         ]
     },
     {
         "name": "Page",
+        "order": "",
         "slug": "Page",
         "children": [
             {
                 "path": "_patterns/3.components/Page/page.md",
                 "name": "Page title and description",
+                "order": "",
                 "slug": "page.md"
             }
         ]
     },
     {
         "name": "Tabs",
+        "order": "",
         "slug": "Tabs",
         "children": [
             {
                 "path": "_patterns/3.components/Tabs/tabs-simple.md",
                 "name": "Tabs",
+                "order": "",
                 "slug": "tabs-simple.md"
             },
             {
                 "path": "_patterns/3.components/Tabs/tabs.md",
                 "name": "Tabs box",
+                "order": "",
                 "slug": "tabs.md"
             }
         ]

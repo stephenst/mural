@@ -122,6 +122,8 @@ angular.module("mural.markdown").directive("rawInclude", [
                                         code[key].text = conf.content.trim();
 
                                         /* Highlighting */
+                                        // console.log("CODE HIGHLIGHTING");
+                                        // console.log(code[key]);
                                         Prism.highlightElement(code[key]);
 
                                     }, code);
@@ -130,6 +132,8 @@ angular.module("mural.markdown").directive("rawInclude", [
                                     code.text(conf.content.trim());
 
                                     /* Highlighting */
+                                    // console.log("CODE HIGHLIGHTING 2");
+                                    // console.log(code);
                                     Prism.highlightElement(code[0]);
                                 }
 

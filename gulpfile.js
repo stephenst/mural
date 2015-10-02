@@ -1,6 +1,3 @@
-/*jslint node: true; */
-/*globals require */
-
 "use strict";
 
 var gulp = require("gulp");
@@ -20,6 +17,7 @@ var scriptInject = require("ng-mural-patterns-inject");
 var prunehtml = require("gulp-prune-html");
 var muralConfig = JSON.parse(fs.readFileSync("./config.json"));
 var gruntGulp = require("gulp-grunt")(gulp);  // add all the gruntfile tasks to gulp
+var sassLint = require("gulp-sass-lint");
 
 /** -----------------------------------------------
  * gulp serve - Start Local Server
@@ -49,6 +47,7 @@ gulp.task("buildStyleGuide", function(callback) {
         "styleguideJadeIndex",
         "styleguideJadeTemplates",
         "injector",
+        "sassLint",
         "sass",
         "copy",
         "injector",
@@ -71,6 +70,16 @@ gulp.task("sass", function() {
             errLogToConsole: true
         }))
         .pipe(gulp.dest(muralConfig.patterns.src + muralConfig.patterns.css));
+});
+
+/** -----------------------------------------------
+ * gulp sassLint - Validating the source SASS
+ * --------------------------------------------- */
+gulp.task("sassLint", function () {
+    gulp.src(muralConfig.patterns.src + muralConfig.patterns.sass + "/*.s+(a|c)ss")
+        .pipe(sassLint())
+        .pipe(sassLint.format())
+        .pipe(sassLint.failOnError())
 });
 
 /** -----------------------------------------------

@@ -1,6 +1,6 @@
 # Default application configuration that all configurations inherit from.
 
-scss_files: "**/*.scss"
+scss_files: "./assets/styles/**/*.scss"
 plugin_directories: ['.scss-linters']
 
 # List of gem names to load custom linters from (make sure they are already
@@ -29,6 +29,7 @@ linters:
 
   Comment:
     enabled: true
+    allowed: '^\w*+((.|\n)*)$'
 
   DebugStatement:
     enabled: true
@@ -72,10 +73,10 @@ linters:
     enabled: true
 
   IdSelector:
-    enabled: true
+    enabled: false
 
   ImportantRule:
-    enabled: true
+    enabled: false
 
   ImportPath:
     enabled: true
@@ -99,11 +100,13 @@ linters:
   NameFormat:
     enabled: true
     allow_leading_underscore: true
-    convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
+    convention: hyphenated_lowercase    # or 'camel_case', or 'snake_case', or a regex pattern
+    # '^([a-z][a-z0-9\-\_]*)$'
+    # this regex follows the hypenated_lowercase, but allows mixing of _ and -; which I disagree with.
 
   NestingDepth:
     enabled: true
-    max_depth: 3
+    max_depth: 5
     ignore_parent_selectors: false
 
   PlaceholderInExtend:
@@ -190,7 +193,7 @@ linters:
 
   StringQuotes:
     enabled: true
-    style: single_quotes # or double_quotes
+    style: double_quotes #  single_quotes | double_quotes
 
   TrailingSemicolon:
     enabled: true
@@ -199,6 +202,9 @@ linters:
     enabled: true
 
   TrailingZero:
+    enabled: true
+
+  TransitionAll:
     enabled: false
 
   UnnecessaryMantissa:
@@ -214,8 +220,11 @@ linters:
     enabled: true
 
   VariableForProperty:
-    enabled: false
-    properties: []
+    enabled: true
+    properties: [
+        'color',
+        'font'
+    ]
 
   VendorPrefix:
     enabled: true

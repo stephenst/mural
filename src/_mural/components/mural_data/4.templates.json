@@ -1,11 +1,13 @@
 [
     {
         "name": "Landing Pages",
+        "order": "",
         "slug": "Landing Pages",
         "children": [
             {
                 "path": "_patterns/4.templates/Landing Pages/landing.md",
                 "name": "Article landing",
+                "order": "",
                 "slug": "landing.md",
                 "meta": {
                     "url": "templateurl",
@@ -16,11 +18,13 @@
     },
     {
         "name": "Listing Pages",
+        "order": "",
         "slug": "Listing Pages",
         "children": [
             {
                 "path": "_patterns/4.templates/Listing Pages/listing.md",
                 "name": "Article listing",
+                "order": "",
                 "slug": "listing.md",
                 "meta": {
                     "url": "templateurl",

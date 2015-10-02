@@ -1,29 +1,28 @@
-@import '_mixins/_variables.scss';
+@import "_mixins/_variables";
 
-
-@media(min-width:768px) {
+@media(min-width: 768px) {
     #wrapper {
         padding-left: $sidenav-width;
     }
 
     #wrapper.toggled {
         padding-left: 0;
+
+        #sidebar-wrapper {
+            width: 0;
+        }
+
+        #page-content-wrapper {
+            margin-right: 0;
+            position: relative;
+        }
     }
 
     #sidebar-wrapper {
         width: $sidenav-width;
     }
 
-    #wrapper.toggled #sidebar-wrapper {
-        width: 0;
-    }
-
     #page-content-wrapper {
         padding: 20px;
-    }
-
-    #wrapper.toggled #page-content-wrapper {
-        position: relative;
-        margin-right: 0;
     }
 }

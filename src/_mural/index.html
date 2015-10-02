@@ -50,10 +50,9 @@
             <h3>{{ currentReadMe.name | dashToSpace | capitalize:true }}</h3>
           </li>
           <li ng-class="{active: section==&apos;Overview&apos;}" ng-if="currentReadMe" class="nav">
-            <div ng-repeat="readme in currentReadMe.children">
+            <div ng-repeat="readme in currentReadMe.children | orderBy: &apos;order | toNumber&apos;">
               <ul class="nav">
-                <li ng-repeat="element in readme.children" ng-class="{&apos;active&apos;: element.slug == sectionSlug}" once-show="readme.children.length" class="nav"><a ng-click="scrollTo(element.name)" once-text="readme.name" ng-class="{active: anchor(readme.name) == subSection}"></a>
-                </li>
+                <li ng-repeat="element in readme.children" ng-class="{&apos;active&apos;: element.slug == sectionSlug}" once-show="readme.children.length" class="nav"><span><b>{{ readme.order }}</b></span><a ng-click="scrollTo(element.name)" once-text="element.name" ng-class="{active: anchor(element.name) == subSection}"></a></li>
               </ul>
             </div>
           </li>

@@ -65,13 +65,13 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
                     li.nav.sidebar-brand(ng-if="currentReadMe")
                         h3 {{ currentReadMe.name | dashToSpace | capitalize:true }}
                     li.nav(ng-class="{active: section=='Overview'}", ng-if="currentReadMe")
-                        div(ng-repeat="readme in currentReadMe.children")
+                        div(ng-repeat="readme in currentReadMe.children | orderBy: 'order | toNumber'")
                             ul.nav
                                 li.nav(ng-repeat="element in readme.children", ng-class="{'active': element.slug == sectionSlug}", once-show="readme.children.length")
-                                    //- a(once-href="'#!/'+style.slug+'/'+element.slug", once-text="element.name")
+                                    span <b>{{ readme.order }}</b>
                                     a(ng-click="scrollTo(element.name)",
-                                        once-text="readme.name",
-                                        ng-class="{active: anchor(readme.name) == subSection}")
+                                        once-text="element.name",
+                                        ng-class="{active: anchor(element.name) == subSection}")
 
 
             // Content

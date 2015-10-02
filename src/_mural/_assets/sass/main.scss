@@ -1,11 +1,12 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 // @TODO - Create Styledocco Styles/comments in this SASS
-@import "modules/_mixins/_mixins";
-@import "modules/_mixins/_variables";
-@import "modules/_grids";
-@import "modules/_layout";
-@import "modules/_palette";
-@import "modules/_patterns";
-@import "modules/_responsive";
+@import "modules/mixins/mixins";
+@import "modules/mixins/variables";
+@import "modules/grids";
+@import "modules/layout";
+@import "modules/palette";
+@import "modules/patterns";
+@import "modules/responsive";
+
 

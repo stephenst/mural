@@ -1,15 +1,18 @@
 [
     {
         "name": "angular-styleguide",
+        "order": "",
         "slug": "angular-styleguide",
         "children": [
             {
                 "name": "Intro",
+                "order": "1",
                 "slug": "1-Intro",
                 "children": [
                     {
                         "path": "_guides/styleguide/angular-styleguide/1-Intro/intro-and-resources.md",
                         "name": "Intro and Resources",
+                        "order": "",
                         "slug": "intro-and-resources.md",
                         "meta": {
                             "hidecode": true
@@ -19,11 +22,13 @@
             },
             {
                 "name": "Single-File",
+                "order": "2",
                 "slug": "2-Single-File",
                 "children": [
                     {
                         "path": "_guides/styleguide/angular-styleguide/2-Single-File/single-file-responsibility.md",
                         "name": "Single File Responsibility",
+                        "order": "",
                         "slug": "single-file-responsibility.md",
                         "meta": {
                             "hidecode": true
@@ -33,11 +38,13 @@
             },
             {
                 "name": "IIFE",
+                "order": "3",
                 "slug": "3.IIFE",
                 "children": [
                     {
                         "path": "_guides/styleguide/angular-styleguide/3.IIFE/iife.md",
                         "name": "IIFE",
+                        "order": "",
                         "slug": "iife.md",
                         "meta": {
                             "hidecode": true
@@ -47,11 +54,13 @@
             },
             {
                 "name": "Modules",
+                "order": "4",
                 "slug": "4.Modules",
                 "children": [
                     {
                         "path": "_guides/styleguide/angular-styleguide/4.Modules/modules.md",
                         "name": "Modules",
+                        "order": "",
                         "slug": "modules.md",
                         "meta": {
                             "hidecode": true
@@ -63,82 +72,397 @@
     },
     {
         "name": "javascript-styleguide",
+        "order": "",
         "slug": "javascript-styleguide",
         "children": [
             {
+                "name": "Table-of-Contents",
+                "order": "0",
+                "slug": "0.Table-of-Contents",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/0.Table-of-Contents/table-of-contents.md",
+                        "name": "Table of Contents",
+                        "order": "",
+                        "slug": "table-of-contents.md"
+                    }
+                ]
+            },
+            {
                 "name": "General",
+                "order": "1",
                 "slug": "1.General",
                 "children": [
                     {
                         "path": "_guides/styleguide/javascript-styleguide/1.General/general.md",
                         "name": "General",
+                        "order": "",
                         "slug": "general.md"
                     }
                 ]
             },
             {
+                "name": "Hoisting",
+                "order": "10",
+                "slug": "10.Hoisting",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/10.Hoisting/hoisting.md",
+                        "name": "Hoisting",
+                        "order": "",
+                        "slug": "hoisting.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Conditional.Expressions",
+                "order": "11",
+                "slug": "11.Conditional.Expressions",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/11.Conditional.Expressions/conditional-expression.md",
+                        "name": "Conditional Expression And Equality",
+                        "order": "",
+                        "slug": "conditional-expression.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Blocks",
+                "order": "12",
+                "slug": "12.Blocks",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/12.Blocks/blocks.md",
+                        "name": "Blocks",
+                        "order": "",
+                        "slug": "blocks.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Comments",
+                "order": "13",
+                "slug": "13.Comments",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/13.Comments/comments.md",
+                        "name": "Comments",
+                        "order": "",
+                        "slug": "comments.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Whitespace",
+                "order": "14",
+                "slug": "14.Whitespace",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/14.Whitespace/whitespace.md",
+                        "name": "Whitespace",
+                        "order": "",
+                        "slug": "whitespace.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Commas",
+                "order": "15",
+                "slug": "15.Commas",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/15.Commas/commas.md",
+                        "name": "Commas",
+                        "order": "",
+                        "slug": "commas.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Semicolons",
+                "order": "16",
+                "slug": "16.Semicolons",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/16.Semicolons/semicolons.md",
+                        "name": "Semicolons",
+                        "order": "",
+                        "slug": "semicolons.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Type.Casting",
+                "order": "17",
+                "slug": "17.Type.Casting",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/17.Type.Casting/type-casting-and-coercion.md",
+                        "name": "Type Casting And Coercion",
+                        "order": "",
+                        "slug": "type-casting-and-coercion.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Naming.Conventions",
+                "order": "18",
+                "slug": "18.Naming.Conventions",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/18.Naming.Conventions/naming-conventions.md",
+                        "name": "Naming Conventions",
+                        "order": "",
+                        "slug": "naming-conventions.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Accessors",
+                "order": "19",
+                "slug": "19.Accessors",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/19.Accessors/accessors.md",
+                        "name": "Accessors",
+                        "order": "",
+                        "slug": "accessors.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
                 "name": "Types",
+                "order": "2",
                 "slug": "2.Types",
                 "children": [
                     {
                         "path": "_guides/styleguide/javascript-styleguide/2.Types/types.md",
                         "name": "Types",
-                        "slug": "types.md"
+                        "order": "",
+                        "slug": "types.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Constructors",
+                "order": "20",
+                "slug": "20.Constructors",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/20.Constructors/constructors.md",
+                        "name": "Constructors",
+                        "order": "",
+                        "slug": "constructors.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "ECMAScript.Five",
+                "order": "21",
+                "slug": "21.ECMAScript.Five",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/21.ECMAScript.Five/ecmascript-5-compatibility.md",
+                        "name": "ECMAScript 5 Compatibility",
+                        "order": "5",
+                        "slug": "ecmascript-5-compatibility.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Angular",
+                "order": "22",
+                "slug": "22.Angular",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/22.Angular/angular.md",
+                        "name": "Angular",
+                        "order": "",
+                        "slug": "angular.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Testing",
+                "order": "23",
+                "slug": "23.Testing",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/23.Testing/testing.md",
+                        "name": "Testing",
+                        "order": "",
+                        "slug": "testing.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Contributing",
+                "order": "24",
+                "slug": "24.Contributing",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/24.Contributing/contributing.md",
+                        "name": "Contributing",
+                        "order": "",
+                        "slug": "contributing.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             },
             {
                 "name": "Objects",
-                "slug": "3-Objects",
+                "order": "3",
+                "slug": "3.Objects",
                 "children": [
                     {
-                        "path": "_guides/styleguide/javascript-styleguide/3-Objects/objects.md",
+                        "path": "_guides/styleguide/javascript-styleguide/3.Objects/objects.md",
                         "name": "Objects",
-                        "slug": "objects.md"
+                        "order": "",
+                        "slug": "objects.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             },
             {
                 "name": "Arrays",
-                "slug": "4-Arrays",
+                "order": "4",
+                "slug": "4.Arrays",
                 "children": [
                     {
-                        "path": "_guides/styleguide/javascript-styleguide/4-Arrays/arrays.md",
+                        "path": "_guides/styleguide/javascript-styleguide/4.Arrays/arrays.md",
                         "name": "Arrays",
-                        "slug": "arrays.md"
+                        "order": "",
+                        "slug": "arrays.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             },
             {
                 "name": "Strings",
-                "slug": "5-Strings",
+                "order": "5",
+                "slug": "5.Strings",
                 "children": [
                     {
-                        "path": "_guides/styleguide/javascript-styleguide/5-Strings/strings.md",
+                        "path": "_guides/styleguide/javascript-styleguide/5.Strings/strings.md",
                         "name": "Strings",
-                        "slug": "strings.md"
+                        "order": "",
+                        "slug": "strings.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             },
             {
                 "name": "Functions",
-                "slug": "6-Functions",
+                "order": "6",
+                "slug": "6.Functions",
                 "children": [
                     {
-                        "path": "_guides/styleguide/javascript-styleguide/6-Functions/functions.md",
+                        "path": "_guides/styleguide/javascript-styleguide/6.Functions/functions.md",
                         "name": "Functions",
+                        "order": "",
                         "slug": "functions.md"
                     }
                 ]
             },
             {
                 "name": "Properties",
-                "slug": "7-Properties",
+                "order": "7",
+                "slug": "7.Properties",
                 "children": [
                     {
-                        "path": "_guides/styleguide/javascript-styleguide/7-Properties/properties.md",
+                        "path": "_guides/styleguide/javascript-styleguide/7.Properties/properties.md",
                         "name": "Properties",
-                        "slug": "properties.md"
+                        "order": "",
+                        "slug": "properties.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Variables",
+                "order": "8",
+                "slug": "8.Variables",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/8.Variables/variables.md",
+                        "name": "Variables",
+                        "order": "",
+                        "slug": "variables.md",
+                        "meta": {
+                            "hidecode": true
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "ReservedWords",
+                "order": "9",
+                "slug": "9.ReservedWords",
+                "children": [
+                    {
+                        "path": "_guides/styleguide/javascript-styleguide/9.ReservedWords/reserved-words.md",
+                        "name": "Reserved Words",
+                        "order": "",
+                        "slug": "reserved-words.md",
+                        "meta": {
+                            "hidecode": true
+                        }
                     }
                 ]
             }

@@ -1,4 +1,4 @@
-@import '_mixins/_variables.scss';
+@import "mixins/variables";
 
 .pattern-list {
     list-style: none;
@@ -6,14 +6,13 @@
     padding: 0;
 
     li {
-        margin-bottom: 24px;
         margin-bottom: 1.71429rem;
         border-radius: 5px;
 
         h3 {
+            font-family: 'Open Sans', Helvetica, Arial, serif;
             padding: 0.5em 0;
             margin: 0;
-            font-family: 'Open Sans', Helvetica, Arial;
             border-bottom: 1px #d9d9d9 solid;
         }
 
@@ -22,7 +21,7 @@
             margin: 0;
             font-weight: 600;
             background: #fff;
-            font-family: 'Open Sans', Helvetica, Arial;
+            font-family: 'Open Sans', Helvetica, Arial, serif;
             // border-bottom: 1px #d9d9d9 solid;
         }
     }

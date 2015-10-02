@@ -1,19 +1,18 @@
 ---
 name: Types
+hidecode: true
 description: |
 
-  ### Types
-  - When comparing items; use the triple comparison to ensure you're also comparing types.
+  - When comparing items; use the triple comparison (`===`, `!==`) to ensure you're also comparing types.
+  
+  
+  Read more:
+
+   * [JavaScript data types and data structures - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+   * [Strict Equality - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#Strict_equality_using)
+   * [Truth Equality and JavaScript - Angus Croll](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108)
+
 
   **[⬆ back to top](#table-of-contents)**
+  
 ---
-```javascript
-  var x = "2";
-  var y = 2;
-  if (x == y) {
-    console.log("this will fire, but it shouldn't");
-  }
-  if (x === y) {
-    console.log("This won't fire; as it compares types of string and integer as well as value");
-  }
-```

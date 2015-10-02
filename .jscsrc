@@ -1,9 +1,7 @@
 {
     "excludeFiles": [
         "node_modules/**",
-        "tasks/**",
-        "docs/**",
-        "./test/combine-test.js"
+        "docs/**"
     ],
     "maximumLineLength": {
         "value": 120,
@@ -21,17 +19,9 @@
         "binary",
         "string"
     ],
-    "disallowSpacesInNamedFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpacesInFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpacesInAnonymousFunctionExpression": {
-        "beforeOpeningRoundBrace": true
-    },
-    "disallowSpacesInFunctionDeclaration": {
-        "beforeOpeningRoundBrace": true
+    "requireSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
     },
     "disallowEmptyBlocks": true,
     "disallowMultipleVarDecl": true,
@@ -45,9 +35,7 @@
         "beforeOpeningCurlyBrace": true
     },
 
-    //TODO: Why enforce this?  What is reasoning to not quote?
     "disallowQuotedKeysInObjects": true,
-
     "disallowSpaceAfterObjectKeys": true,
     "disallowSpaceAfterPrefixUnaryOperators": true,
     "disallowSpaceBeforePostfixUnaryOperators": true,
@@ -134,9 +122,6 @@
     "requireSpacesInConditionalExpression": true,
     "requireBlocksOnNewline": 1,
     "requireCommaBeforeLineBreak": true,
-    "requireSpaceBeforeBinaryOperators": true,
-    "requireSpaceAfterBinaryOperators": true,
-    "requireCamelCaseOrUpperCaseIdentifiers": true,
     "requireLineFeedAtFileEnd": true,
     "requireCapitalizedConstructors": true,
     "requireDotNotation": true,

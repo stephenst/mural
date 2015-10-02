@@ -1,11 +1,13 @@
 [
     {
         "name": "Colors",
+        "order": "1",
         "slug": "1.Colors",
         "children": [
             {
                 "path": "_patterns/2.elements/1.Colors/palette.md",
                 "name": "Color palette",
+                "order": "",
                 "slug": "palette.md",
                 "meta": {
                     "hidecode": true
@@ -15,66 +17,79 @@
     },
     {
         "name": "Typography",
+        "order": "2",
         "slug": "2.Typography",
         "children": [
             {
                 "name": "Emphasis",
+                "order": "",
                 "slug": "Emphasis",
                 "children": [
                     {
                         "path": "_patterns/2.elements/2.Typography/Emphasis/bold-text.md",
                         "name": "Bold",
+                        "order": "",
                         "slug": "bold-text.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Emphasis/italics-text.md",
                         "name": "Italics",
+                        "order": "",
                         "slug": "italics-text.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Emphasis/small-text.md",
                         "name": "Small",
+                        "order": "",
                         "slug": "small-text.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Emphasis/text-sizes.md",
                         "name": "Text size variations",
+                        "order": "",
                         "slug": "text-sizes.md"
                     }
                 ]
             },
             {
                 "name": "Lists",
+                "order": "",
                 "slug": "Lists",
                 "children": [
                     {
                         "path": "_patterns/2.elements/2.Typography/Lists/list-block.md",
                         "name": "Block list",
+                        "order": "",
                         "slug": "list-block.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Lists/list-definition.md",
                         "name": "Definition list",
+                        "order": "",
                         "slug": "list-definition.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Lists/list-inline.md",
                         "name": "Inline list",
+                        "order": "",
                         "slug": "list-inline.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Lists/list-ordered.md",
                         "name": "Ordered list",
+                        "order": "",
                         "slug": "list-ordered.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Lists/list-unordered.md",
                         "name": "Unordered list",
+                        "order": "",
                         "slug": "list-unordered.md"
                     },
                     {
                         "path": "_patterns/2.elements/2.Typography/Lists/list-unstyled.md",
                         "name": "Unstyled list",
+                        "order": "",
                         "slug": "list-unstyled.md"
                     }
                 ]
@@ -82,191 +97,228 @@
             {
                 "path": "_patterns/2.elements/2.Typography/blockquote.md",
                 "name": "Blockquote",
+                "order": "",
                 "slug": "blockquote.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/body-copy.md",
                 "name": "Body copy",
+                "order": "",
                 "slug": "body-copy.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/headings.md",
                 "name": "Headings",
+                "order": "",
                 "slug": "headings.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/lead-copy.md",
                 "name": "Lead copy",
+                "order": "",
                 "slug": "lead-copy.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/links.md",
                 "name": "Links",
+                "order": "",
                 "slug": "links.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/rules.md",
                 "name": "Horizontal rule",
+                "order": "",
                 "slug": "rules.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/summary-copy.md",
                 "name": "Summary copy",
+                "order": "",
                 "slug": "summary-copy.md"
             },
             {
                 "path": "_patterns/2.elements/2.Typography/text-alignment.md",
                 "name": "Text alignment",
+                "order": "",
                 "slug": "text-alignment.md"
             }
         ]
     },
     {
         "name": "Grids",
+        "order": "3",
         "slug": "3.Grids",
         "children": [
             {
                 "path": "_patterns/2.elements/3.Grids/grid-desktop.md",
                 "name": "Grid desktop",
+                "order": "",
                 "slug": "grid-desktop.md"
             },
             {
                 "path": "_patterns/2.elements/3.Grids/grid-mobile.md",
                 "name": "Grid mobile",
+                "order": "",
                 "slug": "grid-mobile.md"
             },
             {
                 "path": "_patterns/2.elements/3.Grids/grid-tablet.md",
                 "name": "Grid tablet",
+                "order": "",
                 "slug": "grid-tablet.md"
             }
         ]
     },
     {
         "name": "Buttons",
+        "order": "",
         "slug": "Buttons",
         "children": [
             {
                 "path": "_patterns/2.elements/Buttons/buttons-groups.md",
                 "name": "Button groups",
+                "order": "",
                 "slug": "buttons-groups.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-icons.md",
                 "name": "Buttons with icons",
+                "order": "",
                 "slug": "buttons-icons.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-light.md",
                 "name": "Buttons light",
+                "order": "",
                 "slug": "buttons-light.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-primary.md",
                 "name": "Buttons primary",
+                "order": "",
                 "slug": "buttons-primary.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-secondary.md",
                 "name": "Buttons secondary",
+                "order": "",
                 "slug": "buttons-secondary.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-sizes.md",
                 "name": "Buttons sizes",
+                "order": "",
                 "slug": "buttons-sizes.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-variations.md",
                 "name": "Button Variations",
+                "order": "",
                 "slug": "buttons-variations.md"
             },
             {
                 "path": "_patterns/2.elements/Buttons/buttons-warning.md",
                 "name": "Buttons warning",
+                "order": "",
                 "slug": "buttons-warning.md"
             }
         ]
     },
     {
         "name": "Forms",
+        "order": "",
         "slug": "Forms",
         "children": [
             {
                 "path": "_patterns/2.elements/Forms/1.fields.md",
                 "name": "Form fields",
+                "order": "1",
                 "slug": "1.fields.md"
             },
             {
                 "path": "_patterns/2.elements/Forms/field-sizes.md",
                 "name": "Field sizes",
+                "order": "",
                 "slug": "field-sizes.md"
             },
             {
                 "path": "_patterns/2.elements/Forms/form-error.md",
                 "name": "Form error message",
+                "order": "",
                 "slug": "form-error.md"
             },
             {
                 "path": "_patterns/2.elements/Forms/form-horizontal.md",
                 "name": "Horizontal form",
+                "order": "",
                 "slug": "form-horizontal.md"
             },
             {
                 "path": "_patterns/2.elements/Forms/form-login.md",
                 "name": "Login form",
+                "order": "",
                 "slug": "form-login.md"
             },
             {
                 "path": "_patterns/2.elements/Forms/form-subscribe.md",
                 "name": "Subscribe form",
+                "order": "",
                 "slug": "form-subscribe.md"
             }
         ]
     },
     {
         "name": "Icons",
+        "order": "",
         "slug": "Icons",
         "children": [
             {
                 "path": "_patterns/2.elements/Icons/icons.md",
                 "name": "Icons",
+                "order": "",
                 "slug": "icons.md"
             }
         ]
     },
     {
         "name": "Table",
+        "order": "",
         "slug": "Table",
         "children": [
             {
                 "path": "_patterns/2.elements/Table/table-bordered.md",
                 "name": "Table bordered",
+                "order": "",
                 "slug": "table-bordered.md"
             },
             {
                 "path": "_patterns/2.elements/Table/table-condensed.md",
                 "name": "Table condensed",
+                "order": "",
                 "slug": "table-condensed.md"
             },
             {
                 "path": "_patterns/2.elements/Table/table-default.md",
                 "name": "Table",
+                "order": "",
                 "slug": "table-default.md"
             },
             {
                 "path": "_patterns/2.elements/Table/table-responsive.md",
                 "name": "Responsive table",
+                "order": "",
                 "slug": "table-responsive.md"
             },
             {
                 "path": "_patterns/2.elements/Table/table-zebra.md",
                 "name": "Zebra table",
+                "order": "",
                 "slug": "table-zebra.md"
             },
             {
                 "path": "_patterns/2.elements/Table/table.md",
                 "name": "Table",
+                "order": "",
                 "slug": "table.md"
             }
         ]
