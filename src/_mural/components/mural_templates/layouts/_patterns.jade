@@ -1,9 +1,9 @@
 doctype
 html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
     head
+        base(href="/mural/patterns/")
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-        block variables
         title(ng-bind="'Mural - ' + section") Mural
         meta(name='description', content='')
         meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
@@ -86,7 +86,9 @@ html.no-js(lang='en', ng-app="mural", class="mural menu__opened")
                             input.form-control(type="text",
                                 ng-model="selected",
                                 typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8",
-                                name="section")
+                                name="section"
+                                typeahead-editable="false"
+                                typeahead-on-select="onSelect($item, $model, $label)")
                             div.input-group-btn(action="")
                                 button.btn.btn-default
                                     em.fa.fa-search.fa-lg

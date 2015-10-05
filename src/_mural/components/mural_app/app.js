@@ -44,9 +44,10 @@ angular.module("mural", [
         "$routeProvider",
         "$locationProvider",
         "$provide",
-        function($routeProvider, $locationProvider, $provide) {
+        function ($routeProvider, $locationProvider, $provide) {
 
             $locationProvider.hashPrefix("!");
+
             $routeProvider.when("/", {
                 title: "Overview",
                 templateUrl: "components/mural_templates/templates/home.html",
@@ -58,7 +59,7 @@ angular.module("mural", [
             }).otherwise({redirectTo: "/"});
 
             /* Add new routes based on the Configuration */
-            angular.forEach(jsonPath, function(value, key) {
+            angular.forEach(jsonPath, function (value, key) {
                 value.slug = value.name.replace(/\s+/g, "-").toLowerCase();
                 if (value.slug === "templates") {
                     $routeProvider.when("/" + value.slug + "/:slug", {
@@ -86,13 +87,13 @@ angular.module("mural", [
              * @requires {object} readmePath - This is the injected script to the dynamic JSON generated from teh Markdowns.
              *
              *  */
-            angular.forEach(readmePath, function(value, key) {
+            angular.forEach(readmePath, function (value, key) {
                 console.log("README FOLLOWS");
                 console.log(readmePath);
                 value.slug = value.name.replace(/\s+/g, "-").toLowerCase();
                 console.log("the readmePath value.slug: " + value.slug);
 
-                $routeProvider.when("/" + value.slug + "/:slug", {
+                $routeProvider.when("/" + value.slug + "/:section", {
                     templateUrl: "components/mural_templates/templates/readme.html",
                     controller: "listingController"
                 }).when("/" + value.slug + "/:slug/:section", {
@@ -108,7 +109,8 @@ angular.module("mural", [
         "$filter",
         "$cacheFactory",
         "$log",
-        function($rootScope, $http, $q, $filter, $cacheFactory, $log) {
+        "$location",
+        function ($rootScope, $http, $q, $filter, $cacheFactory, $log, $location) {
 
             var cache = $cacheFactory.get("cache");
             var requests = [];
@@ -121,13 +123,13 @@ angular.module("mural", [
             /**
              * Change Title on routeChange
              */
-            $rootScope.$on("$routeChangeSuccess", function(event, current, previous) {
+            $rootScope.$on("$routeChangeSuccess", function (event, current, previous) {
                 if (current.$route && current.$route.title) {
                     $rootScope.$broadcast("sectionChange", current.$route.title);
                 }
             });
 
-            angular.forEach(jsonPath, function(value, key) {
+            angular.forEach(jsonPath, function (value, key) {
                 /* Add Pattern name in array */
                 names.push(value.name);
                 slug.push(value.slug);
@@ -139,15 +141,15 @@ angular.module("mural", [
             /**
              * When all requests are completed
              */
-            $q.all(requests).then(function(response) {
-                angular.forEach(response, function(response, index) {
+            $q.all(requests).then(function (response) {
+                angular.forEach(response, function (response, index) {
                     var parseObject = response.data;
 
                     /**
                      * Create a Slug from the title
                      * Reduces $watch on filter {{element.name | anchor}}
                      */
-                    angular.forEach(parseObject, function(value, key) {
+                    angular.forEach(parseObject, function (value, key) {
                         value.slug = $filter("anchor")(value.name);
                     });
 
@@ -169,7 +171,7 @@ angular.module("mural", [
             var readmeNames = [];
             var readmeSlug = [];
 
-            angular.forEach(readmePath, function(value, key) {
+            angular.forEach(readmePath, function (value, key) {
                 /* Add Pattern name in array */
                 readmeNames.push(value.name);
                 readmeSlug.push(value.slug);
@@ -181,14 +183,14 @@ angular.module("mural", [
             /**
              * When all requests are completed
              */
-            $q.all(readmeRequests).then(function(response) {
-                angular.forEach(response, function(r, i) {
+            $q.all(readmeRequests).then(function (response) {
+                angular.forEach(response, function (r, i) {
                     var parseObject = r.data;
                     /**
                      * Create a Slug from the title
                      * Reduces $watch on filter {{element.name | anchor}}
                      */
-                    angular.forEach(parseObject, function(value, key) {
+                    angular.forEach(parseObject, function (value, key) {
                         value.slug = $filter("anchor")(value.name);
                     });
 
@@ -208,20 +210,20 @@ angular.module("mural", [
             /**
              * Watch changes and add to Autocomplete
              */
-            $rootScope.$watch("styles", function(newValue) {
+            $rootScope.$watch("styles", function (newValue) {
                 if (newValue.length) {
                     /**
                      * Creates a flattened version of the array
                      */
                     var autoCompleteArray = [];
-                    angular.forEach(newValue, function(value, index) {
+                    angular.forEach(newValue, function (value, index) {
                         autoCompleteArray.push(flattener(value.data, value.name, value.slug));
                     });
 
                     /**
                      * Combines Arrays
                      */
-                    var data = autoCompleteArray.reduce(function(a, b, index, array) {
+                    var data = autoCompleteArray.reduce(function (a, b, index, array) {
                         return a.concat(b);
                     });
 
@@ -233,7 +235,43 @@ angular.module("mural", [
                     /**
                      * hide Menu
                      */
-                    setTimeout(function() {
+                    setTimeout(function () {
+                        angular.element("#wrapper").removeClass("toggled");
+                    }, 2000);
+                }
+            }, true);
+
+
+            /**
+             * Watch changes and add to Autocomplete
+             */
+            $rootScope.$watch("readmes", function (newValue) {
+                if (newValue.length) {
+                    /**
+                     * Creates a flattened version of the array
+                     */
+                    var autoCompleteArray = [];
+                    angular.forEach(newValue, function (value, index) {
+                        autoCompleteArray.push(flattener(value.data, value.name, value.slug));
+                    });
+
+                    /**
+                     * Combines Arrays
+                     */
+                    var data = autoCompleteArray.reduce(function (a, b, index, array) {
+                        return a.concat(b);
+                    });
+
+                    /**
+                     * Invokes autocomplete
+                     */
+                    console.log("JUST UPDATED GLOBAL PATTERNS");
+                    $rootScope.$emit("globalPatternsUpdate", data);
+
+                    /**
+                     * hide Menu
+                     */
+                    setTimeout(function () {
                         angular.element("#wrapper").removeClass("toggled");
                     }, 2000);
                 }
@@ -248,10 +286,10 @@ angular.module("mural", [
  * @return {Object} Flattened array
  * @memberof mural
  */
-function flattener(arrr, template, category) {
+function flattener (arrr, template, category) {
     var a = [];
 
-    var flattenArray = function(arr, parent) {
+    var flattenArray = function (arr, parent) {
         for (var i = 0; i < arr.length; i++) {
             var parent = parent ? parent : "",
                 root = parent.replace(/\s+/g, "-").toLowerCase(),

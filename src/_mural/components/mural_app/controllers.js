@@ -69,7 +69,32 @@ angular.module("mural.controllers", []).controller("headerController", [
         // Autocomplete
         $rootScope.$on("globalPatternsUpdate", function(event, data) {
             $scope.globalPatterns = data;
+            console.log("globalPatternsUpdate");
+            console.log($scope.globalPatterns);
         });
+
+        $scope.onSelect = function ($item, $model, $label) {
+            $scope.$item = $item;
+            $scope.$model = $model;
+            $scope.$label = $label;
+            $log.info("Typeahead just fired with: ");
+            $log.info($scope.$item);
+            $log.info($scope.$model);
+            $log.info($scope.$label);
+
+            $log.info($location.path() + " === " + "/" + $scope.$item.category + "/" + $scope.$item.root.replace(/-/g, ""));
+
+            if ($location.path() === "/" + $scope.$item.category + "/" + $scope.$item.root.replace(/-/g, "")) {
+                $log.info("Lookup match, current document");
+                $rootScope.scrollTo($scope.$item.slug);
+            } else {
+                $log.info("Non lookup match");
+                var tempURL = "/" + $scope.$item.category + "/" + $scope.$item.root.replace(/-/g, "") + "/" + $scope.$item.slug;
+                console.log(tempURL);
+                //- $location.path(tempURL);
+            }
+
+        };
 
         /**
          * Menu Toggle
@@ -135,6 +160,7 @@ angular.module("mural.controllers", []).controller("headerController", [
         $log.info("section element : " + section + " - " + element);
         $scope.readmeToMatch = $location.path().substring(n + 1);
 
+
         if (!$scope.currentReadMe || $scope.currentReadMe.slug !== element) {
             angular.forEach($rootScope.readmes[0].data, function(value, key) {
                 //  $log.info('ROOT ----- Readme value, then key');
@@ -188,8 +214,8 @@ angular.module("mural.controllers", []).controller("headerController", [
          *  lower cases the link and adds dashes.
          */
         $rootScope.scrollTo = function(id) {
-            var old = $location.hash(),
-                newId = id.replace(/\s+/g, "-").toLowerCase().toLowerCase();
+            var old = $location.hash();
+            var newId = id.replace(/\s+/g, "-").toLowerCase().toLowerCase();
 
             $log.info("SCROLLING TO: " + newId);
             $location.hash(newId);
@@ -197,6 +223,14 @@ angular.module("mural.controllers", []).controller("headerController", [
             //reset to old to keep any additional routing logic from kicking in
             $location.hash(old);
         };
+
+        if ($routeParams.section) {
+            console.log("checking Section");
+            console.log($routeParams);
+            $timeout(function () {
+                $rootScope.scrollTo($routeParams.section);
+            }, 100);
+        }
 
         /**
          * Prevent route change

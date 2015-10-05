@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="mural" class="no-js mural menu__opened">
   <head>
+    <base href="/mural/patterns/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title ng-bind="&apos;Mural - &apos; + section">Mural</title>
@@ -68,7 +69,7 @@
           </div>
           <div class="navbar-form navbar-right">
             <div class="input-group">
-              <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" class="form-control">
+              <input type="text" ng-model="selected" typeahead="pattern.url as pattern.value for pattern in globalPatterns | filter:$viewValue | limitTo:8" name="section" typeahead-editable="false" typeahead-on-select="onSelect($item, $model, $label)" class="form-control">
               <div action="" class="input-group-btn">
                 <button class="btn btn-default"><em class="fa fa-search fa-lg"></em></button>
               </div>
